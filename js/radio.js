@@ -14,11 +14,6 @@ Amplitude.init({
     }
 });
 
-Amplitude.registerVisualization( MichaelBromleyVisualization, {
-    width: '314',
-    height: '314'
-} );
-
 // Debugging
 function log(message) {
     if (debug) console.log(message);
