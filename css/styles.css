@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -59,9 +59,9 @@ body{
     Top Header
 */
 div#top-header{
-    background-color: #f2f2f2;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    background-color: #F1F1EE;
+    /*border-top-left-radius: 5px;
+    border-top-right-radius: 5px;*/
     width: 370px;
     height: 40px;
     margin: auto;
@@ -70,6 +70,35 @@ div#top-header{
     padding-top: 10px;
     position: relative;
     margin-bottom: -50px;
+    display: none;
+}
+
+div.error{
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+   font-size: 13px;
+   color: #ff000a ;
+   line-height: 14px;
+}
+
+/*
+    Large album container
+*/
+div#top-large-calltoaction{
+    width: 370px;
+    height: 370px;
+    margin: auto;
+    margin-bottom: -45px;
+    z-index: 1;
+}
+
+img#large-calltoaction-art{
+    width: 370px;
+    height: 370px;
+    /*border-radius: 5px;*/
+    background-image: url('../images/icon-radio.svg');
+    background-repeat: no-repeat;
+    background-size: 95%;
 }
 
 /*
@@ -89,7 +118,7 @@ div#top-large-album{
 img#large-album-art{
     width: 370px;
     height: 370px;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 }
 
 /*
@@ -98,8 +127,8 @@ img#large-album-art{
 div#small-player{
 	width: 370px;
 	height: 60px;
-	background-color: #f2f2f2;
-	border-radius: 5px;
+	background-color: #F1F1EE;
+	/*border-radius: 5px;*/
     margin: auto;
     z-index: 99999;
     position: relative;
@@ -120,7 +149,7 @@ div#small-player-left{
     Expand and Contract Album Art
 */
 div.small-player-toggle-expand{
-    background-image: url('../images/iTunes-Expand.svg');
+    background-image: url('../images/icon-fullscreen.svg');
     background-repeat: no-repeat;
     background-size: 100%;
     cursor: pointer;
@@ -131,7 +160,7 @@ div.small-player-toggle-expand{
 }
 
 div.small-player-toggle-contract{
-    background-image: url('../images/iTunes-Contract.svg');
+    background-image: url('../images/icon-compress.svg');
     background-repeat: no-repeat;
     background-size: 100%;
     cursor: pointer;
@@ -195,7 +224,11 @@ div#small-player-right{
 div#small-player-full-bottom{
     padding-top: 5px;
 }
-
+.controls{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
 /*
     Small Player Full Bottom Info
 */
@@ -214,25 +247,39 @@ div.amplitude-play-pause{
     width: 20px;
     cursor: pointer;
     margin-top: 5px;
-    float: left;
+    /*float: left;*/
 }
 div.amplitude-paused{
-    background-image: url('../images/black-play.png');
+    background-image: url('../images/icon-play.svg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 95%;
+    margin-right: 0.5em;
 }
 div.amplitude-playing{
-    background-image: url('../images/black-pause.png');
+    background-image: url('../images/icon-pause.svg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 95%;
+    margin-right: 0.5em;
 }
 div.amplitude-next{
-    background-image: url('../images/black-next.png');
+    background-image: url('../images/icon-skipforward.svg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    float: right;
+    background-size: 95%;
+    /*float: right;*/
+    margin-left: 0.5em;
 }
 
+div.amplitude-paused,
+div.amplitude-playing,
+div.amplitude-next{
+    opacity: 0.7;
+}
+
+div.amplitude-paused:hover,
+div.amplitude-playing:hover,
+div.amplitude-next:hover{
+    opacity: 1;
+}
 /*
     Song Time Visualization
 */
@@ -242,7 +289,7 @@ div#song-time-visualization{
     background-color: #bebebe;
 }
 div#song-time-visualization div.amplitude-song-time-visualization-status{
-    background-color: #676261;
+    background-color: #1A8AC7;
     height: 5px;
 }
 
@@ -254,7 +301,7 @@ div#song-time-visualization-large{
     vertical-align: middle;
 }
 div#song-time-visualization-large div.amplitude-song-time-visualization-status{
-    background-color: #676261;
+    background-color: #1A8AC7;
     height: 5px;
 }
 
@@ -262,23 +309,38 @@ div#song-time-visualization-large div.amplitude-song-time-visualization-status{
     Now Playing Information
 */
 div.now-playing-title{
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "Open Sans", "Arial", sans-serif;
     font-weight: 300;
     font-size: 12px;
-    color: #676261;
+    /*color: #676261;*/
     line-height: 14px;
 }
+.songauthor{
+  font-size: 1.2em;
+  color: #095F90;
+  text-decoration: none;
+}
+.songauthor:hover{
+  border-bottom: 1px dotted #053048;
+  color: #053048;
+  cursor: pointer;
+}
 div.album-information{
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "Open Sans", "Arial", sans-serif;
     font-weight: 300;
     font-size: 12px;
-    color: #bebebe;
+    color: #4D4D4D;
+    width: 29em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 1em;
 }
 /*
     Current song time
 */
 span.current-time{
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "Open Sans", "Arial", sans-serif;
     font-weight: 300;
     font-size: 10px;
     color: #676261;
@@ -288,7 +350,7 @@ span.current-time{
    Duration
 */
 span.time-duration{
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "Open Sans", "Arial", sans-serif;
     font-weight: 300;
     font-size: 10px;
     color: #676261;

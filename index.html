@@ -12,10 +12,19 @@
 
 		<!-- Start Top Header -->
 		<div id="top-header">
-			<div class="now-playing-title" amplitude-song-info="name"></div>
+      <div class="error"></div>
+			<div class="now-playing-title"><a class="songauthor" amplitude-song-info="name"></a></div>
 			<div class="album-information"><span amplitude-song-info="artist"></span></div>
 		</div>
 		<!-- End Top Header -->
+
+    <!-- Start Call to Action -->
+		<!--<div id="top-large-calltoaction">
+			<!--<img id="large-calltoaction-art" amplitude-song-info="calltoaction"/>-->
+      <!--<img id="large-calltoaction-art"/>
+		<!--</div>
+
+		<!-- End Large Album Art -->
 
 		<!-- Start Large Album Art -->
 		<div id="top-large-album">
@@ -28,15 +37,17 @@
 
 			<!-- Begin Small Player Full Bottom -->
 			<div id="small-player-full-bottom">
-				<div class="amplitude-play-pause amplitude-paused" amplitude-song-index="0"></div>
-				<div class="amplitude-play-pause amplitude-next"></div>
+        <div class="controls">
+          <div class="amplitude-play-pause amplitude-paused" amplitude-song-index="0"></div>
+          <div class="amplitude-play-pause amplitude-next"></div>
+        </div>
 				<div id="small-player-full-bottom-info">
 					<span class="current-time">
 						<span class="amplitude-current-minutes" amplitude-song-index="0">0</span>:<span class="amplitude-current-seconds" amplitude-song-index="0">00</span>
 					</span>
-					
+
 					<div class="amplitude-song-time-visualization" amplitude-song-index="0" id="song-time-visualization-large"></div>
-					
+
 					<span class="time-duration">
 						<span class="amplitude-duration-minutes" amplitude-song-index="0">0</span>:<span class="amplitude-duration-seconds" amplitude-song-index="0">00</span>
 					</span>
