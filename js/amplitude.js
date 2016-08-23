@@ -626,6 +626,43 @@ var Amplitude = (function () {
         config.active_song.addEventListener('ended', privateHandleSongEnded );
 
         /*
+         Error handling
+         */
+        config.active_song.addEventListener('error', function failed(e) {
+            // audio playback failed - show a message saying why
+            // to get the source of the audio element use $(this).src
+            switch (e.target.error.code) {
+                case e.target.error.MEDIA_ERR_ABORTED:
+                    showPlayerError('An error has occurred, refresh the page to try again.', 'MEDIA_ERR_ABORTED');
+                    break;
+                case e.target.error.MEDIA_ERR_NETWORK:
+                    if (playAttempts == 0) {
+                        playAttempts++;
+                        shuffleTrack();
+                    } else
+                        showPlayerError('n error has occurred, refresh the page to try again.', 'MEDIA_ERR_NETWORK');
+                    break;
+                case e.target.error.MEDIA_ERR_DECODE:
+                    if (playAttempts == 0) {
+                        playAttempts++;
+                        shuffleTrack();
+                    } else
+                        showPlayerError('The audio playback was aborted, refresh the page to try again', 'MEDIA_ERR_DECODE');
+                    break;
+                case e.target.error.MEDIA_ERR_SRC_NOT_SUPPORTED:
+                    if (playAttempts == 0) {
+                        playAttempts++;
+                        shuffleTrack();
+                    } else
+                        showPlayerError('The audio playback is not supported, refresh the page to try again', 'MEDIA_ERR_SRC_NOT_SUPPORTED');
+                    break;
+                default:
+                        showPlayerError('An unknown error occurred, refresh the page to try again.', 'UNKNOWN');
+                    break;
+            }
+        }, true);
+
+        /*
          Binds handlers for play classes
          */
         var play_classes = document.getElementsByClassName("amplitude-play");
@@ -1338,7 +1375,7 @@ var Amplitude = (function () {
                  Sets the new active index to be used with the songs object
                  */
                 config.active_index = newIndex;
-            }else{
+            }else {
                 /*
                  Check new album
                  */
@@ -3058,7 +3095,11 @@ var Amplitude = (function () {
             privateReconnectStream();
         }
 
-        config.active_song.play();
+        try {
+            config.active_song.play();
+        } catch (e) {
+            console.log('error');
+        }
 
         privateRunCallback('after_play');
     }
