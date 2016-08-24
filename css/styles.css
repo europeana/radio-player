@@ -23,6 +23,7 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -118,6 +119,7 @@ div#top-large-album{
 img#large-album-art{
     width: 370px;
     height: 370px;
+    cursor: pointer;
     /*border-radius: 5px;*/
 }
 
@@ -228,6 +230,7 @@ div#small-player-full-bottom{
     display: flex;
     justify-content: center;
     margin-bottom: 0.5em;
+    height: 23px;
 }
 /*
     Small Player Full Bottom Info
@@ -247,6 +250,7 @@ div.amplitude-play-pause{
     width: 20px;
     cursor: pointer;
     margin-top: 5px;
+    display: none;
     /*float: left;*/
 }
 div.amplitude-paused{

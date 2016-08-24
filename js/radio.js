@@ -19,9 +19,13 @@ function log(message) {
     if (debug) console.log(message);
 }
 
+// Init page
+$(document).ready(function() {
+    resetCover();
+});
+
 // Start playing the radio
-// @todo: Bind this to a different element, sort of the 'start radio'  button
-$('.amplitude-paused').click(function() {
+$('#large-album-art').click(function() {
     if (!active) {
         shuffleTrack();
     }
@@ -42,8 +46,18 @@ function shuffleTrack() {
     }
 
     // Get a track from radio
-    $.get("radio.php", function (data) {
-        log('New track: ' + data.name);
+    $.get("http://europeana-radio-test.cfapps.io/stations/classical.json?rows=1&start=1", function (data) {
+        var track = data.station.playlist[0];
+        log('New track: ' + track.title);
+
+        // Init song info, map to Amplitude song object
+        var song = [];
+        song.title = track.title;
+        song.album = '';
+        song.artist = track.creator;
+        song.cover = track.thumbnail;
+        song.url = track.audio;
+
         try {
             Amplitude.playNow(data);
         } catch (e) {
@@ -60,12 +74,13 @@ function shuffleTrack() {
 // Init player
 function initPlayer() {
     $('#top-header').show();
+    $('img#large-album-art').css('cursor', 'default');
+    $('.amplitude-play-pause').show();
 }
 
 // Reset cover
-// @todo: Change to default Europeana art instead
 function resetCover() {
-    $('#large-album-art').attr('src', '');
+    $('#large-album-art').attr('src', 'images/cover.png');
 }
 
 // Error handling
