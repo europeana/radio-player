@@ -99,7 +99,7 @@ div#top-large-album{
     Play radio button
 */
 .play-radio{
-    background: #F1F1EE;
+    background: #095F90;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
@@ -121,7 +121,7 @@ div#top-large-album{
     height: 0;
     border-style: solid;
     border-width: 27px 0 27px 50px;
-    border-color: transparent transparent transparent #777777;
+    border-color: transparent transparent transparent #F1F1EE;
     position: absolute;
     top:0;
     left:0;
@@ -131,13 +131,13 @@ div#top-large-album{
 }
 
 .play-radio:hover{
-    background: #095F90;
+    background: #FFFFFF;
     width: 95px;
     height: 95px;
 }
 
 .play-radio:hover:before{
-    border-color: transparent transparent transparent #FFFFFF;
+    border-color: transparent transparent transparent #095F90;
 }
 
 /*
