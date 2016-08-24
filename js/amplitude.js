@@ -2579,6 +2579,16 @@ var Amplitude = (function () {
         }
 
         /*
+         Make sure there is a link back to the external site
+         */
+        if( document.querySelectorAll('[amplitude-song-info="name"]') ){
+            var metaId = document.querySelectorAll('[amplitude-song-info="name"]');
+            for( i = 0; i < metaId.length; i++ ){
+                metaId[i].href = config.active_metadata.songId;
+            }
+        }
+
+        /*
          Sets all elements that will contain the active song's cover art metadata
          */
         if( document.querySelectorAll('[amplitude-song-info="cover"]') ){
