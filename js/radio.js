@@ -4,7 +4,7 @@ var active = false;
 var playAttempts = 0;
 var sequence = 0;
 var hostname = 'http://europeana-radio-test.cfapps.io';
-var external = 'https://www.europeana.eu';
+var external = 'http://www.europeana.eu';
 
 // Initialise player
 Amplitude.init({
