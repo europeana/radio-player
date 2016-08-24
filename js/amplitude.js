@@ -2579,6 +2579,16 @@ var Amplitude = (function () {
         }
 
         /*
+         Sets all elements that will contain the active song's copyright metadata
+         */
+        if( document.querySelectorAll('[amplitude-song-info="copyright"]') ){
+            var metaCopyright = document.querySelectorAll('[amplitude-song-info="copyright"]');
+            for( i = 0; i < metaCopyright.length; i++ ){
+                metaCopyright[i].innerHTML = config.active_metadata.copyright;
+            }
+        }
+
+        /*
          Make sure there is a link back to the external site
          */
         if( document.querySelectorAll('[amplitude-song-info="name"]') ){

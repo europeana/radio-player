@@ -71,6 +71,7 @@ function shuffleTrack() {
         song['artist'] = track.creator;
         song['cover_art_url'] = track.thumbnail;
         song['url'] = track.audio;
+        song['copyright'] = track.copyright;
         song['songId'] = external + '/portal/record' + track.europeanaId + '.html';
 
         log('New track: ' + song.name);
