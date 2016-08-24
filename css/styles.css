@@ -85,32 +85,57 @@ div.error{
 /*
     Large album container
 */
-div#top-large-calltoaction{
-    width: 370px;
-    height: 370px;
-    margin: auto;
-    margin-bottom: -45px;
-    z-index: 1;
-}
-
-img#large-calltoaction-art{
-    width: 370px;
-    height: 370px;
-    /*border-radius: 5px;*/
-    background-image: url('../images/icon-radio.svg');
-    background-repeat: no-repeat;
-    background-size: 95%;
-}
-
-/*
-    Large album container
-*/
 div#top-large-album{
     width: 370px;
     height: 370px;
     margin: auto;
     margin-bottom: -45px;
     z-index: 0;
+    position: relative;
+}
+
+/*
+    Play radio button
+*/
+.play-radio{
+    background: #F1F1EE;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.play-radio:before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 27px 0 27px 50px;
+    border-color: transparent transparent transparent #777777;
+    position: absolute;
+    top:0;
+    left:0;
+    right:-10px;
+    bottom:0;
+    margin: auto;
+}
+
+.play-radio:hover{
+    background: #095F90;
+    width: 95px;
+    height: 95px;
+}
+
+.play-radio:hover:before{
+    border-color: transparent transparent transparent #FFFFFF;
 }
 
 /*
@@ -318,13 +343,18 @@ div.now-playing-title{
     font-size: 12px;
     /*color: #676261;*/
     line-height: 14px;
+    width: 28.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 1.25em;
 }
-.songauthor{
+.song-author{
   font-size: 1.2em;
   color: #095F90;
   text-decoration: none;
 }
-.songauthor:hover{
+.song-author:hover{
   border-bottom: 1px dotted #053048;
   color: #053048;
   cursor: pointer;
