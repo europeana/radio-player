@@ -2,6 +2,8 @@
 var debug = true;
 var active = false;
 var playAttempts = 0;
+var sequence = 0;
+var hostname = "http://europeana-radio-test.cfapps.io";
 
 // Initialise player
 Amplitude.init({
@@ -25,8 +27,9 @@ $(document).ready(function() {
 });
 
 // Start playing the radio
-$('#large-album-art').click(function() {
+$('div.play-radio').click(function() {
     if (!active) {
+        $(this).hide();
         shuffleTrack();
     }
 })
@@ -45,21 +48,24 @@ function shuffleTrack() {
         active = true;
     }
 
+    sequence++;
+
     // Get a track from radio
-    $.get("http://europeana-radio-test.cfapps.io/stations/classical.json?rows=1&start=1", function (data) {
+    $.get(hostname + "/stations/classical.json?rows=1&start=" + sequence, function (data) {
         var track = data.station.playlist[0];
-        log('New track: ' + track.title);
 
         // Init song info, map to Amplitude song object
         var song = [];
-        song.title = track.title;
-        song.album = '';
-        song.artist = track.creator;
-        song.cover = track.thumbnail;
-        song.url = track.audio;
+        song['name'] = track.title;
+        song['album'] = '';
+        song['artist'] = track.creator;
+        song['cover_art_url'] = track.thumbnail;
+        song['url'] = track.audio;
+
+        log('New track: ' + song.title);
 
         try {
-            Amplitude.playNow(data);
+            Amplitude.playNow(song);
         } catch (e) {
             console.log('test');
         }
@@ -74,7 +80,7 @@ function shuffleTrack() {
 // Init player
 function initPlayer() {
     $('#top-header').show();
-    $('img#large-album-art').css('cursor', 'default');
+    $('div.play-radio').css('cursor', 'default');
     $('.amplitude-play-pause').show();
 }
 

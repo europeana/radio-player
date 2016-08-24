@@ -72,6 +72,7 @@ div#top-header{
     position: relative;
     margin-bottom: -50px;
     display: none;
+    z-index: 9;
 }
 
 div.error{
