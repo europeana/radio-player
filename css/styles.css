@@ -255,7 +255,7 @@ div#small-player-full-bottom{
 .controls{
     display: flex;
     justify-content: center;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.8em;
     height: 23px;
 }
 /*
