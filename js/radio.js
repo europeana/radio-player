@@ -91,7 +91,7 @@ function resetCover() {
 
 // Error handling
 function showPlayerError(message, internal) {
-    log('Error: ' + internal)
+    log('Error: ' + internal);
     $('#top-header').show();
     $('.now-playing-title').html('');
     $('.album-information span').html('');

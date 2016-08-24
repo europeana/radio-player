@@ -111,6 +111,7 @@ div#top-large-album{
     -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     position: absolute;
+    cursor: pointer;
 }
 
 .play-radio:before{
@@ -145,7 +146,6 @@ div#top-large-album{
 img#large-album-art{
     width: 370px;
     height: 370px;
-    cursor: pointer;
     /*border-radius: 5px;*/
 }
 
