@@ -411,8 +411,8 @@ span.time-duration{
 .right-col{
   display: inline-block;
   background-color: #ffffff;
-  padding: 0.7em;
-  position: absolute;
+  vertical-align: top;
+  margin-left: -4px;
 }
 
 .radio-selector{
@@ -426,37 +426,47 @@ span.time-duration{
   height: 5em;
   width: 10em;
   margin: auto;
+  padding-bottom: 0.45em;
 }
 
 .classical-radio {
-  margin-bottom: 0.25em;
-  font-weight: bold;
-  background-color: #095F90;
-  color: #ffffff;
-  text-align: left;
+
 }
 
-.folk-radio{
+.radio-1{
   margin-bottom: 13.4em;
 }
 
-.classical-radio,
-.folk-radio{
+.radio-0,
+.radio-1{
   font-family: "Open Sans", "Arial", sans-serif;
+  color: #095F90;
   font-size: 1em;
-  padding: 0.5em;
+  padding: 0.8em 0.8em;
   text-align: left;
 }
 
-.classical-radio:hover,
-.folk-radio:hover,
-.classical-radio:active,
-.folk-radio:active{
+.radio-0:hover,
+.radio-1:hover,
+.radio-0:active,
+.radio-1:active,
+.radio-active {
   background-color: #095F90;
   color: #ffffff;
   text-align: left;
+  cursor: pointer;
 }
 
-.station-icon{
+.play-icon{
   width: 0.7em;
+}
+
+.radio-active:hover,
+.play-icon:hover{
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.music-icon{
+  width: 0.85em;
 }
