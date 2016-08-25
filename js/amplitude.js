@@ -1346,19 +1346,19 @@ var Amplitude = (function () {
                 config.shuffle_active_index = 0;
             }
         }else{
-            if( parseInt(config.active_index) + 1 < config.songs.length ){
+            if( parseInt(config.active_index) + 1 < config.songs.length ) {
 
-                var newIndex = parseInt( config.active_index ) + 1;
+                var newIndex = parseInt(config.active_index) + 1;
                 /*
                  Check new album
                  */
-                privateCheckNewAlbum( config.songs[newIndex].album );
+                privateCheckNewAlbum(config.songs[newIndex].album);
 
                 /*
                  Sets the new song information in the config, so everything
                  is ready to be changed.
                  */
-                privateSetActiveSongInformation( newIndex, config.shuffle_on );
+                privateSetActiveSongInformation(newIndex, config.shuffle_on);
 
                 /*
                  Checks to see if there is a new album to be played. If there
@@ -1366,7 +1366,7 @@ var Amplitude = (function () {
                  developer to handler album changes which could also mean multiple
                  playlists.
                  */
-                if( config.album_change ){
+                if (config.album_change) {
                     privateRunCallback('after_album_change');
                     config.album_change = false;
                 }
@@ -1375,33 +1375,34 @@ var Amplitude = (function () {
                  Sets the new active index to be used with the songs object
                  */
                 config.active_index = newIndex;
-            }else {
-                /*
-                 Check new album
-                 */
-                privateCheckNewAlbum( config.songs[0].album );
-
-                /*
-                 Sets the new song information in the config, so everything
-                 is ready to be changed.
-                 */
-                privateSetActiveSongInformation( 0, config.shuffle_on );
-
-                /*
-                 Checks to see if there is a new album to be played. If there
-                 is we fire the after_album_change callback which allows the
-                 developer to handler album changes which could also mean multiple
-                 playlists.
-                 */
-                if( config.album_change ){
-                    privateRunCallback('after_album_change');
-                    config.album_change = false;
-                }
-                /*
-                 Sets the new active index to be used with the songs object
-                 */
-                config.active_index = 0;
             }
+            // }else {
+            //     /*
+            //      Check new album
+            //      */
+            //     privateCheckNewAlbum( config.songs[0].album );
+            //
+            //     /*
+            //      Sets the new song information in the config, so everything
+            //      is ready to be changed.
+            //      */
+            //     privateSetActiveSongInformation( 0, config.shuffle_on );
+            //
+            //     /*
+            //      Checks to see if there is a new album to be played. If there
+            //      is we fire the after_album_change callback which allows the
+            //      developer to handler album changes which could also mean multiple
+            //      playlists.
+            //      */
+            //     if( config.album_change ){
+            //         privateRunCallback('after_album_change');
+            //         config.album_change = false;
+            //     }
+            //     /*
+            //      Sets the new active index to be used with the songs object
+            //      */
+            //     config.active_index = 0;
+            // }
         }
 
         /*
@@ -2584,7 +2585,10 @@ var Amplitude = (function () {
         if( document.querySelectorAll('[amplitude-song-info="copyright"]') ){
             var metaCopyright = document.querySelectorAll('[amplitude-song-info="copyright"]');
             for( i = 0; i < metaCopyright.length; i++ ){
-                metaCopyright[i].innerHTML = config.active_metadata.copyright;
+                if (config.active_metadata.copyright) {
+                    metaCopyright[i].style.display = "block";
+                    metaCopyright[i].innerHTML = config.active_metadata.copyright;
+                }
             }
         }
 

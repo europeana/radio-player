@@ -8,6 +8,8 @@ var channels = new Array('Classical Music', 'Traditional and Folk Music');
 var channelsJson = new Array();
 var sequence = new Array(1,1);
 var channel = 0;
+var playCount = 0;
+var jingleInterval = 5;
 
 // Initialise player
 Amplitude.init({
@@ -106,33 +108,73 @@ function shuffleTrack() {
 
     sequence[channel]++;
 
-    // Get a track from radio
-    $.get(channelsJson[channel] + '?rows=1&start=' + sequence[channel], function (data) {
-        var track = data.station.playlist[0];
+    // Hide some elements..
+    $('.rights').hide();
+
+    // Based on play count, see if we need to throw in a jingle..
+    if (playCount == 0) {
 
         // Init song info, map to Amplitude song object
         var song = [];
-        song['name'] = track.title;
+        song['name'] = 'Welcome to Europeana Radio!';
         song['album'] = 'Europeana';
-        song['artist'] = track.creator;
-        song['cover_art_url'] = track.thumbnail;
-        song['url'] = track.audio;
-        song['copyright'] = track.copyright;
-        song['songId'] = external + '/portal/record' + track.europeanaId + '.html';
+        song['artist'] = '';
+        song['cover_art_url'] = null;
+        song['url'] = '/audio/welcome.mp3';
+        song['copyright'] = '';
+        song['songId'] = external + '/portal/';
+        Amplitude.playNow(song);
+        playCount++;
+        return true;
 
-        log('New track: ' + song.name);
+    // Station jingle
+    } else if (playCount % jingleInterval == 0) {
 
-        try {
-            Amplitude.playNow(song);
-        } catch (e) {
-            console.log('test');
-        }
-    }, 'json')
+        // Init song info, map to Amplitude song object
+        var song = [];
+        song['name'] = 'Europeana\'s ' + channels[channel] + ' Station!';
+        song['album'] = 'Europeana';
+        song['artist'] = '';
+        song['cover_art_url'] = null;
+        song['url'] = '/audio/' + ((channel == 0) ? 'classical' : 'folk') + '.mp3';
+        song['copyright'] = '';
+        song['songId'] = external + '/portal/';
+        Amplitude.playNow(song);
+        playCount++;
+        return true;
 
-    // Failed, no radio for you mister
-    .fail(function() {
-        showPlayerError('An error has occurred, please try again later.', 'No response from the radio server.');
-    });
+    } else {
+
+        // Get a track from radio
+        $.get(channelsJson[channel] + '?rows=1&start=' + sequence[channel], function (data) {
+                var track = data.station.playlist[0];
+
+                // Init song info, map to Amplitude song object
+                var song = [];
+                song['name'] = track.title;
+                song['album'] = 'Europeana';
+                song['artist'] = track.creator;
+                song['cover_art_url'] = track.thumbnail;
+                song['url'] = track.audio;
+                song['copyright'] = track.copyright;
+                song['songId'] = external + '/portal/record' + track.europeanaId + '.html';
+
+                log('New track: ' + song.name);
+
+                try {
+                    Amplitude.playNow(song);
+                    playCount++;
+                } catch (e) {
+                    console.log('test');
+                }
+            }, 'json')
+
+            // Failed, no radio for you mister
+            .fail(function () {
+                showPlayerError('An error has occurred, please try again later.', 'No response from the radio server.');
+            });
+
+    }
 }
 
 // Hover fix for channels
