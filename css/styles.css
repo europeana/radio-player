@@ -498,17 +498,24 @@ Media Queries
   }
 }
 
-@media all and (max-width: 578px){
-  .right-col {
-    width: 368px;
-    margin-left: 0;
-    border-style: none solid solid solid;
-  }
-  .radio-1 {
-    margin-bottom: -0.6em;
-  }
-  .radio-0,
-  .radio-1 {
-    padding: 1.5em 0.8em;
-    border-bottom: 1px solid #DEDEDE;
+@media all and (max-width: 578px) {
+    .right-col {
+        width: 368px;
+        margin-left: 0;
+        border-style: none solid solid solid;
+    }
+
+    .radio-1 {
+        margin-bottom: -0.6em;
+    }
+
+    .radio-0,
+    .radio-1 {
+        padding: 1.5em 0.8em;
+        border-bottom: 1px solid #DEDEDE;
+    }
+}
+
+.rights {
+    display: none;
 }
