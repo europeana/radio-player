@@ -75,12 +75,10 @@ body{
 */
 div#top-header{
     background-color: #F1F1EE;
-    /*border-top-left-radius: 5px;
-    border-top-right-radius: 5px;*/
     width: 370px;
     height: 40px;
     margin: auto;
-    text-align: center;
+    text-align: left;
     line-height: 20px;
     padding-top: 10px;
     position: relative;
@@ -356,13 +354,12 @@ div.now-playing-title{
     font-family: "Open Sans", "Arial", sans-serif;
     font-weight: 300;
     font-size: 12px;
-    /*color: #676261;*/
     line-height: 14px;
-    width: 28.5em;
+    width: 25.7em;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    padding-left: 1.25em;
+    padding-left: 1em;
 }
 .song-author{
   font-size: 1.2em;
@@ -385,6 +382,25 @@ div.album-information{
     text-overflow: ellipsis;
     padding-left: 1em;
 }
+
+/*
+    Rights
+*/
+.rights{
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 0.3em;
+  float: right;
+  vertical-align: top;
+  margin-top: -4.25em;
+  background-color: #D9D4CA;
+  border-radius: 4px;
+  padding: 0 0.3em;
+  color: #777777;
+  position: absolute;
+  right: 0.5em;
+  height: 2.3em;
+}
+
 /*
     Current song time
 */
