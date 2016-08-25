@@ -52,15 +52,15 @@ table {
 	Body
 */
 body{
-	background-color: #0B4C63;
-    padding-top: 100px;
+	/*background-color: #0B4C63;
+  /*padding-top: 100px;*/
 }
 
 /*
     Radio Container
 */
 .radio-container{
-  text-align: center;
+  /*text-align: center;*/
 }
 
 /*
@@ -429,6 +429,9 @@ span.time-duration{
   background-color: #ffffff;
   vertical-align: top;
   margin-left: -4px;
+  border-style: solid solid solid none;
+  border-width: 1px;
+  border-color: #DEDEDE;
 }
 
 .radio-selector{
@@ -450,7 +453,7 @@ span.time-duration{
 }
 
 .radio-1{
-  margin-bottom: 13.4em;
+  margin-bottom: 13.3em;
 }
 
 .radio-0,
@@ -484,4 +487,28 @@ span.time-duration{
 
 .music-icon{
   width: 0.85em;
+}
+
+/*
+Media Queries
+*/
+@media all and (max-width: 384px){
+  .main-section {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 578px){
+  .right-col {
+    width: 368px;
+    margin-left: 0;
+    border-style: none solid solid solid;
+  }
+  .radio-1 {
+    margin-bottom: -0.6em;
+  }
+  .radio-0,
+  .radio-1 {
+    padding: 1.5em 0.8em;
+    border-bottom: 1px solid #DEDEDE;
 }
