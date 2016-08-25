@@ -33,11 +33,20 @@ $(document).ready(function() {
     setRandomSequence();
 });
 
+// Reset channels
+function resetChannels() {
+    $('.radio-selector img').attr('src', 'images/icon-music.svg');
+    $('.radio-selector img').removeClass('radio-icon-invert');
+}
+
 // Set random channel
 function setRandomChannel() {
     var channelKey = Math.floor(Math.random()*channels.length);
     channel = channelKey;
+    resetChannels();
     $('.radio-' + channelKey).addClass('radio-active');
+    $('.radio-' + channelKey + ' img').addClass('radio-icon-invert');
+    $('.radio-' + channelKey + ' img').attr('src', 'images/icon-play.svg');
     log('Setting start channel to #' + channelKey + ': ' + channels[channelKey]);
 }
 
@@ -67,10 +76,14 @@ $('.amplitude-next').click(function() {
 
 // Switch station
 $('.radio-selector div').click(function() {
+    resetChannels();
     $('.radio-selector div').removeClass('radio-active');
     $(this).addClass('radio-active');
+    $('img', this).attr('src', 'images/icon-play.svg');
+    $('img', this).addClass('radio-icon-invert');
     var selectedStation = $(this).attr('id');
     var channelKey = selectedStation.slice(-1);
+    channel = channelKey;
     log('Switching to station: ' + channels[channelKey]);
     shuffleTrack();
 });
@@ -113,6 +126,11 @@ function shuffleTrack() {
         showPlayerError('An error has occurred, please try again later.', 'No response from the radio server.');
     });
 }
+
+// Hover fix for channels
+$('.radio-selector div').hover(function () {
+    $('img', this).addClass('radio-icon-invert');
+});
 
 // Init player
 function initPlayer() {
