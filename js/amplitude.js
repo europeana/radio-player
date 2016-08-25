@@ -1833,21 +1833,30 @@ var Amplitude = (function () {
             if( document.querySelectorAll('.amplitude-duration-minutes[amplitude-song-index="'+config.active_index+'"]').length > 0 ){
                 var durationMinuteSelectors = document.querySelectorAll('.amplitude-duration-minutes[amplitude-song-index="'+config.active_index+'"]');
                 for( var i = 0; i < durationMinuteSelectors.length; i++ ){
-                    durationMinuteSelectors[i].innerHTML = song_duration_minutes;
+                    if (!isNaN(song_duration_minutes))
+                        durationMinuteSelectors[i].innerHTML = song_duration_minutes;
+                    else
+                        durationMinuteSelectors[i].innerHTML = 0;
                 }
             }
 
             if( document.querySelectorAll('[amplitude-single-duration-seconds="true"]').length > 0 ){
                 var mainDurationSecondSelectors = document.querySelectorAll('[amplitude-single-duration-seconds="true"]');
                 for( var i = 0; i < mainDurationSecondSelectors.length; i++ ){
-                    mainDurationSecondSelectors[i].innerHTML = song_duration_seconds;
+                    if (!isNaN(song_duration_seconds))
+                        mainDurationSecondSelectors[i].innerHTML = song_duration_seconds;
+                    else
+                        mainDurationSecondSelectors[i].innerHTML = 0;
                 }
             }
 
             if( document.querySelectorAll('.amplitude-duration-seconds[amplitude-song-index="'+config.active_index+'"]').length > 0 ){
                 var durationSecondSelectors = document.querySelectorAll('.amplitude-duration-seconds[amplitude-song-index="'+config.active_index+'"]');
                 for( var i = 0; i < durationSecondSelectors.length; i++ ){
-                    durationSecondSelectors[i].innerHTML = song_duration_seconds;
+                    if (!isNaN(song_duration_seconds))
+                        durationSecondSelectors[i].innerHTML = song_duration_seconds;
+                    else
+                        durationSecondSelectors[i].innerHTML = 0;
                 }
             }
         }
