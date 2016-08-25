@@ -2,14 +2,18 @@
 var debug = true;
 var active = false;
 var playAttempts = 0;
-var sequence = 0;
 var hostname = 'http://europeana-radio-test.cfapps.io';
 var external = 'http://www.europeana.eu';
+var channels = new Array('Classical Music', 'Traditional and Folk Music');
+var channelsJson = new Array();
+var sequence = new Array(1,1);
+var channel = 0;
 
 // Initialise player
 Amplitude.init({
     "dynamic_mode": true,
     "debug": debug,
+    "default_album_art": "images/cover.png",
     "visualization_backup": "album-art",
     "callbacks": {
         "before_next": "resetCover", // Smoothen the transition from one cover to the other
@@ -25,21 +29,32 @@ function log(message) {
 // Init page
 $(document).ready(function() {
     resetCover();
+    setRandomChannel();
     setRandomSequence();
 });
 
+// Set random channel
+function setRandomChannel() {
+    var channelKey = Math.floor(Math.random()*channels.length);
+    channel = channelKey;
+    $('.radio-' + channelKey).addClass('radio-active');
+    log('Setting start channel to #' + channelKey + ': ' + channels[channelKey]);
+}
+
 // Set ourselves a start track, as a prep before the player starts
 function setRandomSequence() {
-    $.get(hostname + '/stations/classical.json?rows=0', function (data) {
-        sequence = Math.floor((Math.random() * data.station.totalResults) + 1);
-        log('Setting start sequence to: ' + sequence);
+    $.get(hostname + '/stations.json', function (data) {
+        $.each(data.stations, function( index, station ) {
+            sequence[index] = Math.floor((Math.random() * station.totalResults) + 1);
+            channelsJson[index] = station.link;
+            log('Channel '  + station.name + ' has ' + station.totalResults + ' tunes, setting start sequence to: ' + sequence[index]);
+        });
     });
 }
 
 // Start playing the radio
 $('div.play-radio').click(function() {
     if (!active) {
-        $(this).hide();
         shuffleTrack();
     }
 })
@@ -47,6 +62,16 @@ $('div.play-radio').click(function() {
 // Shuffle
 $('.amplitude-next').click(function() {
     log('Shuffling to a new track');
+    shuffleTrack();
+});
+
+// Switch station
+$('.radio-selector div').click(function() {
+    $('.radio-selector div').removeClass('radio-active');
+    $(this).addClass('radio-active');
+    var selectedStation = $(this).attr('id');
+    var channelKey = selectedStation.slice(-1);
+    log('Switching to station: ' + channels[channelKey]);
     shuffleTrack();
 });
 
@@ -58,10 +83,10 @@ function shuffleTrack() {
         active = true;
     }
 
-    sequence++;
+    sequence[channel]++;
 
     // Get a track from radio
-    $.get(hostname + '/stations/classical.json?rows=1&start=' + sequence, function (data) {
+    $.get(channelsJson[channel] + '?rows=1&start=' + sequence[channel], function (data) {
         var track = data.station.playlist[0];
 
         // Init song info, map to Amplitude song object
@@ -91,6 +116,7 @@ function shuffleTrack() {
 
 // Init player
 function initPlayer() {
+    $('div.play-radio').hide();
     $('#top-header').show();
     $('div.play-radio').css('cursor', 'default');
     $('.amplitude-play-pause').show();
