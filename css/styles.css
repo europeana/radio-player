@@ -57,6 +57,20 @@ body{
 }
 
 /*
+    Radio Container
+*/
+.radio-container{
+  text-align: center;
+}
+
+/*
+    Main Section
+*/
+.main-section{
+  display: inline-block;
+}
+
+/*
     Top Header
 */
 div#top-header{
@@ -389,4 +403,60 @@ span.time-duration{
     font-weight: 300;
     font-size: 10px;
     color: #676261;
+}
+
+/*
+   Right Column
+*/
+.right-col{
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 0.7em;
+  position: absolute;
+}
+
+.radio-selector{
+
+}
+
+.europeana-branding {
+  background-image: url('../images/eu_powered_logo.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 5em;
+  width: 10em;
+  margin: auto;
+}
+
+.classical-radio {
+  margin-bottom: 0.25em;
+  font-weight: bold;
+  background-color: #095F90;
+  color: #ffffff;
+  text-align: left;
+}
+
+.folk-radio{
+  margin-bottom: 13.4em;
+}
+
+.classical-radio,
+.folk-radio{
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 1em;
+  padding: 0.5em;
+  text-align: left;
+}
+
+.classical-radio:hover,
+.folk-radio:hover,
+.classical-radio:active,
+.folk-radio:active{
+  background-color: #095F90;
+  color: #ffffff;
+  text-align: left;
+}
+
+.station-icon{
+  width: 0.7em;
 }
