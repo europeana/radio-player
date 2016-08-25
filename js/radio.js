@@ -43,7 +43,7 @@ function resetChannels() {
 function setRandomChannel() {
 
     // Already a channel?
-    var preset = GetURLParameter('channel');
+    var preset = GetURLParameter('station');
     if (preset) {
         if (preset == 'classical') { var channelKey = 0; } else if (preset == 'folk') { var channelKey = 1; }
     } else {
