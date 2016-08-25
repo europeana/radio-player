@@ -477,8 +477,7 @@ span.time-duration{
   width: 0.7em;
 }
 
-.radio-active:hover,
-.play-icon:hover{
+.radio-icon-invert{
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }

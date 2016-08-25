@@ -2,14 +2,18 @@
 var debug = true;
 var active = false;
 var playAttempts = 0;
-var sequence = 0;
 var hostname = 'http://europeana-radio-test.cfapps.io';
 var external = 'http://www.europeana.eu';
+var channels = new Array('Classical Music', 'Traditional and Folk Music');
+var channelsJson = new Array();
+var sequence = new Array(1,1);
+var channel = 0;
 
 // Initialise player
 Amplitude.init({
     "dynamic_mode": true,
     "debug": debug,
+    "default_album_art": "images/cover.png",
     "visualization_backup": "album-art",
     "callbacks": {
         "before_next": "resetCover", // Smoothen the transition from one cover to the other
@@ -25,21 +29,49 @@ function log(message) {
 // Init page
 $(document).ready(function() {
     resetCover();
+    setRandomChannel();
     setRandomSequence();
 });
 
+// Reset channels
+function resetChannels() {
+    $('.radio-selector img').attr('src', 'images/icon-music.svg');
+    $('.radio-selector img').removeClass('radio-icon-invert');
+}
+
+// Set random channel
+function setRandomChannel() {
+
+    // Already a channel?
+    var preset = GetURLParameter('station');
+    if (preset) {
+        if (preset == 'classical') { var channelKey = 0; } else if (preset == 'folk') { var channelKey = 1; }
+    } else {
+        var channelKey = Math.floor(Math.random() * channels.length);
+    }
+
+    channel = channelKey;
+    resetChannels();
+    $('.radio-' + channelKey).addClass('radio-active');
+    $('.radio-' + channelKey + ' img').addClass('radio-icon-invert');
+    $('.radio-' + channelKey + ' img').attr('src', 'images/icon-play.svg');
+    log('Setting start channel to #' + channelKey + ': ' + channels[channelKey]);
+}
+
 // Set ourselves a start track, as a prep before the player starts
 function setRandomSequence() {
-    $.get(hostname + '/stations/classical.json?rows=0', function (data) {
-        sequence = Math.floor((Math.random() * data.station.totalResults) + 1);
-        log('Setting start sequence to: ' + sequence);
+    $.get(hostname + '/stations.json', function (data) {
+        $.each(data.stations, function( index, station ) {
+            sequence[index] = Math.floor((Math.random() * station.totalResults) + 1);
+            channelsJson[index] = station.link;
+            log('Channel '  + station.name + ' has ' + station.totalResults + ' tunes, setting start sequence to: ' + sequence[index]);
+        });
     });
 }
 
 // Start playing the radio
 $('div.play-radio').click(function() {
     if (!active) {
-        $(this).hide();
         shuffleTrack();
     }
 })
@@ -47,6 +79,20 @@ $('div.play-radio').click(function() {
 // Shuffle
 $('.amplitude-next').click(function() {
     log('Shuffling to a new track');
+    shuffleTrack();
+});
+
+// Switch station
+$('.radio-selector div').click(function() {
+    resetChannels();
+    $('.radio-selector div').removeClass('radio-active');
+    $(this).addClass('radio-active');
+    $('img', this).attr('src', 'images/icon-play.svg');
+    $('img', this).addClass('radio-icon-invert');
+    var selectedStation = $(this).attr('id');
+    var channelKey = selectedStation.slice(-1);
+    channel = channelKey;
+    log('Switching to station: ' + channels[channelKey]);
     shuffleTrack();
 });
 
@@ -58,10 +104,10 @@ function shuffleTrack() {
         active = true;
     }
 
-    sequence++;
+    sequence[channel]++;
 
     // Get a track from radio
-    $.get(hostname + '/stations/classical.json?rows=1&start=' + sequence, function (data) {
+    $.get(channelsJson[channel] + '?rows=1&start=' + sequence[channel], function (data) {
         var track = data.station.playlist[0];
 
         // Init song info, map to Amplitude song object
@@ -89,8 +135,14 @@ function shuffleTrack() {
     });
 }
 
+// Hover fix for channels
+$('.radio-selector div').hover(function () {
+    $('img', this).addClass('radio-icon-invert');
+});
+
 // Init player
 function initPlayer() {
+    $('div.play-radio').hide();
     $('#top-header').show();
     $('div.play-radio').css('cursor', 'default');
     $('.amplitude-play-pause').show();
@@ -108,4 +160,15 @@ function showPlayerError(message, internal) {
     $('.now-playing-title').html('');
     $('.album-information span').html('');
     $('.error').html(message);
+}
+
+function GetURLParameter(sParam) {
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) {
+            return sParameterName[1];
+        }
+    }
 }
