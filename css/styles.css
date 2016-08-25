@@ -291,24 +291,27 @@ div.amplitude-play-pause{
     display: none;
     /*float: left;*/
 }
+div.controls-1 {
+    margin-left: 145px;
+}
+div.controls-2 {
+    margin-right: 150px;
+}
 div.amplitude-paused{
     background-image: url('../images/icon-play.svg');
     background-repeat: no-repeat;
     background-size: 95%;
-    margin-right: 0.5em;
 }
 div.amplitude-playing{
     background-image: url('../images/icon-pause.svg');
     background-repeat: no-repeat;
     background-size: 95%;
-    margin-right: 0.5em;
 }
 div.amplitude-next{
     background-image: url('../images/icon-skipforward.svg');
     background-repeat: no-repeat;
     background-size: 95%;
     /*float: right;*/
-    margin-left: 0.5em;
 }
 
 div.amplitude-paused,
@@ -388,7 +391,7 @@ div.album-information{
 */
 .rights{
   font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 0.3em;
+  font-size: 0.5em;
   float: right;
   vertical-align: top;
   margin-top: -4.25em;
@@ -399,6 +402,7 @@ div.album-information{
   position: absolute;
   right: 0.5em;
   height: 2.3em;
+    display: none;
 }
 
 /*
@@ -514,8 +518,4 @@ Media Queries
         padding: 1.5em 0.8em;
         border-bottom: 1px solid #DEDEDE;
     }
-}
-
-.rights {
-    display: none;
 }
