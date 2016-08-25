@@ -41,7 +41,15 @@ function resetChannels() {
 
 // Set random channel
 function setRandomChannel() {
-    var channelKey = Math.floor(Math.random()*channels.length);
+
+    // Already a channel?
+    var preset = GetURLParameter('channel');
+    if (preset) {
+        if (preset == 'classical') { var channelKey = 0; } else if (preset == 'folk') { var channelKey = 1; }
+    } else {
+        var channelKey = Math.floor(Math.random() * channels.length);
+    }
+
     channel = channelKey;
     resetChannels();
     $('.radio-' + channelKey).addClass('radio-active');
@@ -152,4 +160,15 @@ function showPlayerError(message, internal) {
     $('.now-playing-title').html('');
     $('.album-information span').html('');
     $('.error').html(message);
+}
+
+function GetURLParameter(sParam) {
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) {
+            return sParameterName[1];
+        }
+    }
 }
