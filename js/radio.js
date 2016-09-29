@@ -2,8 +2,8 @@
 var debug = true;
 var active = false;
 var playAttempts = 0;
-var hostname = 'http://europeana-radio-test.cfapps.io';
-var external = 'http://www.europeana.eu';
+var hostname = 'https://radio.europeana.eu';
+var external = 'https://www.europeana.eu';
 var channels = new Array('Classical Music', 'Traditional and Folk Music');
 var channelsJson = new Array();
 var sequence = new Array(1,1);
