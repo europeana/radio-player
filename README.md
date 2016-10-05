@@ -6,7 +6,7 @@ Usage
 ------
 Can be embedded via an iframe:
 ~~~~
-<iframe class="iframe" src="https://radio.europeana.eu/" border="0" frameborder="0" width="635" height="390"></iframe>
+<iframe class="iframe" src="https://radio-player.europeana.eu/" border="0" frameborder="0" width="635" height="390"></iframe>
 ~~~~
 
 If you embed the player in this iframe, ensure to also include the following lines of CSS in your stylesheet to make the iframe adapt to a mobile viewport:
@@ -17,6 +17,7 @@ If you embed the player in this iframe, ensure to also include the following lin
        height: 600px;
        width: 370px;
    }
+}
 </style>
 ~~~~
 
