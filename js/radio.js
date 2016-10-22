@@ -1,5 +1,7 @@
 // Init variables
 var debug = true;
+var currentTrack = null;
+var songToTag = null;
 var active = false;
 var playAttempts = 0;
 var hostname = 'https://radio.europeana.eu';
@@ -33,6 +35,7 @@ $(document).ready(function() {
     resetCover();
     setRandomChannel();
     setRandomSequence();
+    genreTagging();
 });
 
 // Reset channels
@@ -159,7 +162,10 @@ function shuffleTrack() {
                 song['copyright'] = track.copyright;
                 song['songId'] = external + '/portal/record' + track.europeanaId + '.html';
 
+                currentTrack = song;
                 log('New track: ' + song.name);
+                $('.genre-selector').show();
+                $('.right-col-filler').hide();
 
                 try {
                     Amplitude.playNow(song);
@@ -213,4 +219,56 @@ function GetURLParameter(sParam) {
             return sParameterName[1];
         }
     }
+}
+
+// Music genre tagging
+function genreTagging() {
+    $.ajax({
+        url: "music-genres/genres.json",
+        dataType: "json",
+        success: function (data) {
+            console.log("Loaded in " + data.length + " music genres for autocompletion");
+            var genre_data = $.map(data, function (item) {
+                return {
+                    label: item.label,
+                    value: item.value
+                };
+            });
+            $("#genres").autocomplete({
+                source: genre_data,
+                minlength: 2,
+                open: function () {
+                    songToTag = currentTrack;
+                    console.log("Starting music genre tagging for song " + currentTrack['name']);
+                },
+                select: function (event, ui) {
+                    $('div.genre-selection').hide();
+                    console.log("Selected music genre: " + ui.item.value + " aka " + ui.item.label);
+
+                    $('div.genre-selection-made').show();
+                    $('div.genre-selection-made').html('<h2>Refine the music genre</h2>' +
+                        '<p>Confirm <span class="genre-label">' + ui.item.label + '</span> as genre for <span class="genre-song-label">' + songToTag['name'] + '</span>:</p>' +
+                        '<p><a href="javascript:void(null);" onclick="submitGenreTagging(\'' + ui.item.value + '\', \'' + ui.item.label + '\');" class="genre-submit">Submit</a> &nbsp; &nbsp; &nbsp; <a href="javascript:void(null);" onclick="cancelGenreTagging();" class="genre-cancel">Cancel</a></p>'
+                    );
+                }
+            });
+        }
+    });
+}
+
+// Music genre tagging cancellation
+function cancelGenreTagging() {
+    $('div.genre-selection-made').html('');
+    $('div.genre-selection-made').hide();
+    $('#genres').val('');
+    $('div.genre-selection').show();
+}
+
+// Music genre tagging submitting
+function submitGenreTagging(uri, label) {
+    // @todo: post to Annotations API
+    // songToTag
+    // uri
+    // label
+    $('div.genre-selection-made').html('<h2>Thank you!</h2><p><a href="javascript:void(null);" onclick="cancelGenreTagging();" class="genre-submit">Go back</a></p>');
 }
