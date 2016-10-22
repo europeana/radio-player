@@ -339,7 +339,7 @@ div#song-time-visualization div.amplitude-song-time-visualization-status{
 }
 
 div#song-time-visualization-large{
-    width: 304px;
+    width: 295px;
     height: 5px;
     background-color: #bebebe;
     display: inline-block;
@@ -436,6 +436,8 @@ span.time-duration{
   border-style: solid solid solid none;
   border-width: 1px;
   border-color: #DEDEDE;
+  width: 228px;
+  max-width: 228px;
 }
 
 .radio-selector{
@@ -457,7 +459,7 @@ span.time-duration{
 }
 
 .radio-1{
-  margin-bottom: 13.3em;
+  margin-bottom: 3.3em;
 }
 
 .radio-0,
@@ -518,4 +520,67 @@ Media Queries
         padding: 1.5em 0.8em;
         border-bottom: 1px solid #DEDEDE;
     }
+}
+
+div.genre-selector {
+    border-top: 1px solid #DEDEDE;
+    margin-bottom: 1.3em;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    padding: 10px;
+    line-height: 1.8em;
+    overflow: auto;
+    display: none;
+}
+
+div.right-col-filler {
+    margin-bottom: 13.2em;
+}
+
+div.genre-selector input {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    border-radius: 3px;
+    moz-border-radius: 3px;
+    border: 1px solid #DEDEDE;
+    font-size: 16px;
+    width: 170px;
+    height: 25px;
+    padding: 0px 5px;
+    margin-top: 7px;
+}
+
+div.genre-selector h2 {
+    font-weight: bold;
+}
+
+.ui-autocomplete-loading {
+    background: white url("/images/ui-anim_basic_16x16.gif") right center no-repeat !important;
+}
+
+.ui-autocomplete {
+    max-height: 116px !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    font-size: 14px !important;
+}
+
+.ui-widget {
+    max-width: 180px;
+}
+
+span.genre-label {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+span.genre-song-label {
+    font-style: italic;
+}
+
+a.genre-submit {
+    font-weight: bold;
+    color: #095F90;
+}
+
+a.genre-cancel {
+    color: #888;
 }

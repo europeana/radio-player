@@ -24,7 +24,7 @@ foreach ($genres as $genre) {
         foreach ($genre->bindings as $genreEntity) {
             // make sure we only use genres with an English label
             if (isset($genreEntity->label)) {
-                $genreList[] = array('uri' => $genreEntity->genre->value, 'label' => $genreEntity->label->value);
+                $genreList[] = array('value' => $genreEntity->genre->value, 'label' => $genreEntity->label->value);
             }
         }
     }
