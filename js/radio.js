@@ -20,7 +20,7 @@ var urlStations     = dataHost + '/stations.json'
 
 var activeChannel   = 0;
 var channels        = [];
-var sequence        = new Array(1,1);
+var sequence        = 0;
 var playCount       = 0;
 var jingleInterval  = 5;
 
@@ -50,8 +50,6 @@ $(document).ready(function() {
   });
 
   resetCover();
-
-  log('document.referrer = ' + document.location.href);
 
   var paramGenre       = getURLParameter('genre');
   var paramInstitution = getURLParameter('institution');
@@ -107,19 +105,13 @@ $(document).ready(function() {
   }
 
   $(document).on('click', '.station-select', function(e){
-
     e.preventDefault();
 
     var $tgt = $(e.target);
-
     $('.station-select').removeClass('active');
 
     $tgt.addClass('active');
-
-    log('click detected: ' + $tgt.data('index'));
-
     setChannel($tgt.data('index'));
-
   });
 
   genreTagging();
@@ -158,10 +150,7 @@ function loadChannels(url, callback) {
     $.each(data.stations, function(i, station) {
       channels.push(station);
       addMenuItem(station.name, i);
-
-//      sequence[index] = Math.floor((Math.random() * station.totalResults) + 1);
-//      channelUrls[index] = station.link;
-      log('Added channel '  + station.name + ' (' + station.totalResults + ' tunes), setting start sequence to: ');// + sequence[index]);
+      log('Added channel '  + station.name + ' (' + station.totalResults + ' tunes)');
     });
 
     if(callback){
@@ -206,6 +195,21 @@ $('.radio-selector div').on('click', function() {
   shuffleTrack();
 });
 
+function applyMarquee(){
+
+  $('.now-playing-title').removeClass('marquee')
+  $('.now-playing-title').removeAttr('style')
+
+  var w1    = $('.now-playing-title').outerWidth();
+  var w2    = $('.rights').outerWidth();
+  var w3    = $('#top-header').outerWidth();
+
+  if(w1 + w2 > w3){
+    $('.now-playing-title').addClass('marquee')
+    $('.now-playing-title').css('width', ((w3 - w2) - 17) + 'px');
+  }
+}
+
 // Get a new track
 function shuffleTrack() {
   if (!active) {
@@ -214,8 +218,8 @@ function shuffleTrack() {
     active = true;
   }
 
-  sequence[activeChannel]++;
-  sequence[activeChannel] = 0;
+  sequence ++;
+  sequence = sequence > channels[activeChannel].totalResults ? 0 : sequence;
 
   // Hide some elements..
   $('.rights').hide();
@@ -254,10 +258,9 @@ function shuffleTrack() {
     log(JSON.stringify(song));
     Amplitude.playNow(song);
     playCount++;
-    return true;
   }
   else{
-    $.get(channels[activeChannel].link + '?rows=1&start=' + sequence[activeChannel], function (data) {
+    $.get(channels[activeChannel].link + '?rows=1&start=' + sequence, function (data) {
 
       var track = data.station.playlist[0];
       var song = {
@@ -278,6 +281,10 @@ function shuffleTrack() {
       try {
         Amplitude.playNow(song);
         playCount++;
+
+        setTimeout(function(){
+          applyMarquee();
+        }, 10);
       }
       catch (e) {
         log('Error ' + e);
