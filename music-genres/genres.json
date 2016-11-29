@@ -1,1 +1,4122 @@
-[{"value":"http:\/\/www.wikidata.org\/entity\/Q272167","label":"shoegazing"},{"value":"http:\/\/www.wikidata.org\/entity\/Q274401","label":"Oi!"},{"value":"http:\/\/www.wikidata.org\/entity\/Q76092","label":"glam rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q83270","label":"hard rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q622871","label":"psychedelic trance"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1228230","label":"Dirty House"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1253172","label":"Southern hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1262781","label":"Dub techno"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1266967","label":"Musical development"},{"value":"http:\/\/www.wikidata.org\/entity\/Q639197","label":"instrumental"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1242484","label":"Doomcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1252451","label":"Montuno"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1265067","label":"Dumka"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1262697","label":"Mento"},{"value":"http:\/\/www.wikidata.org\/entity\/Q622688","label":"Andean New Age"},{"value":"http:\/\/www.wikidata.org\/entity\/Q640097","label":"electric blues"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1243254","label":"Lento Violento"},{"value":"http:\/\/www.wikidata.org\/entity\/Q627906","label":"electro house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1271752","label":"Texas blues"},{"value":"http:\/\/www.wikidata.org\/entity\/Q896513","label":"Hamburger Schule"},{"value":"http:\/\/www.wikidata.org\/entity\/Q892958","label":"Boogaloo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q899116","label":"Neoclassical Dark Wave"},{"value":"http:\/\/www.wikidata.org\/entity\/Q903425","label":"trio sonata"},{"value":"http:\/\/www.wikidata.org\/entity\/Q906647","label":"Dixieland"},{"value":"http:\/\/www.wikidata.org\/entity\/Q888612","label":"deathgrind"},{"value":"http:\/\/www.wikidata.org\/entity\/Q898530","label":"Wagnerian rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q83440","label":"country music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q85477","label":"oratorio"},{"value":"http:\/\/www.wikidata.org\/entity\/Q655514","label":"freestyle music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q649823","label":"country blues"},{"value":"http:\/\/www.wikidata.org\/entity\/Q650316","label":"drone music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q658334","label":"barcarolle"},{"value":"http:\/\/www.wikidata.org\/entity\/Q649634","label":"progressive folk music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q131269","label":"sonata"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1413061","label":"tropic\u00e1lia"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1399695","label":"Chicano rap"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1425111","label":"Western music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1391336","label":"comedy rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1403744","label":"electro-industrial"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1418683","label":"kay\u014dkyoku"},{"value":"http:\/\/www.wikidata.org\/entity\/Q325397","label":"indietronica"},{"value":"http:\/\/www.wikidata.org\/entity\/Q325504","label":"electronic rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q336567","label":"Afro\/Cosmic music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q327547","label":"cool jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q646679","label":"Neue Deutsche Welle"},{"value":"http:\/\/www.wikidata.org\/entity\/Q647653","label":"Divertimento"},{"value":"http:\/\/www.wikidata.org\/entity\/Q641357","label":"avant-garde metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q959583","label":"Schlager"},{"value":"http:\/\/www.wikidata.org\/entity\/Q963369","label":"vispop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q965834","label":"Znamenny chant"},{"value":"http:\/\/www.wikidata.org\/entity\/Q961146","label":"Chilena"},{"value":"http:\/\/www.wikidata.org\/entity\/Q963061","label":"Highlife"},{"value":"http:\/\/www.wikidata.org\/entity\/Q966564","label":"Hardcore hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q965635","label":"Underground hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q660984","label":"intelligent dance music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q662791","label":"Arioso"},{"value":"http:\/\/www.wikidata.org\/entity\/Q663519","label":"breakbeat"},{"value":"http:\/\/www.wikidata.org\/entity\/Q659599","label":"art punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q661651","label":"show tune"},{"value":"http:\/\/www.wikidata.org\/entity\/Q370778","label":"twee pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q341395","label":"Acid techno"},{"value":"http:\/\/www.wikidata.org\/entity\/Q370515","label":"New Wave of British Heavy Metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q371745","label":"Timba"},{"value":"http:\/\/www.wikidata.org\/entity\/Q372103","label":"electronic body music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q339906","label":"happy hardcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1275972","label":"Raggacore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1273641","label":"Punk pathetique"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1299260","label":"Roots reggae"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1298934","label":"synthpop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1317816","label":"indie folk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q310871","label":"Lowercase"},{"value":"http:\/\/www.wikidata.org\/entity\/Q320592","label":"Krautrock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q316930","label":"dance music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1071873","label":"Chicago blues"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1076092","label":"technical death metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1065742","label":"religious music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1071961","label":"Chicago house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q989478","label":"sensitive style"},{"value":"http:\/\/www.wikidata.org\/entity\/Q968165","label":"Brukdown"},{"value":"http:\/\/www.wikidata.org\/entity\/Q969663","label":"Political hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q973150","label":"Mandopop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q967654","label":"Neurofunk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q968730","label":"Industrial rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q972424","label":"old-time music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q719927","label":"symphonic rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q720959","label":"Sludge metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q700423","label":"Austropop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q703778","label":"neo-psychedelia"},{"value":"http:\/\/www.wikidata.org\/entity\/Q284543","label":"ethereal wave"},{"value":"http:\/\/www.wikidata.org\/entity\/Q290869","label":"Son montuno"},{"value":"http:\/\/www.wikidata.org\/entity\/Q302401","label":"Punkabilly"},{"value":"http:\/\/www.wikidata.org\/entity\/Q283405","label":"Punta"},{"value":"http:\/\/www.wikidata.org\/entity\/Q302987","label":"Chorale prelude"},{"value":"http:\/\/www.wikidata.org\/entity\/Q286080","label":"acoustic music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q282131","label":"merengue music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1541229","label":"American folk music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1585015","label":"UK hard house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1548170","label":"musical comedy"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1545707","label":"album leaf"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1564596","label":"Taarab"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1567032","label":"Southern soul"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1574985","label":"vallenato"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1537056","label":"Light music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1538765","label":"Gothabilly"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1585075","label":"breakbeat hardcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1113204","label":"Dub poetry"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1123745","label":"Glam punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1100989","label":"glitch"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1109947","label":"Ragga hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1127539","label":"Delta blues"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1102161","label":"oldschool jungle"},{"value":"http:\/\/www.wikidata.org\/entity\/Q131425","label":"visual kei"},{"value":"http:\/\/www.wikidata.org\/entity\/Q131272","label":"soul music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q153071","label":"Polka"},{"value":"http:\/\/www.wikidata.org\/entity\/Q930592","label":"Italo dance"},{"value":"http:\/\/www.wikidata.org\/entity\/Q910606","label":"Music of Brittany"},{"value":"http:\/\/www.wikidata.org\/entity\/Q915152","label":"progressive house music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q916387","label":"exotica"},{"value":"http:\/\/www.wikidata.org\/entity\/Q932977","label":"Crossover thrash"},{"value":"http:\/\/www.wikidata.org\/entity\/Q928825","label":"Garage house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q138020","label":"French hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q140544","label":"toccata"},{"value":"http:\/\/www.wikidata.org\/entity\/Q135637","label":"chiptune"},{"value":"http:\/\/www.wikidata.org\/entity\/Q178145","label":"gothic metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1430587","label":"minimal techno"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1432934","label":"Paisley Underground"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1425661","label":"folk punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1431327","label":"Pub rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1433387","label":"drone metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1435509","label":"Folktronica"},{"value":"http:\/\/www.wikidata.org\/entity\/Q726239","label":"noise music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q723418","label":"Cumbia"},{"value":"http:\/\/www.wikidata.org\/entity\/Q724755","label":"Early hardcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q721644","label":"Da capo aria"},{"value":"http:\/\/www.wikidata.org\/entity\/Q725011","label":"neo-classical metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q105527","label":"jazz fusion"},{"value":"http:\/\/www.wikidata.org\/entity\/Q105513","label":"bebop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1055871","label":"J-Rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1051735","label":"Soca music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1054490","label":"Ce\u00f2l Beag"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1060475","label":"Chamam\u00e9"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1062400","label":"chanson"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1051843","label":"neo-progressive rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q740911","label":"ragga"},{"value":"http:\/\/www.wikidata.org\/entity\/Q752785","label":"Calypso music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q744417","label":"Italo disco"},{"value":"http:\/\/www.wikidata.org\/entity\/Q747717","label":"heartland rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1078010","label":"martial industrial"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1076513","label":"choral music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1076539","label":"choro"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1090048","label":"Chutney music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1092553","label":"Celtic fusion"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1092837","label":"post-bop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1078286","label":"military band"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1027999","label":"Vocal trance"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1033912","label":"Hard dance"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1045984","label":"Sonatina"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1026089","label":"Cajun music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1045541","label":"g-funk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q997481","label":"bubblegum pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q373342","label":"popular music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q373982","label":"Logobi"},{"value":"http:\/\/www.wikidata.org\/entity\/Q377910","label":"post-hardcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q378988","label":"adult contemporary music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q943929","label":"folk song"},{"value":"http:\/\/www.wikidata.org\/entity\/Q936573","label":"Crunk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q935586","label":"Liturgical music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q956883","label":"Carnatic music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q936942","label":"post-industrial music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q949369","label":"Funky house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q388383","label":"partita"},{"value":"http:\/\/www.wikidata.org\/entity\/Q389631","label":"Jumpstyle"},{"value":"http:\/\/www.wikidata.org\/entity\/Q420883","label":"Homo hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q388906","label":"hardcore techno"},{"value":"http:\/\/www.wikidata.org\/entity\/Q170435","label":"trance"},{"value":"http:\/\/www.wikidata.org\/entity\/Q164444","label":"funk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1460303","label":"Funkstep"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1470503","label":"Semba"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1437709","label":"Canci\u00f3n"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1457545","label":"Pagan metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1455292","label":"French house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1443316","label":"Christmas music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1455487","label":"Frenchcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q183504","label":"indie rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q182659","label":"ballad"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1133657","label":"traditional heavy metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1136331","label":"Nu jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1136045","label":"Wonky"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1139136","label":"Horrorcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1132152","label":"math rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1374731","label":"Euro disco"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1379958","label":"contemporary Christian music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1323698","label":"Indian classical music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1378776","label":"music of Ireland"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1371364","label":"ethno jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1621467","label":"symphonic black metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1627155","label":"Honky-tonk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1620079","label":"Hipster hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1606591","label":"reggae fusion"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1610196","label":"French organ school"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1636684","label":"y\u00e9-y\u00e9"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1615483","label":"soul jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q667659","label":"funk metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q682417","label":"Sogak"},{"value":"http:\/\/www.wikidata.org\/entity\/Q669738","label":"Yass"},{"value":"http:\/\/www.wikidata.org\/entity\/Q674684","label":"Sevdalinka"},{"value":"http:\/\/www.wikidata.org\/entity\/Q689519","label":"Pachelbel's Canon"},{"value":"http:\/\/www.wikidata.org\/entity\/Q677542","label":"Riot grrrl"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1817297","label":"Nangma"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1872505","label":"Lovers rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1780056","label":"Norte\u00f1o"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1775316","label":"Progg"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1784032","label":"Viking rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1784106","label":"Powerviolence"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1798870","label":"pagan folk music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1785243","label":"Long song"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1840167","label":"Witch house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1773654","label":"Country folk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1868278","label":"Depressive Suicidal Black Metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q132438","label":"black metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q131578","label":"J-pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1661583","label":"Percussion"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1730388","label":"Western swing"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1735204","label":"Cassation"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1754592","label":"nerdcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1756101","label":"nu skool breaks"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1752683","label":"Soukous"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1752801","label":"Rock in Opposition"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1661924","label":"industrial dance"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1692318","label":"modinha"},{"value":"http:\/\/www.wikidata.org\/entity\/Q185676","label":"Fado"},{"value":"http:\/\/www.wikidata.org\/entity\/Q186170","label":"doom metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q727781","label":"Latin American music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q739138","label":"teen pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q727634","label":"Ranchera"},{"value":"http:\/\/www.wikidata.org\/entity\/Q728579","label":"Balwo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q384064","label":"African Gospel"},{"value":"http:\/\/www.wikidata.org\/entity\/Q383982","label":"psychedelic pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q388296","label":"afrobeat"},{"value":"http:\/\/www.wikidata.org\/entity\/Q384181","label":"Freestyle rap"},{"value":"http:\/\/www.wikidata.org\/entity\/Q383615","label":"Street punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q379671","label":"post-grunge"},{"value":"http:\/\/www.wikidata.org\/entity\/Q178580","label":"period"},{"value":"http:\/\/www.wikidata.org\/entity\/Q181010","label":"hard bop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1190485","label":"post-disco"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1190565","label":"jangle pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1166726","label":"grime"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1182371","label":"Deep Funk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q180268","label":"gospel music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1181308","label":"death 'n' roll"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1185390","label":"disco polo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q781470","label":"Intermezzo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q783243","label":"Australian hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q773880","label":"bitpop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q775614","label":"neofolk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q780517","label":"speed garage"},{"value":"http:\/\/www.wikidata.org\/entity\/Q783097","label":"college rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q181014","label":"fugue"},{"value":"http:\/\/www.wikidata.org\/entity\/Q181861","label":"noise rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q174873","label":"cantata"},{"value":"http:\/\/www.wikidata.org\/entity\/Q170611","label":"techno"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1046768","label":"M\u00fasica Popular Brasileira"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1046920","label":"D\u014djin music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1046838","label":"New Wave of American Heavy Metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1046801","label":"turntablism"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1958273","label":"M\u00fasica sertaneja"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1983116","label":"New York hardcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1987980","label":"Breakstep"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1928583","label":"Northern soul"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1913888","label":"Power noise"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1936659","label":"Nederpop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1929352","label":"roots rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1939197","label":"T\u00fcrk\u00fc"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1982973","label":"New wave of new wave"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1931555","label":"microhouse"},{"value":"http:\/\/www.wikidata.org\/entity\/Q183862","label":"metalcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1640319","label":"experimental music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1641839","label":"experimental rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1646666","label":"mambo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1643549","label":"dance-punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1650296","label":"instrumental rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q446241","label":"Neo-Medieval music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q454071","label":"German hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q447962","label":"Swing revival"},{"value":"http:\/\/www.wikidata.org\/entity\/Q429264","label":"West Coast hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q438476","label":"alternative country"},{"value":"http:\/\/www.wikidata.org\/entity\/Q431415","label":"Tejano music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q438503","label":"alternative hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1472271","label":"pastorale"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1500364","label":"Psychedelic folk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1500983","label":"Sprechgesang"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1515757","label":"jump blues"},{"value":"http:\/\/www.wikidata.org\/entity\/Q186472","label":"folk rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1477428","label":"M-Base"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1530455","label":"vocal jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q186393","label":"counterpoint"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1507298","label":"lo-fi music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q460674","label":"Ska punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q464129","label":"Mariachi"},{"value":"http:\/\/www.wikidata.org\/entity\/Q464769","label":"rhapsody"},{"value":"http:\/\/www.wikidata.org\/entity\/Q455686","label":"samba reggae"},{"value":"http:\/\/www.wikidata.org\/entity\/Q817138","label":"electronica"},{"value":"http:\/\/www.wikidata.org\/entity\/Q808108","label":"Bar form"},{"value":"http:\/\/www.wikidata.org\/entity\/Q822914","label":"Christian metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q820049","label":"mainstream hardcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q205560","label":"trip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q206159","label":"psychedelic rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1141081","label":"lounge music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1141686","label":"Galante music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1147692","label":"goregrind"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1151260","label":"D-beat"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1151776","label":"Sonata rondo form"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1140291","label":"Wedding music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2109360","label":"Danza"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2187392","label":"alternative dance"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2249365","label":"Kawina"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2238236","label":"Christian hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2256407","label":"hip hop soul"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2265866","label":"brutal death metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2097664","label":"Indorock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2106887","label":"Psychedelic hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2104067","label":"Pop-Jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q185298","label":"a cappella"},{"value":"http:\/\/www.wikidata.org\/entity\/Q185652","label":"ragtime"},{"value":"http:\/\/www.wikidata.org\/entity\/Q483251","label":"death metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q475221","label":"deathcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q481900","label":"acid trance"},{"value":"http:\/\/www.wikidata.org\/entity\/Q756956","label":"dark ambient"},{"value":"http:\/\/www.wikidata.org\/entity\/Q757143","label":"Chill-out music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q753520","label":"Christian rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q753679","label":"Gangsta rap"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1193859","label":"binary form"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1195015","label":"Ternary form"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1191544","label":"Kuduro"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1192110","label":"C-pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1195253","label":"Sea shanty"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1195630","label":"Canzone Napoletana"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1162475","label":"N\u00f3ta"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1164847","label":"dansband"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1166218","label":"Dark rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2035976","label":"Nintendocore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2047814","label":"Palingsound"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1164252","label":"Deathrock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1165777","label":"UK garage"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1166321","label":"Darkstep"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1166197","label":"dark metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1989725","label":"Nigun"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1995569","label":"thrashcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2043175","label":"hyphy"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2045695","label":"shock rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2004156","label":"Industrial hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2038317","label":"New prog"},{"value":"http:\/\/www.wikidata.org\/entity\/Q193207","label":"ambient music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q193217","label":"madrigal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q788460","label":"Bagatelle"},{"value":"http:\/\/www.wikidata.org\/entity\/Q784310","label":"electro hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q787663","label":"Guajira"},{"value":"http:\/\/www.wikidata.org\/entity\/Q786815","label":"Turbo-folk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q790188","label":"avant-garde jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q203005","label":"suite"},{"value":"http:\/\/www.wikidata.org\/entity\/Q202930","label":"reggaeton"},{"value":"http:\/\/www.wikidata.org\/entity\/Q486415","label":"symphonic metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q486365","label":"anarcho-punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q486263","label":"bossa nova"},{"value":"http:\/\/www.wikidata.org\/entity\/Q485395","label":"gothic rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q835131","label":"Goa trance"},{"value":"http:\/\/www.wikidata.org\/entity\/Q831354","label":"smooth jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q832665","label":"Hard trance"},{"value":"http:\/\/www.wikidata.org\/entity\/Q834959","label":"Samba rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q830325","label":"horror punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q474027","label":"dancehall"},{"value":"http:\/\/www.wikidata.org\/entity\/Q465978","label":"extreme metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q469343","label":"British hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1890098","label":"New Beat"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1899347","label":"post-punk revival"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1891685","label":"Russian chanson"},{"value":"http:\/\/www.wikidata.org\/entity\/Q848457","label":"Speedcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q846833","label":"Crossover jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q846119","label":"psychedelic music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q848399","label":"easy listening"},{"value":"http:\/\/www.wikidata.org\/entity\/Q188450","label":"electropop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q187760","label":"new wave music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q858579","label":"big beat"},{"value":"http:\/\/www.wikidata.org\/entity\/Q860196","label":"Bikutsi"},{"value":"http:\/\/www.wikidata.org\/entity\/Q864605","label":"Biomusic"},{"value":"http:\/\/www.wikidata.org\/entity\/Q861823","label":"Electroclash"},{"value":"http:\/\/www.wikidata.org\/entity\/Q856872","label":"rap metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q836571","label":"fantasia"},{"value":"http:\/\/www.wikidata.org\/entity\/Q837389","label":"Latin jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q208239","label":"salsa music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q208494","label":"industrial metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q835891","label":"funk rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q837837","label":"power pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q503354","label":"Christmas carol"},{"value":"http:\/\/www.wikidata.org\/entity\/Q493169","label":"children's song"},{"value":"http:\/\/www.wikidata.org\/entity\/Q500879","label":"Reggae en Espa\u00f1ol"},{"value":"http:\/\/www.wikidata.org\/entity\/Q502535","label":"Morna"},{"value":"http:\/\/www.wikidata.org\/entity\/Q497957","label":"Nueva trova"},{"value":"http:\/\/www.wikidata.org\/entity\/Q502886","label":"Madchester"},{"value":"http:\/\/www.wikidata.org\/entity\/Q484344","label":"progressive metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q484641","label":"pop rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q483352","label":"thrash metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q484179","label":"folk metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q203775","label":"swing music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q205049","label":"world music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q203720","label":"rockabilly"},{"value":"http:\/\/www.wikidata.org\/entity\/Q202919","label":"berceuse"},{"value":"http:\/\/www.wikidata.org\/entity\/Q196999","label":"Zeuhl"},{"value":"http:\/\/www.wikidata.org\/entity\/Q199415","label":"Ziglibithy"},{"value":"http:\/\/www.wikidata.org\/entity\/Q193355","label":"blues rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q202925","label":"tribal house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q542703","label":"melodic hardcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q526463","label":"Detroit techno"},{"value":"http:\/\/www.wikidata.org\/entity\/Q535611","label":"Neoclassicism"},{"value":"http:\/\/www.wikidata.org\/entity\/Q546264","label":"beat music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q546359","label":"doo-wop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q547137","label":"Latin pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q572901","label":"minimal music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q885561","label":"blue-eyed soul"},{"value":"http:\/\/www.wikidata.org\/entity\/Q888137","label":"skweee"},{"value":"http:\/\/www.wikidata.org\/entity\/Q877693","label":"rap rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q213121","label":"New Age music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q213149","label":"Viking metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q212952","label":"boogie-woogie"},{"value":"http:\/\/www.wikidata.org\/entity\/Q188534","label":"grindcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q188539","label":"glam metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2529400","label":"urban contemporary"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2545135","label":"Noise pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2568406","label":"Postmodern music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2551540","label":"Punk blues"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2572585","label":"pop-rap"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2532560","label":"Djent"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2537800","label":"Bozlak"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2526653","label":"Mainstream rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2407862","label":"Americana"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2404568","label":"freak folk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2516031","label":"Sawt"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2517263","label":"Midwest hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2426383","label":"crunkcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2420447","label":"trova"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2465085","label":"ambient house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2461933","label":"sunshine pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q517415","label":"Europop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2084353","label":"electronicore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2064394","label":"Worldbeat"},{"value":"http:\/\/www.wikidata.org\/entity\/Q515074","label":"Louisiana blues"},{"value":"http:\/\/www.wikidata.org\/entity\/Q512410","label":"Qawwali"},{"value":"http:\/\/www.wikidata.org\/entity\/Q504635","label":"crossover"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2089511","label":"death-doom"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2076779","label":"Bubblegum dance"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2082572","label":"liquid funk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2087267","label":"La\u00efko"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2090023","label":"Piano rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q223840","label":"hardstyle"},{"value":"http:\/\/www.wikidata.org\/entity\/Q235858","label":"folk music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q227045","label":"Zouk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q221772","label":"acid jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2280497","label":"country pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2324411","label":"geek rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2268922","label":"Cowpunk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2281409","label":"dance-rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2296495","label":"garage punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2302695","label":"Tech trance"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2280273","label":"mod revival"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2266376","label":"boogie rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q268253","label":"neo soul"},{"value":"http:\/\/www.wikidata.org\/entity\/Q264289","label":"sophisti-pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q189045","label":"Britpop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q188994","label":"drum and bass"},{"value":"http:\/\/www.wikidata.org\/entity\/Q873000","label":"canzone"},{"value":"http:\/\/www.wikidata.org\/entity\/Q876171","label":"East Coast hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q874038","label":"deep house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q868855","label":"old-school hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3310676","label":"Boeremusiek"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3111428","label":"gospel blues"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3163340","label":"Afro-Cuban jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3296134","label":"Wizard rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3321920","label":"Flamenco rumba"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3328590","label":"French Baroque music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3106448","label":"Zamba"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3116754","label":"Grindie"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3191713","label":"Kacapi suling"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3307225","label":"progressive bluegrass"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3117305","label":"Group Sounds"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3091180","label":"Shashmaqam"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3231749","label":"post-Britpop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q209137","label":"post-rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q209534","label":"scherzo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q839029","label":"Ra\u00ef"},{"value":"http:\/\/www.wikidata.org\/entity\/Q842324","label":"indie pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q840065","label":"New jack swing"},{"value":"http:\/\/www.wikidata.org\/entity\/Q844245","label":"Gypsy jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3724735","label":"Emo pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3840596","label":"dark wave"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3930216","label":"rapcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3709211","label":"Dirty rap"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3797148","label":"In Nomine"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3868755","label":"Mutu"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3908370","label":"pop metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3699386","label":"Cumbia rap"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3658336","label":"New Orleans rhythm and blues"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3827483","label":"Latin hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3868787","label":"muziki wa dansi"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3644819","label":"cello rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2336819","label":"operatic pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2342263","label":"Space music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2343562","label":"coldwave"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2344472","label":"Taqwacore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2346991","label":"Bass music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2374619","label":"UK hardcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2332751","label":"avant-garde music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2337447","label":"Meditation music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2389651","label":"children's music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q236932","label":"acid rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q236913","label":"space rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q616679","label":"Mathcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q617240","label":"stoner rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q851213","label":"electronic dance music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q850412","label":"contemporary R&B"},{"value":"http:\/\/www.wikidata.org\/entity\/Q848852","label":"Eurobeat"},{"value":"http:\/\/www.wikidata.org\/entity\/Q214981","label":"variation"},{"value":"http:\/\/www.wikidata.org\/entity\/Q213714","label":"bluegrass music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q828243","label":"futurepop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q825769","label":"Crust punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q823080","label":"No Wave"},{"value":"http:\/\/www.wikidata.org\/entity\/Q828305","label":"Skate punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q213572","label":"Neue Deutsche H\u00e4rte"},{"value":"http:\/\/www.wikidata.org\/entity\/Q213665","label":"K-pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q220830","label":"Surf music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q217597","label":"electro"},{"value":"http:\/\/www.wikidata.org\/entity\/Q220528","label":"Rebetiko"},{"value":"http:\/\/www.wikidata.org\/entity\/Q853873","label":"Cantopop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q854451","label":"Celtic music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q854844","label":"Bhangra"},{"value":"http:\/\/www.wikidata.org\/entity\/Q852767","label":"Southern rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q211723","label":"speed metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q211573","label":"garage rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q212944","label":"klezmer"},{"value":"http:\/\/www.wikidata.org\/entity\/Q212688","label":"dub"},{"value":"http:\/\/www.wikidata.org\/entity\/Q487914","label":"pop punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q487965","label":"industrial music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q211025","label":"march"},{"value":"http:\/\/www.wikidata.org\/entity\/Q210216","label":"Concerto grosso"},{"value":"http:\/\/www.wikidata.org\/entity\/Q239459","label":"trip rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q251192","label":"downtempo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q245296","label":"Zydeco"},{"value":"http:\/\/www.wikidata.org\/entity\/Q250765","label":"Isorhythm"},{"value":"http:\/\/www.wikidata.org\/entity\/Q241662","label":"groove metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1196752","label":"traditional pop music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1200012","label":"Potpourri"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1207347","label":"Shibuya-kei"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5433431","label":"Famo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5119040","label":"Ch\u1ea7u v\u0103n"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5149108","label":"Colossal Baroque"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5177472","label":"Country and Irish"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5393053","label":"Filin"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5466607","label":"Footwork"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5397405","label":"Tamunangue"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5445668","label":"Festejo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5449125","label":"Filmi pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5510816","label":"Future garage"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5520018","label":"Gamelan salendro"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5618068","label":"Gumbe"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5442427","label":"Fell"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5569994","label":"Bai\u00e3o"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5118358","label":"Chut-kai-pang"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5332963","label":"Eclecticism in music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5437134","label":"Fas\u0131l"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5464445","label":"folk baroque"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5520007","label":"Gamelan Siteran"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5520013","label":"Gamelan gambang"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5520021","label":"Gamelan selunding"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5654316","label":"Harawi"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5116146","label":"Chumba"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5150913","label":"Combined rhythm"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5158522","label":"Concert march"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5347034","label":"Eefing"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5464476","label":"Folk rhythm"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5484486","label":"Franco-country"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5520012","label":"Gamelan bebonangan"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5529053","label":"Gazel"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5583956","label":"Goombay"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5625934","label":"G\u00e5ngl\u00e5t"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5515214","label":"Gaana"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5151790","label":"Comic song"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5158538","label":"Concerted madrigal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5208151","label":"Daechwita"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5244903","label":"De dragoste"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5276393","label":"Dihanaam"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5369664","label":"Hyangak"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5449126","label":"Filmi qawwali"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5477103","label":"Foxcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5520004","label":"Gamelan Gadhon"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5581134","label":"Gombhira"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5587421","label":"Gospel reggae"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5421158","label":"experimental hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q585588","label":"Khaliji"},{"value":"http:\/\/www.wikidata.org\/entity\/Q598929","label":"post-punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q592330","label":"dream pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q574651","label":"anti-folk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q590662","label":"Bend-skin"},{"value":"http:\/\/www.wikidata.org\/entity\/Q598593","label":"tech house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q573484","label":"rocksteady"},{"value":"http:\/\/www.wikidata.org\/entity\/Q260095","label":"Ultra"},{"value":"http:\/\/www.wikidata.org\/entity\/Q252833","label":"Volksmusik"},{"value":"http:\/\/www.wikidata.org\/entity\/Q263524","label":"Tswana music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2662148","label":"Celtic rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2702280","label":"Italo house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q253918","label":"melodic death metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2668052","label":"Dutch-language music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q263734","label":"nu metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2607836","label":"Freakbeat"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2616514","label":"Verse-chorus form"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2624785","label":"Russian rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2640307","label":"Hardstep"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2607454","label":"Christian hardcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2656325","label":"Toeshey"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2626684","label":"chillwave"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2697917","label":"go-go"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2961759","label":"Moroccan chaabi"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2988851","label":"Finnish rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2991840","label":"Snap music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3032212","label":"Diva house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3048168","label":"M\u00e1kina"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3069904","label":"Porro"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3090876","label":"Funan\u00e1"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2932658","label":"Cadence-lypso"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2963621","label":"chillstep"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2961766","label":"Algerian chaabi"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2961763","label":"chaabi"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3008180","label":"Cybergrind"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3066180","label":"Bouncy techno"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3084222","label":"Hardtechno"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2956468","label":"Chaoui music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2994332","label":"Rock en espa\u00f1ol"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3083000","label":"kan ha diskan"},{"value":"http:\/\/www.wikidata.org\/entity\/Q211756","label":"dance-pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q212024","label":"Negro spiritual"},{"value":"http:\/\/www.wikidata.org\/entity\/Q211781","label":"free jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3346909","label":"Bhatiali"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3360459","label":"Pagode"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3437876","label":"Slovenian rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3575673","label":"Zoblazo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3622181","label":"Tonadilla"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3631657","label":"A\u1e63\u00edk\u00f2"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3422697","label":"Red Dirt"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3408409","label":"\u010calgija"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3437841","label":"French rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3476584","label":"Chicago hardcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3477737","label":"Seggae"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3517436","label":"Tembang Sunda"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3328764","label":"Thai pop music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3334664","label":"Naattupurapaattu"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3337361","label":"Nayda"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3347279","label":"N\u00f2va can\u00e7on"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3397882","label":"Progressive pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3410876","label":"Punta rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3470607","label":"Sama'i"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3630966","label":"avant-prog"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6367434","label":"Kar"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5729641","label":"Blackcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6694797","label":"Lu"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6037387","label":"Insertion aria"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6319299","label":"Jw\u00e9"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6378419","label":"Katuli"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6537469","label":"Lewoz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6665245","label":"Phleng Thai sakon"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6874634","label":"Mirror fugue"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6941940","label":"Music in Rostov Oblast"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942103","label":"Music of Guangxi"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942132","label":"Music of Jilin"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942144","label":"Music of Krasnoyarsk Krai"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942152","label":"Music of Limousin"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5876772","label":"Hofii"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6003760","label":"Imene metua"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6130346","label":"slam death metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6421060","label":"Kliningan"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6450040","label":"Kwakwaka'wakw music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6496549","label":"Latin soul"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6658771","label":"Livetronica"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6941926","label":"Music in Ingushetia"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6941939","label":"Music in Nenets Autonomous Okrug"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6941941","label":"Music in Tatarstan"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6941968","label":"Music in the Udmurt Republic"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942024","label":"Music of British Columbia"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5765288","label":"Himene tarava"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5881246","label":"Holler Blues"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6073487","label":"Iroquois music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6348907","label":"Kajari"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6480726","label":"Lam saravane"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6480724","label":"Lam luang"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6496560","label":"Latin ballad"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6543501","label":"Oppari"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6689665","label":"Lounge rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6941917","label":"Music in Dagestan"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6941928","label":"Music in Khakassia"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942106","label":"Music of Guizhou"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942117","label":"Music of Hubei"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5655695","label":"Hardbag"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5769376","label":"Hiranaam"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5884805","label":"Holubka"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6003762","label":"Imene tuki"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6188299","label":"Jesus music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6202259","label":"Jing ping"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6366462","label":"Kapanirong"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6394780","label":"Kertok"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6400461","label":"Khaplam wai"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6410606","label":"Kindie rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6727621","label":"Madhya laya"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6772364","label":"Maroon music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6868046","label":"Minneapolis sound"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6874626","label":"Mirror canon"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6941930","label":"Music in Krasnodar Krai"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6941960","label":"Music in the Komi Republic"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6941990","label":"Music of Alberta"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942115","label":"Music of Henan"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942113","label":"Music of Hebei"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942123","label":"Music of Innsbruck"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942131","label":"Music of Jiangxi"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942129","label":"Music of Jharkhand"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942133","label":"Music of Kalmykia"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942213","label":"Music of Navarre and La Rioja"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942300","label":"Music of Transylvania"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942329","label":"Music of West Africa"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7042753","label":"No-Fi"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7088779","label":"Oltului"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7225887","label":"Polo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7236499","label":"Power duo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7253290","label":"Pryvit"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7308175","label":"Reggae rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7310665","label":"Rekuhkara"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7446911","label":"Seis"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7535166","label":"Skiladiko"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7541571","label":"Slovak folk music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7561291","label":"Songo-salsa"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7616089","label":"Sthayi"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942176","label":"Music of Melanesia"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942346","label":"Music of the Andaman and Nicobar Islands"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7005181","label":"New Acoustic Music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7060273","label":"Northwest Wind"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7067688","label":"Nu-funk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7122786","label":"Pacific reggae"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7245792","label":"Prison rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7256304","label":"Psycho Country"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7272044","label":"Quimbe"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7272829","label":"Quodlibet, BWV 524"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7321654","label":"Rhyming spiritual"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7142141","label":"Pasillo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7397641","label":"sadcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7424751","label":"Sarva"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7489094","label":"Shanto"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7676613","label":"Taiwanese hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942355","label":"Music of the Cayman Islands"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7010517","label":"New Music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7023407","label":"Nh\u1ea1c t\u00e0i t\u1eed"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7070611","label":"Nuubaat"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7132500","label":"Papare"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7190617","label":"Pichakaree"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7258480","label":"Pueblo music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7361460","label":"Rom kbach"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7405759","label":"Salsa dura"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7410295","label":"Samri"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7424508","label":"Sarpada"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7449289","label":"Semi-classical music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7560612","label":"Son calentano"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7616955","label":"Stile concitato"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7672468","label":"TV track"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6942260","label":"Music of San Marino"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6979961","label":"Native American hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7015151","label":"New Yorkshire"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7050752","label":"Nordic folk music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7053463","label":"Norsk pop & rock-leksikon"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7339037","label":"Riyaz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7542391","label":"Slutwave"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7667734","label":"T'ong guitar"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7118426","label":"alternative R&B"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2891921","label":"Batuque"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2746831","label":"Quiet storm"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2797513","label":"sainaimu"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2864671","label":"lyrical art"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2881236","label":"Ballet d'action"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2707298","label":"secular music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2884829","label":"Early Baroque music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2726026","label":"Compas"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2710523","label":"Ragga jungle"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2736181","label":"Punk jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2742436","label":"Porn groove"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2798694","label":"Marabi"},{"value":"http:\/\/www.wikidata.org\/entity\/Q2743435","label":"psychedelic soul"},{"value":"http:\/\/www.wikidata.org\/entity\/Q216860","label":"Lied"},{"value":"http:\/\/www.wikidata.org\/entity\/Q216961","label":"Eurodance"},{"value":"http:\/\/www.wikidata.org\/entity\/Q217191","label":"soft rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q599510","label":"romance"},{"value":"http:\/\/www.wikidata.org\/entity\/Q601235","label":"hip house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q602561","label":"Electro swing"},{"value":"http:\/\/www.wikidata.org\/entity\/Q602646","label":"comedy hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7920719","label":"Ver"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7678235","label":"Takht"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7676623","label":"Taiwanese rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7684951","label":"Taqtuqa"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7911938","label":"Vallenato-salsa"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7967858","label":"Wangga"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7983231","label":"Were music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q8052472","label":"Yeongsan hoesang"},{"value":"http:\/\/www.wikidata.org\/entity\/Q9016941","label":"Kantu"},{"value":"http:\/\/www.wikidata.org\/entity\/Q9095433","label":"Waka music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7801106","label":"Tierra Caliente"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7846276","label":"Tropotianka"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7901502","label":"Uruguayan punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7935998","label":"Vishnupada"},{"value":"http:\/\/www.wikidata.org\/entity\/Q8032087","label":"Wonky pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q8068441","label":"Zeelaf"},{"value":"http:\/\/www.wikidata.org\/entity\/Q10286515","label":"Melodic funk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q8273152","label":"Hutsulka"},{"value":"http:\/\/www.wikidata.org\/entity\/Q9011351","label":"jazzstep"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7687882","label":"Tatar rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7823768","label":"Ton\u00e1s"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7923265","label":"Vesnianky"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7972788","label":"Wassoulou music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q8044009","label":"Xhosa music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q8062606","label":"Y\u00fcr\u00fck semai"},{"value":"http:\/\/www.wikidata.org\/entity\/Q10354439","label":"Proibid\u00e3o"},{"value":"http:\/\/www.wikidata.org\/entity\/Q10363580","label":"cabaret rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q12845743","label":"Symphonic mugam"},{"value":"http:\/\/www.wikidata.org\/entity\/Q13059993","label":"Sari gan"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7832321","label":"traditional bluegrass"},{"value":"http:\/\/www.wikidata.org\/entity\/Q8044658","label":"Xintianyou"},{"value":"http:\/\/www.wikidata.org\/entity\/Q8072348","label":"Zindalii"},{"value":"http:\/\/www.wikidata.org\/entity\/Q13436880","label":"Funk carioca"},{"value":"http:\/\/www.wikidata.org\/entity\/Q10846275","label":"Akiba-pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q11325235","label":"neo acoustic"},{"value":"http:\/\/www.wikidata.org\/entity\/Q11319210","label":"technopop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q11660484","label":"denpa song"},{"value":"http:\/\/www.wikidata.org\/entity\/Q12811727","label":"Saz semai"},{"value":"http:\/\/www.wikidata.org\/entity\/Q14390274","label":"tango"},{"value":"http:\/\/www.wikidata.org\/entity\/Q15697534","label":"drill"},{"value":"http:\/\/www.wikidata.org\/entity\/Q15025114","label":"Blue Beat"},{"value":"http:\/\/www.wikidata.org\/entity\/Q13627677","label":"psychobilly"},{"value":"http:\/\/www.wikidata.org\/entity\/Q14493900","label":"Texas country music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q15733887","label":"Vaporwave"},{"value":"http:\/\/www.wikidata.org\/entity\/Q14559031","label":"elevator music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q15629158","label":"Medieval metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q217295","label":"mass"},{"value":"http:\/\/www.wikidata.org\/entity\/Q217467","label":"art rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4045538","label":"Nu-disco"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4088026","label":"Blatnaya Pesnya"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4490718","label":"melodic metalcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4428744","label":"Son"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4056436","label":"Bard"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4198071","label":"Hi\u00e9rodrame"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4637208","label":"4-beat"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4306617","label":"Music of Olympia"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4346887","label":"Thirty-two-bar form"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4666464","label":"Abecedarian hymn"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4006363","label":"Urban Pasifika"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4118941","label":"Mezwed"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4631020","label":"21st-century classical music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4400125","label":"runo song"},{"value":"http:\/\/www.wikidata.org\/entity\/Q1344","label":"opera"},{"value":"http:\/\/www.wikidata.org\/entity\/Q15957030","label":"Electro"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16844015","label":"Boi"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16986699","label":"Cha-cha-cha"},{"value":"http:\/\/www.wikidata.org\/entity\/Q17055317","label":"Hori"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16011708","label":"Swamp pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16148439","label":"Gaelic music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16821210","label":"Japanese jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16894831","label":"Pols"},{"value":"http:\/\/www.wikidata.org\/entity\/Q17045843","label":"Seminole music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q17128277","label":"Indoribbean Pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16208174","label":"Alkayida"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16246074","label":"Banda Sinf\u00f3nica"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16837290","label":"Balearic trance"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16844947","label":"Bosnian rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16845069","label":"Bothy band"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16977816","label":"Moroccan pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q17049926","label":"Q'axilu"},{"value":"http:\/\/www.wikidata.org\/entity\/Q17053693","label":"Merong"},{"value":"http:\/\/www.wikidata.org\/entity\/Q17065399","label":"Wong shadow"},{"value":"http:\/\/www.wikidata.org\/entity\/Q17080629","label":"beguine"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16733731","label":"Kpanlogo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q17037735","label":"Sadra"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16323732","label":"Shaabi"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16820420","label":"American march music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16844736","label":"Hopak-Kolom"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16855754","label":"Blackgaze"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16873176","label":"New Orleans soul"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16909209","label":"Ovi (music)"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16960459","label":"Dhaanto"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16965849","label":"Sawani"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16993565","label":"Afro-Peruvian music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q17004167","label":"Haitian rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16024685","label":"Afro-soul"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16029081","label":"Deuda song"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16056349","label":"Indian rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16875726","label":"Ikinimba"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16883428","label":"Music in Astrakhan Oblast"},{"value":"http:\/\/www.wikidata.org\/entity\/Q17053024","label":"Folkhop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16250593","label":"pub rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q16096634","label":"kawaii metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q18074899","label":"guitar music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q3071","label":"punk rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q6010","label":"rapping"},{"value":"http:\/\/www.wikidata.org\/entity\/Q7749","label":"rock and roll"},{"value":"http:\/\/www.wikidata.org\/entity\/Q612024","label":"contemporary classical music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q606393","label":"Hi-NRG"},{"value":"http:\/\/www.wikidata.org\/entity\/Q606089","label":"skiffle"},{"value":"http:\/\/www.wikidata.org\/entity\/Q608862","label":"anison"},{"value":"http:\/\/www.wikidata.org\/entity\/Q613408","label":"country rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q8341","label":"jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q8361","label":"Baroque music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q9730","label":"classical music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q9759","label":"blues"},{"value":"http:\/\/www.wikidata.org\/entity\/Q9794","label":"reggae"},{"value":"http:\/\/www.wikidata.org\/entity\/Q9778","label":"electronic music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4940448","label":"Bomba"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4690039","label":"African reggae"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4942839","label":"Boogie"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4846346","label":"Bassline"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4848674","label":"Baisha xiyue"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4848738","label":"Baithak Gana"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4851096","label":"Balkan jazz"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4854353","label":"Bandana thrash"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4854619","label":"Bandish"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4857249","label":"Bantowbol"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4873394","label":"Bat\u00e1-rumba"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4901492","label":"Bhavageete"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4937089","label":"Boedra"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4949812","label":"Bounce music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4965901","label":"Brick City club"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4975996","label":"Brown-eyed soul"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5033725","label":"Cantes a palo seco"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5072880","label":"Chap hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5073926","label":"Charanga-vallenata"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4897056","label":"Beste"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4841596","label":"Baggy"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4670712","label":"Abwe"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4699758","label":"Ajisari"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4736555","label":"Alternative reggaeton"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5116137","label":"Chumak"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4875789","label":"Beach music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4939163","label":"Bolel"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5015165","label":"Ca din tulnic"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5054785","label":"Cavalier song"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5063233","label":"Ceol Meadhonach"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5068130","label":"Chaiti"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4852979","label":"Baltimore club"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4863051","label":"Baroque music of the British Isles"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4936212","label":"Bocet"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4972949","label":"Broder singer"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5047036","label":"Cartageneras"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5071702","label":"Changa"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5072584","label":"Chanson pour boire"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5099460","label":"Chimurenga music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5105648","label":"Chrieng Brunh"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5113733","label":"Chromatic fantasia"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4891362","label":"Bereznianka"},{"value":"http:\/\/www.wikidata.org\/entity\/Q4950495","label":"Bouyon soca"},{"value":"http:\/\/www.wikidata.org\/entity\/Q5070237","label":"Chamrieng Samai"},{"value":"http:\/\/www.wikidata.org\/entity\/Q10922","label":"hardcore punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q11365","label":"grunge"},{"value":"http:\/\/www.wikidata.org\/entity\/Q11363","label":"screamo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q10926","label":"emo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q11366","label":"alternative rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q11399","label":"rock music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q11401","label":"hip hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q11403","label":"samba"},{"value":"http:\/\/www.wikidata.org\/entity\/Q13323","label":"rondo"},{"value":"http:\/\/www.wikidata.org\/entity\/Q20378","label":"alternative metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q20474","label":"dubstep"},{"value":"http:\/\/www.wikidata.org\/entity\/Q20502","label":"house music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q25116","label":"Argentine tango"},{"value":"http:\/\/www.wikidata.org\/entity\/Q20903","label":"Brostep"},{"value":"http:\/\/www.wikidata.org\/entity\/Q26473","label":"Gregorian chant"},{"value":"http:\/\/www.wikidata.org\/entity\/Q21092","label":"moombahton"},{"value":"http:\/\/www.wikidata.org\/entity\/Q27190","label":"protopunk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q37073","label":"pop music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q38656","label":"jazz-funk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q38848","label":"heavy metal music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q41343","label":"post-metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q40461","label":"bachata"},{"value":"http:\/\/www.wikidata.org\/entity\/Q42201","label":"independent music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q43343","label":"contemporary folk music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q45981","label":"rhythm and blues"},{"value":"http:\/\/www.wikidata.org\/entity\/Q48445","label":"mashup"},{"value":"http:\/\/www.wikidata.org\/entity\/Q49451","label":"progressive rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q46046","label":"baroque pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q53831","label":"canon"},{"value":"http:\/\/www.wikidata.org\/entity\/Q54365","label":"Ska"},{"value":"http:\/\/www.wikidata.org\/entity\/Q57143","label":"power metal"},{"value":"http:\/\/www.wikidata.org\/entity\/Q58339","label":"disco"},{"value":"http:\/\/www.wikidata.org\/entity\/Q56580","label":"digital hardcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q18358825","label":"Verso"},{"value":"http:\/\/www.wikidata.org\/entity\/Q18358879","label":"Outsider house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q18533602","label":"black contemporary"},{"value":"http:\/\/www.wikidata.org\/entity\/Q19678100","label":"nerd music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q18204859","label":"Igbo rap"},{"value":"http:\/\/www.wikidata.org\/entity\/Q18217098","label":"New Mexico music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q18378609","label":"Jersey club"},{"value":"http:\/\/www.wikidata.org\/entity\/Q18702741","label":"Bogino duu"},{"value":"http:\/\/www.wikidata.org\/entity\/Q18205595","label":"BMG movement"},{"value":"http:\/\/www.wikidata.org\/entity\/Q18393891","label":"Reggaestep"},{"value":"http:\/\/www.wikidata.org\/entity\/Q19672555","label":"nerd-folk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q18342587","label":"tropical house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q63885","label":"Christian punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q19678115","label":"Time Lord rock"},{"value":"http:\/\/www.wikidata.org\/entity\/Q19860267","label":"KZ-Pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q19904046","label":"Techdombe"},{"value":"http:\/\/www.wikidata.org\/entity\/Q19815286","label":"Japanese hardcore"},{"value":"http:\/\/www.wikidata.org\/entity\/Q19754215","label":"Cante Alentejano"},{"value":"http:\/\/www.wikidata.org\/entity\/Q19938910","label":"synthWave"},{"value":"http:\/\/www.wikidata.org\/entity\/Q20021059","label":"Future house"},{"value":"http:\/\/www.wikidata.org\/entity\/Q20987668","label":"Armenian Folk Music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q23637018","label":"Hornpipe"},{"value":"http:\/\/www.wikidata.org\/entity\/Q25204173","label":"Revolution Summer"},{"value":"http:\/\/www.wikidata.org\/entity\/Q23019151","label":"reggada"},{"value":"http:\/\/www.wikidata.org\/entity\/Q21327441","label":"bluegrass gospel"},{"value":"http:\/\/www.wikidata.org\/entity\/Q19832746","label":"nerd punk"},{"value":"http:\/\/www.wikidata.org\/entity\/Q22589194","label":"glitch hop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q23925185","label":"Pil\u00f3n"},{"value":"http:\/\/www.wikidata.org\/entity\/Q22991878","label":"chamber pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q23022165","label":"Boxes Summer 2016 tour"},{"value":"http:\/\/www.wikidata.org\/entity\/Q25205732","label":"The Normals"},{"value":"http:\/\/www.wikidata.org\/entity\/Q24669168","label":"forro"},{"value":"http:\/\/www.wikidata.org\/entity\/Q24887126","label":"Post-progressive"},{"value":"http:\/\/www.wikidata.org\/entity\/Q25095077","label":"Tyler Bryant & The Shakedown"},{"value":"http:\/\/www.wikidata.org\/entity\/Q25099472","label":"Indigenous Nigerian music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q25099691","label":"Neon pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q25099840","label":"Afro pop music"},{"value":"http:\/\/www.wikidata.org\/entity\/Q25105231","label":"Machine-pop"},{"value":"http:\/\/www.wikidata.org\/entity\/Q25094849","label":"art pop"}]
+[
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q272167",
+      "label":"shoegazing"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q274401",
+      "label":"Oi!"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q76092",
+      "label":"glam rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q83270",
+      "label":"hard rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q622871",
+      "label":"psychedelic trance"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1228230",
+      "label":"Dirty House"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1253172",
+      "label":"Southern hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1262781",
+      "label":"Dub techno"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1266967",
+      "label":"Musical development"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q639197",
+      "label":"instrumental"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1242484",
+      "label":"Doomcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1252451",
+      "label":"Montuno"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1265067",
+      "label":"Dumka"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1262697",
+      "label":"Mento"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q622688",
+      "label":"Andean New Age"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q640097",
+      "label":"electric blues"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1243254",
+      "label":"Lento Violento"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q627906",
+      "label":"electro house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1271752",
+      "label":"Texas blues"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q896513",
+      "label":"Hamburger Schule"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q892958",
+      "label":"Boogaloo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q899116",
+      "label":"Neoclassical Dark Wave"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q903425",
+      "label":"trio sonata"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q906647",
+      "label":"Dixieland"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q888612",
+      "label":"deathgrind"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q898530",
+      "label":"Wagnerian rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q83440",
+      "label":"country music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q85477",
+      "label":"oratorio"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q655514",
+      "label":"freestyle music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q649823",
+      "label":"country blues"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q650316",
+      "label":"drone music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q658334",
+      "label":"barcarolle"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q649634",
+      "label":"progressive folk music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q131269",
+      "label":"sonata"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1413061",
+      "label":"tropic\u00e1lia"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1399695",
+      "label":"Chicano rap"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1425111",
+      "label":"Western music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1391336",
+      "label":"comedy rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1403744",
+      "label":"electro-industrial"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1418683",
+      "label":"kay\u014dkyoku"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q325397",
+      "label":"indietronica"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q325504",
+      "label":"electronic rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q336567",
+      "label":"Afro\/Cosmic music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q327547",
+      "label":"cool jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q646679",
+      "label":"Neue Deutsche Welle"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q647653",
+      "label":"Divertimento"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q641357",
+      "label":"avant-garde metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q959583",
+      "label":"Schlager"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q963369",
+      "label":"vispop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q965834",
+      "label":"Znamenny chant"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q961146",
+      "label":"Chilena"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q963061",
+      "label":"Highlife"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q966564",
+      "label":"Hardcore hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q965635",
+      "label":"Underground hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q660984",
+      "label":"intelligent dance music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q662791",
+      "label":"Arioso"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q663519",
+      "label":"breakbeat"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q659599",
+      "label":"art punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q661651",
+      "label":"show tune"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q370778",
+      "label":"twee pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q341395",
+      "label":"Acid techno"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q370515",
+      "label":"New Wave of British Heavy Metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q371745",
+      "label":"Timba"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q372103",
+      "label":"electronic body music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q339906",
+      "label":"happy hardcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1275972",
+      "label":"Raggacore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1273641",
+      "label":"Punk pathetique"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1299260",
+      "label":"Roots reggae"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1298934",
+      "label":"synthpop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1317816",
+      "label":"indie folk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q310871",
+      "label":"Lowercase"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q320592",
+      "label":"Krautrock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q316930",
+      "label":"dance music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1071873",
+      "label":"Chicago blues"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1076092",
+      "label":"technical death metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1065742",
+      "label":"religious music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1071961",
+      "label":"Chicago house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q989478",
+      "label":"sensitive style"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q968165",
+      "label":"Brukdown"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q969663",
+      "label":"Political hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q973150",
+      "label":"Mandopop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q967654",
+      "label":"Neurofunk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q968730",
+      "label":"Industrial rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q972424",
+      "label":"old-time music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q719927",
+      "label":"symphonic rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q720959",
+      "label":"Sludge metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q700423",
+      "label":"Austropop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q703778",
+      "label":"neo-psychedelia"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q284543",
+      "label":"ethereal wave"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q290869",
+      "label":"Son montuno"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q302401",
+      "label":"Punkabilly"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q283405",
+      "label":"Punta"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q302987",
+      "label":"Chorale prelude"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q286080",
+      "label":"acoustic music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q282131",
+      "label":"merengue music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1541229",
+      "label":"American folk music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1585015",
+      "label":"UK hard house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1548170",
+      "label":"musical comedy"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1545707",
+      "label":"album leaf"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1564596",
+      "label":"Taarab"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1567032",
+      "label":"Southern soul"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1574985",
+      "label":"vallenato"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1537056",
+      "label":"Light music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1538765",
+      "label":"Gothabilly"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1585075",
+      "label":"breakbeat hardcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1113204",
+      "label":"Dub poetry"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1123745",
+      "label":"Glam punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1100989",
+      "label":"glitch"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1109947",
+      "label":"Ragga hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1127539",
+      "label":"Delta blues"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1102161",
+      "label":"oldschool jungle"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q131425",
+      "label":"visual kei"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q131272",
+      "label":"soul music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q153071",
+      "label":"Polka"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q930592",
+      "label":"Italo dance"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q910606",
+      "label":"Music of Brittany"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q915152",
+      "label":"progressive house music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q916387",
+      "label":"exotica"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q932977",
+      "label":"Crossover thrash"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q928825",
+      "label":"Garage house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q138020",
+      "label":"French hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q140544",
+      "label":"toccata"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q135637",
+      "label":"chiptune"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q178145",
+      "label":"gothic metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1430587",
+      "label":"minimal techno"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1432934",
+      "label":"Paisley Underground"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1425661",
+      "label":"folk punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1431327",
+      "label":"Pub rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1433387",
+      "label":"drone metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1435509",
+      "label":"Folktronica"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q726239",
+      "label":"noise music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q723418",
+      "label":"Cumbia"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q724755",
+      "label":"Early hardcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q721644",
+      "label":"Da capo aria"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q725011",
+      "label":"neo-classical metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q105527",
+      "label":"jazz fusion"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q105513",
+      "label":"bebop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1055871",
+      "label":"J-Rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1051735",
+      "label":"Soca music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1054490",
+      "label":"Ce\u00f2l Beag"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1060475",
+      "label":"Chamam\u00e9"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1062400",
+      "label":"chanson"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1051843",
+      "label":"neo-progressive rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q740911",
+      "label":"ragga"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q752785",
+      "label":"Calypso music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q744417",
+      "label":"Italo disco"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q747717",
+      "label":"heartland rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1078010",
+      "label":"martial industrial"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1076513",
+      "label":"choral music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1076539",
+      "label":"choro"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1090048",
+      "label":"Chutney music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1092553",
+      "label":"Celtic fusion"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1092837",
+      "label":"post-bop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1078286",
+      "label":"military band"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1027999",
+      "label":"Vocal trance"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1033912",
+      "label":"Hard dance"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1045984",
+      "label":"Sonatina"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1026089",
+      "label":"Cajun music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1045541",
+      "label":"g-funk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q997481",
+      "label":"bubblegum pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q373342",
+      "label":"popular music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q373982",
+      "label":"Logobi"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q377910",
+      "label":"post-hardcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q378988",
+      "label":"adult contemporary music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q943929",
+      "label":"folk song"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q936573",
+      "label":"Crunk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q935586",
+      "label":"Liturgical music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q956883",
+      "label":"Carnatic music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q936942",
+      "label":"post-industrial music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q949369",
+      "label":"Funky house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q388383",
+      "label":"partita"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q389631",
+      "label":"Jumpstyle"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q420883",
+      "label":"Homo hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q388906",
+      "label":"hardcore techno"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q170435",
+      "label":"trance"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q164444",
+      "label":"funk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1460303",
+      "label":"Funkstep"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1470503",
+      "label":"Semba"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1437709",
+      "label":"Canci\u00f3n"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1457545",
+      "label":"Pagan metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1455292",
+      "label":"French house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1443316",
+      "label":"Christmas music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1455487",
+      "label":"Frenchcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q183504",
+      "label":"indie rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q182659",
+      "label":"ballad"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1133657",
+      "label":"traditional heavy metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1136331",
+      "label":"Nu jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1136045",
+      "label":"Wonky"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1139136",
+      "label":"Horrorcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1132152",
+      "label":"math rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1374731",
+      "label":"Euro disco"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1379958",
+      "label":"contemporary Christian music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1323698",
+      "label":"Indian classical music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1378776",
+      "label":"music of Ireland"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1371364",
+      "label":"ethno jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1621467",
+      "label":"symphonic black metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1627155",
+      "label":"Honky-tonk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1620079",
+      "label":"Hipster hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1606591",
+      "label":"reggae fusion"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1610196",
+      "label":"French organ school"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1636684",
+      "label":"y\u00e9-y\u00e9"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1615483",
+      "label":"soul jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q667659",
+      "label":"funk metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q682417",
+      "label":"Sogak"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q669738",
+      "label":"Yass"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q674684",
+      "label":"Sevdalinka"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q689519",
+      "label":"Pachelbel's Canon"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q677542",
+      "label":"Riot grrrl"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1817297",
+      "label":"Nangma"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1872505",
+      "label":"Lovers rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1780056",
+      "label":"Norte\u00f1o"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1775316",
+      "label":"Progg"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1784032",
+      "label":"Viking rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1784106",
+      "label":"Powerviolence"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1798870",
+      "label":"pagan folk music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1785243",
+      "label":"Long song"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1840167",
+      "label":"Witch house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1773654",
+      "label":"Country folk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1868278",
+      "label":"Depressive Suicidal Black Metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q132438",
+      "label":"black metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q131578",
+      "label":"J-pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1661583",
+      "label":"Percussion"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1730388",
+      "label":"Western swing"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1735204",
+      "label":"Cassation"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1754592",
+      "label":"nerdcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1756101",
+      "label":"nu skool breaks"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1752683",
+      "label":"Soukous"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1752801",
+      "label":"Rock in Opposition"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1661924",
+      "label":"industrial dance"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1692318",
+      "label":"modinha"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q185676",
+      "label":"Fado"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q186170",
+      "label":"doom metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q727781",
+      "label":"Latin American music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q739138",
+      "label":"teen pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q727634",
+      "label":"Ranchera"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q728579",
+      "label":"Balwo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q384064",
+      "label":"African Gospel"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q383982",
+      "label":"psychedelic pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q388296",
+      "label":"afrobeat"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q384181",
+      "label":"Freestyle rap"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q383615",
+      "label":"Street punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q379671",
+      "label":"post-grunge"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q178580",
+      "label":"period"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q181010",
+      "label":"hard bop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1190485",
+      "label":"post-disco"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1190565",
+      "label":"jangle pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1166726",
+      "label":"grime"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1182371",
+      "label":"Deep Funk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q180268",
+      "label":"gospel music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1181308",
+      "label":"death 'n' roll"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1185390",
+      "label":"disco polo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q781470",
+      "label":"Intermezzo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q783243",
+      "label":"Australian hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q773880",
+      "label":"bitpop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q775614",
+      "label":"neofolk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q780517",
+      "label":"speed garage"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q783097",
+      "label":"college rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q181014",
+      "label":"fugue"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q181861",
+      "label":"noise rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q174873",
+      "label":"cantata"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q170611",
+      "label":"techno"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1046768",
+      "label":"M\u00fasica Popular Brasileira"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1046920",
+      "label":"D\u014djin music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1046838",
+      "label":"New Wave of American Heavy Metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1046801",
+      "label":"turntablism"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1958273",
+      "label":"M\u00fasica sertaneja"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1983116",
+      "label":"New York hardcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1987980",
+      "label":"Breakstep"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1928583",
+      "label":"Northern soul"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1913888",
+      "label":"Power noise"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1936659",
+      "label":"Nederpop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1929352",
+      "label":"roots rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1939197",
+      "label":"T\u00fcrk\u00fc"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1982973",
+      "label":"New wave of new wave"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1931555",
+      "label":"microhouse"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q183862",
+      "label":"metalcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1640319",
+      "label":"experimental music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1641839",
+      "label":"experimental rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1646666",
+      "label":"mambo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1643549",
+      "label":"dance-punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1650296",
+      "label":"instrumental rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q446241",
+      "label":"Neo-Medieval music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q454071",
+      "label":"German hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q447962",
+      "label":"Swing revival"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q429264",
+      "label":"West Coast hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q438476",
+      "label":"alternative country"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q431415",
+      "label":"Tejano music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q438503",
+      "label":"alternative hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1472271",
+      "label":"pastorale"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1500364",
+      "label":"Psychedelic folk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1500983",
+      "label":"Sprechgesang"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1515757",
+      "label":"jump blues"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q186472",
+      "label":"folk rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1477428",
+      "label":"M-Base"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1530455",
+      "label":"vocal jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q186393",
+      "label":"counterpoint"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1507298",
+      "label":"lo-fi music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q460674",
+      "label":"Ska punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q464129",
+      "label":"Mariachi"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q464769",
+      "label":"rhapsody"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q455686",
+      "label":"samba reggae"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q817138",
+      "label":"electronica"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q808108",
+      "label":"Bar form"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q822914",
+      "label":"Christian metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q820049",
+      "label":"mainstream hardcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q205560",
+      "label":"trip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q206159",
+      "label":"psychedelic rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1141081",
+      "label":"lounge music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1141686",
+      "label":"Galante music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1147692",
+      "label":"goregrind"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1151260",
+      "label":"D-beat"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1151776",
+      "label":"Sonata rondo form"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1140291",
+      "label":"Wedding music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2109360",
+      "label":"Danza"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2187392",
+      "label":"alternative dance"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2249365",
+      "label":"Kawina"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2238236",
+      "label":"Christian hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2256407",
+      "label":"hip hop soul"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2265866",
+      "label":"brutal death metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2097664",
+      "label":"Indorock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2106887",
+      "label":"Psychedelic hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2104067",
+      "label":"Pop-Jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q185298",
+      "label":"a cappella"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q185652",
+      "label":"ragtime"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q483251",
+      "label":"death metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q475221",
+      "label":"deathcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q481900",
+      "label":"acid trance"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q756956",
+      "label":"dark ambient"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q757143",
+      "label":"Chill-out music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q753520",
+      "label":"Christian rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q753679",
+      "label":"Gangsta rap"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1193859",
+      "label":"binary form"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1195015",
+      "label":"Ternary form"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1191544",
+      "label":"Kuduro"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1192110",
+      "label":"C-pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1195253",
+      "label":"Sea shanty"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1195630",
+      "label":"Canzone Napoletana"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1162475",
+      "label":"N\u00f3ta"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1164847",
+      "label":"dansband"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1166218",
+      "label":"Dark rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2035976",
+      "label":"Nintendocore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2047814",
+      "label":"Palingsound"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1164252",
+      "label":"Deathrock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1165777",
+      "label":"UK garage"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1166321",
+      "label":"Darkstep"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1166197",
+      "label":"dark metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1989725",
+      "label":"Nigun"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1995569",
+      "label":"thrashcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2043175",
+      "label":"hyphy"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2045695",
+      "label":"shock rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2004156",
+      "label":"Industrial hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2038317",
+      "label":"New prog"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q193207",
+      "label":"ambient music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q193217",
+      "label":"madrigal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q788460",
+      "label":"Bagatelle"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q784310",
+      "label":"electro hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q787663",
+      "label":"Guajira"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q786815",
+      "label":"Turbo-folk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q790188",
+      "label":"avant-garde jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q203005",
+      "label":"suite"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q202930",
+      "label":"reggaeton"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q486415",
+      "label":"symphonic metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q486365",
+      "label":"anarcho-punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q486263",
+      "label":"bossa nova"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q485395",
+      "label":"gothic rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q835131",
+      "label":"Goa trance"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q831354",
+      "label":"smooth jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q832665",
+      "label":"Hard trance"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q834959",
+      "label":"Samba rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q830325",
+      "label":"horror punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q474027",
+      "label":"dancehall"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q465978",
+      "label":"extreme metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q469343",
+      "label":"British hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1890098",
+      "label":"New Beat"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1899347",
+      "label":"post-punk revival"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1891685",
+      "label":"Russian chanson"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q848457",
+      "label":"Speedcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q846833",
+      "label":"Crossover jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q846119",
+      "label":"psychedelic music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q848399",
+      "label":"easy listening"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q188450",
+      "label":"electropop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q187760",
+      "label":"new wave music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q858579",
+      "label":"big beat"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q860196",
+      "label":"Bikutsi"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q864605",
+      "label":"Biomusic"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q861823",
+      "label":"Electroclash"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q856872",
+      "label":"rap metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q836571",
+      "label":"fantasia"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q837389",
+      "label":"Latin jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q208239",
+      "label":"salsa music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q208494",
+      "label":"industrial metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q835891",
+      "label":"funk rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q837837",
+      "label":"power pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q503354",
+      "label":"Christmas carol"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q493169",
+      "label":"children's song"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q500879",
+      "label":"Reggae en Espa\u00f1ol"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q502535",
+      "label":"Morna"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q497957",
+      "label":"Nueva trova"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q502886",
+      "label":"Madchester"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q484344",
+      "label":"progressive metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q484641",
+      "label":"pop rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q483352",
+      "label":"thrash metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q484179",
+      "label":"folk metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q203775",
+      "label":"swing music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q205049",
+      "label":"world music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q203720",
+      "label":"rockabilly"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q202919",
+      "label":"berceuse"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q196999",
+      "label":"Zeuhl"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q199415",
+      "label":"Ziglibithy"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q193355",
+      "label":"blues rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q202925",
+      "label":"tribal house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q542703",
+      "label":"melodic hardcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q526463",
+      "label":"Detroit techno"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q535611",
+      "label":"Neoclassicism"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q546264",
+      "label":"beat music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q546359",
+      "label":"doo-wop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q547137",
+      "label":"Latin pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q572901",
+      "label":"minimal music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q885561",
+      "label":"blue-eyed soul"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q888137",
+      "label":"skweee"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q877693",
+      "label":"rap rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q213121",
+      "label":"New Age music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q213149",
+      "label":"Viking metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q212952",
+      "label":"boogie-woogie"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q188534",
+      "label":"grindcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q188539",
+      "label":"glam metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2529400",
+      "label":"urban contemporary"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2545135",
+      "label":"Noise pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2568406",
+      "label":"Postmodern music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2551540",
+      "label":"Punk blues"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2572585",
+      "label":"pop-rap"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2532560",
+      "label":"Djent"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2537800",
+      "label":"Bozlak"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2526653",
+      "label":"Mainstream rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2407862",
+      "label":"Americana"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2404568",
+      "label":"freak folk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2516031",
+      "label":"Sawt"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2517263",
+      "label":"Midwest hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2426383",
+      "label":"crunkcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2420447",
+      "label":"trova"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2465085",
+      "label":"ambient house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2461933",
+      "label":"sunshine pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q517415",
+      "label":"Europop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2084353",
+      "label":"electronicore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2064394",
+      "label":"Worldbeat"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q515074",
+      "label":"Louisiana blues"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q512410",
+      "label":"Qawwali"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q504635",
+      "label":"crossover"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2089511",
+      "label":"death-doom"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2076779",
+      "label":"Bubblegum dance"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2082572",
+      "label":"liquid funk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2087267",
+      "label":"La\u00efko"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2090023",
+      "label":"Piano rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q223840",
+      "label":"hardstyle"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q235858",
+      "label":"folk music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q227045",
+      "label":"Zouk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q221772",
+      "label":"acid jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2280497",
+      "label":"country pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2324411",
+      "label":"geek rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2268922",
+      "label":"Cowpunk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2281409",
+      "label":"dance-rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2296495",
+      "label":"garage punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2302695",
+      "label":"Tech trance"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2280273",
+      "label":"mod revival"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2266376",
+      "label":"boogie rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q268253",
+      "label":"neo soul"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q264289",
+      "label":"sophisti-pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q189045",
+      "label":"Britpop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q188994",
+      "label":"drum and bass"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q873000",
+      "label":"canzone"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q876171",
+      "label":"East Coast hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q874038",
+      "label":"deep house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q868855",
+      "label":"old-school hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3310676",
+      "label":"Boeremusiek"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3111428",
+      "label":"gospel blues"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3163340",
+      "label":"Afro-Cuban jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3296134",
+      "label":"Wizard rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3321920",
+      "label":"Flamenco rumba"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3328590",
+      "label":"French Baroque music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3106448",
+      "label":"Zamba"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3116754",
+      "label":"Grindie"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3191713",
+      "label":"Kacapi suling"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3307225",
+      "label":"progressive bluegrass"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3117305",
+      "label":"Group Sounds"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3091180",
+      "label":"Shashmaqam"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3231749",
+      "label":"post-Britpop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q209137",
+      "label":"post-rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q209534",
+      "label":"scherzo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q839029",
+      "label":"Ra\u00ef"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q842324",
+      "label":"indie pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q840065",
+      "label":"New jack swing"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q844245",
+      "label":"Gypsy jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3724735",
+      "label":"Emo pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3840596",
+      "label":"dark wave"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3930216",
+      "label":"rapcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3709211",
+      "label":"Dirty rap"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3797148",
+      "label":"In Nomine"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3868755",
+      "label":"Mutu"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3908370",
+      "label":"pop metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3699386",
+      "label":"Cumbia rap"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3658336",
+      "label":"New Orleans rhythm and blues"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3827483",
+      "label":"Latin hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3868787",
+      "label":"muziki wa dansi"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3644819",
+      "label":"cello rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2336819",
+      "label":"operatic pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2342263",
+      "label":"Space music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2343562",
+      "label":"coldwave"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2344472",
+      "label":"Taqwacore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2346991",
+      "label":"Bass music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2374619",
+      "label":"UK hardcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2332751",
+      "label":"avant-garde music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2337447",
+      "label":"Meditation music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2389651",
+      "label":"children's music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q236932",
+      "label":"acid rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q236913",
+      "label":"space rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q616679",
+      "label":"Mathcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q617240",
+      "label":"stoner rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q851213",
+      "label":"electronic dance music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q850412",
+      "label":"contemporary R&B"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q848852",
+      "label":"Eurobeat"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q214981",
+      "label":"variation"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q213714",
+      "label":"bluegrass music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q828243",
+      "label":"futurepop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q825769",
+      "label":"Crust punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q823080",
+      "label":"No Wave"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q828305",
+      "label":"Skate punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q213572",
+      "label":"Neue Deutsche H\u00e4rte"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q213665",
+      "label":"K-pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q220830",
+      "label":"Surf music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q217597",
+      "label":"electro"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q220528",
+      "label":"Rebetiko"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q853873",
+      "label":"Cantopop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q854451",
+      "label":"Celtic music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q854844",
+      "label":"Bhangra"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q852767",
+      "label":"Southern rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q211723",
+      "label":"speed metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q211573",
+      "label":"garage rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q212944",
+      "label":"klezmer"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q212688",
+      "label":"dub"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q487914",
+      "label":"pop punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q487965",
+      "label":"industrial music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q211025",
+      "label":"march"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q210216",
+      "label":"Concerto grosso"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q239459",
+      "label":"trip rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q251192",
+      "label":"downtempo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q245296",
+      "label":"Zydeco"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q250765",
+      "label":"Isorhythm"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q241662",
+      "label":"groove metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1196752",
+      "label":"traditional pop music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1200012",
+      "label":"Potpourri"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1207347",
+      "label":"Shibuya-kei"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5433431",
+      "label":"Famo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5119040",
+      "label":"Ch\u1ea7u v\u0103n"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5149108",
+      "label":"Colossal Baroque"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5177472",
+      "label":"Country and Irish"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5393053",
+      "label":"Filin"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5466607",
+      "label":"Footwork"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5397405",
+      "label":"Tamunangue"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5445668",
+      "label":"Festejo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5449125",
+      "label":"Filmi pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5510816",
+      "label":"Future garage"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5520018",
+      "label":"Gamelan salendro"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5618068",
+      "label":"Gumbe"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5442427",
+      "label":"Fell"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5569994",
+      "label":"Bai\u00e3o"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5118358",
+      "label":"Chut-kai-pang"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5332963",
+      "label":"Eclecticism in music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5437134",
+      "label":"Fas\u0131l"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5464445",
+      "label":"folk baroque"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5520007",
+      "label":"Gamelan Siteran"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5520013",
+      "label":"Gamelan gambang"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5520021",
+      "label":"Gamelan selunding"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5654316",
+      "label":"Harawi"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5116146",
+      "label":"Chumba"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5150913",
+      "label":"Combined rhythm"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5158522",
+      "label":"Concert march"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5347034",
+      "label":"Eefing"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5464476",
+      "label":"Folk rhythm"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5484486",
+      "label":"Franco-country"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5520012",
+      "label":"Gamelan bebonangan"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5529053",
+      "label":"Gazel"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5583956",
+      "label":"Goombay"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5625934",
+      "label":"G\u00e5ngl\u00e5t"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5515214",
+      "label":"Gaana"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5151790",
+      "label":"Comic song"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5158538",
+      "label":"Concerted madrigal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5208151",
+      "label":"Daechwita"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5244903",
+      "label":"De dragoste"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5276393",
+      "label":"Dihanaam"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5369664",
+      "label":"Hyangak"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5449126",
+      "label":"Filmi qawwali"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5477103",
+      "label":"Foxcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5520004",
+      "label":"Gamelan Gadhon"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5581134",
+      "label":"Gombhira"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5587421",
+      "label":"Gospel reggae"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5421158",
+      "label":"experimental hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q585588",
+      "label":"Khaliji"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q598929",
+      "label":"post-punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q592330",
+      "label":"dream pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q574651",
+      "label":"anti-folk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q590662",
+      "label":"Bend-skin"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q598593",
+      "label":"tech house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q573484",
+      "label":"rocksteady"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q260095",
+      "label":"Ultra"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q252833",
+      "label":"Volksmusik"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q263524",
+      "label":"Tswana music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2662148",
+      "label":"Celtic rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2702280",
+      "label":"Italo house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q253918",
+      "label":"melodic death metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2668052",
+      "label":"Dutch-language music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q263734",
+      "label":"nu metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2607836",
+      "label":"Freakbeat"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2616514",
+      "label":"Verse-chorus form"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2624785",
+      "label":"Russian rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2640307",
+      "label":"Hardstep"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2607454",
+      "label":"Christian hardcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2656325",
+      "label":"Toeshey"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2626684",
+      "label":"chillwave"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2697917",
+      "label":"go-go"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2961759",
+      "label":"Moroccan chaabi"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2988851",
+      "label":"Finnish rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2991840",
+      "label":"Snap music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3032212",
+      "label":"Diva house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3048168",
+      "label":"M\u00e1kina"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3069904",
+      "label":"Porro"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3090876",
+      "label":"Funan\u00e1"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2932658",
+      "label":"Cadence-lypso"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2963621",
+      "label":"chillstep"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2961766",
+      "label":"Algerian chaabi"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2961763",
+      "label":"chaabi"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3008180",
+      "label":"Cybergrind"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3066180",
+      "label":"Bouncy techno"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3084222",
+      "label":"Hardtechno"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2956468",
+      "label":"Chaoui music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2994332",
+      "label":"Rock en espa\u00f1ol"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3083000",
+      "label":"kan ha diskan"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q211756",
+      "label":"dance-pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q212024",
+      "label":"Negro spiritual"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q211781",
+      "label":"free jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3346909",
+      "label":"Bhatiali"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3360459",
+      "label":"Pagode"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3437876",
+      "label":"Slovenian rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3575673",
+      "label":"Zoblazo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3622181",
+      "label":"Tonadilla"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3631657",
+      "label":"A\u1e63\u00edk\u00f2"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3422697",
+      "label":"Red Dirt"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3408409",
+      "label":"\u010calgija"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3437841",
+      "label":"French rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3476584",
+      "label":"Chicago hardcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3477737",
+      "label":"Seggae"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3517436",
+      "label":"Tembang Sunda"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3328764",
+      "label":"Thai pop music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3334664",
+      "label":"Naattupurapaattu"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3337361",
+      "label":"Nayda"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3347279",
+      "label":"N\u00f2va can\u00e7on"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3397882",
+      "label":"Progressive pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3410876",
+      "label":"Punta rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3470607",
+      "label":"Sama'i"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3630966",
+      "label":"avant-prog"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6367434",
+      "label":"Kar"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5729641",
+      "label":"Blackcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6694797",
+      "label":"Lu"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6037387",
+      "label":"Insertion aria"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6319299",
+      "label":"Jw\u00e9"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6378419",
+      "label":"Katuli"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6537469",
+      "label":"Lewoz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6665245",
+      "label":"Phleng Thai sakon"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6874634",
+      "label":"Mirror fugue"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6941940",
+      "label":"Music in Rostov Oblast"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942103",
+      "label":"Music of Guangxi"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942132",
+      "label":"Music of Jilin"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942144",
+      "label":"Music of Krasnoyarsk Krai"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942152",
+      "label":"Music of Limousin"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5876772",
+      "label":"Hofii"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6003760",
+      "label":"Imene metua"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6130346",
+      "label":"slam death metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6421060",
+      "label":"Kliningan"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6450040",
+      "label":"Kwakwaka'wakw music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6496549",
+      "label":"Latin soul"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6658771",
+      "label":"Livetronica"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6941926",
+      "label":"Music in Ingushetia"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6941939",
+      "label":"Music in Nenets Autonomous Okrug"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6941941",
+      "label":"Music in Tatarstan"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6941968",
+      "label":"Music in the Udmurt Republic"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942024",
+      "label":"Music of British Columbia"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5765288",
+      "label":"Himene tarava"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5881246",
+      "label":"Holler Blues"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6073487",
+      "label":"Iroquois music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6348907",
+      "label":"Kajari"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6480726",
+      "label":"Lam saravane"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6480724",
+      "label":"Lam luang"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6496560",
+      "label":"Latin ballad"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6543501",
+      "label":"Oppari"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6689665",
+      "label":"Lounge rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6941917",
+      "label":"Music in Dagestan"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6941928",
+      "label":"Music in Khakassia"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942106",
+      "label":"Music of Guizhou"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942117",
+      "label":"Music of Hubei"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5655695",
+      "label":"Hardbag"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5769376",
+      "label":"Hiranaam"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5884805",
+      "label":"Holubka"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6003762",
+      "label":"Imene tuki"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6188299",
+      "label":"Jesus music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6202259",
+      "label":"Jing ping"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6366462",
+      "label":"Kapanirong"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6394780",
+      "label":"Kertok"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6400461",
+      "label":"Khaplam wai"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6410606",
+      "label":"Kindie rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6727621",
+      "label":"Madhya laya"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6772364",
+      "label":"Maroon music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6868046",
+      "label":"Minneapolis sound"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6874626",
+      "label":"Mirror canon"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6941930",
+      "label":"Music in Krasnodar Krai"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6941960",
+      "label":"Music in the Komi Republic"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6941990",
+      "label":"Music of Alberta"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942115",
+      "label":"Music of Henan"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942113",
+      "label":"Music of Hebei"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942123",
+      "label":"Music of Innsbruck"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942131",
+      "label":"Music of Jiangxi"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942129",
+      "label":"Music of Jharkhand"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942133",
+      "label":"Music of Kalmykia"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942213",
+      "label":"Music of Navarre and La Rioja"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942300",
+      "label":"Music of Transylvania"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942329",
+      "label":"Music of West Africa"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7042753",
+      "label":"No-Fi"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7088779",
+      "label":"Oltului"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7225887",
+      "label":"Polo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7236499",
+      "label":"Power duo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7253290",
+      "label":"Pryvit"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7308175",
+      "label":"Reggae rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7310665",
+      "label":"Rekuhkara"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7446911",
+      "label":"Seis"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7535166",
+      "label":"Skiladiko"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7541571",
+      "label":"Slovak folk music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7561291",
+      "label":"Songo-salsa"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7616089",
+      "label":"Sthayi"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942176",
+      "label":"Music of Melanesia"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942346",
+      "label":"Music of the Andaman and Nicobar Islands"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7005181",
+      "label":"New Acoustic Music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7060273",
+      "label":"Northwest Wind"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7067688",
+      "label":"Nu-funk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7122786",
+      "label":"Pacific reggae"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7245792",
+      "label":"Prison rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7256304",
+      "label":"Psycho Country"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7272044",
+      "label":"Quimbe"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7272829",
+      "label":"Quodlibet, BWV 524"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7321654",
+      "label":"Rhyming spiritual"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7142141",
+      "label":"Pasillo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7397641",
+      "label":"sadcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7424751",
+      "label":"Sarva"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7489094",
+      "label":"Shanto"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7676613",
+      "label":"Taiwanese hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942355",
+      "label":"Music of the Cayman Islands"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7010517",
+      "label":"New Music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7023407",
+      "label":"Nh\u1ea1c t\u00e0i t\u1eed"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7070611",
+      "label":"Nuubaat"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7132500",
+      "label":"Papare"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7190617",
+      "label":"Pichakaree"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7258480",
+      "label":"Pueblo music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7361460",
+      "label":"Rom kbach"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7405759",
+      "label":"Salsa dura"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7410295",
+      "label":"Samri"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7424508",
+      "label":"Sarpada"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7449289",
+      "label":"Semi-classical music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7560612",
+      "label":"Son calentano"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7616955",
+      "label":"Stile concitato"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7672468",
+      "label":"TV track"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6942260",
+      "label":"Music of San Marino"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6979961",
+      "label":"Native American hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7015151",
+      "label":"New Yorkshire"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7050752",
+      "label":"Nordic folk music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7053463",
+      "label":"Norsk pop & rock-leksikon"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7339037",
+      "label":"Riyaz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7542391",
+      "label":"Slutwave"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7667734",
+      "label":"T'ong guitar"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7118426",
+      "label":"alternative R&B"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2891921",
+      "label":"Batuque"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2746831",
+      "label":"Quiet storm"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2797513",
+      "label":"sainaimu"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2864671",
+      "label":"lyrical art"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2881236",
+      "label":"Ballet d'action"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2707298",
+      "label":"secular music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2884829",
+      "label":"Early Baroque music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2726026",
+      "label":"Compas"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2710523",
+      "label":"Ragga jungle"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2736181",
+      "label":"Punk jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2742436",
+      "label":"Porn groove"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2798694",
+      "label":"Marabi"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q2743435",
+      "label":"psychedelic soul"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q216860",
+      "label":"Lied"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q216961",
+      "label":"Eurodance"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q217191",
+      "label":"soft rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q599510",
+      "label":"romance"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q601235",
+      "label":"hip house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q602561",
+      "label":"Electro swing"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q602646",
+      "label":"comedy hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7920719",
+      "label":"Ver"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7678235",
+      "label":"Takht"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7676623",
+      "label":"Taiwanese rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7684951",
+      "label":"Taqtuqa"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7911938",
+      "label":"Vallenato-salsa"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7967858",
+      "label":"Wangga"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7983231",
+      "label":"Were music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q8052472",
+      "label":"Yeongsan hoesang"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q9016941",
+      "label":"Kantu"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q9095433",
+      "label":"Waka music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7801106",
+      "label":"Tierra Caliente"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7846276",
+      "label":"Tropotianka"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7901502",
+      "label":"Uruguayan punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7935998",
+      "label":"Vishnupada"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q8032087",
+      "label":"Wonky pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q8068441",
+      "label":"Zeelaf"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q10286515",
+      "label":"Melodic funk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q8273152",
+      "label":"Hutsulka"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q9011351",
+      "label":"jazzstep"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7687882",
+      "label":"Tatar rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7823768",
+      "label":"Ton\u00e1s"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7923265",
+      "label":"Vesnianky"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7972788",
+      "label":"Wassoulou music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q8044009",
+      "label":"Xhosa music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q8062606",
+      "label":"Y\u00fcr\u00fck semai"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q10354439",
+      "label":"Proibid\u00e3o"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q10363580",
+      "label":"cabaret rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q12845743",
+      "label":"Symphonic mugam"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q13059993",
+      "label":"Sari gan"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7832321",
+      "label":"traditional bluegrass"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q8044658",
+      "label":"Xintianyou"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q8072348",
+      "label":"Zindalii"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q13436880",
+      "label":"Funk carioca"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q10846275",
+      "label":"Akiba-pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q11325235",
+      "label":"neo acoustic"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q11319210",
+      "label":"technopop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q11660484",
+      "label":"denpa song"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q12811727",
+      "label":"Saz semai"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q14390274",
+      "label":"tango"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q15697534",
+      "label":"drill"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q15025114",
+      "label":"Blue Beat"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q13627677",
+      "label":"psychobilly"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q14493900",
+      "label":"Texas country music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q15733887",
+      "label":"Vaporwave"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q14559031",
+      "label":"elevator music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q15629158",
+      "label":"Medieval metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q217295",
+      "label":"mass"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q217467",
+      "label":"art rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4045538",
+      "label":"Nu-disco"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4088026",
+      "label":"Blatnaya Pesnya"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4490718",
+      "label":"melodic metalcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4428744",
+      "label":"Son"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4056436",
+      "label":"Bard"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4198071",
+      "label":"Hi\u00e9rodrame"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4637208",
+      "label":"4-beat"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4306617",
+      "label":"Music of Olympia"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4346887",
+      "label":"Thirty-two-bar form"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4666464",
+      "label":"Abecedarian hymn"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4006363",
+      "label":"Urban Pasifika"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4118941",
+      "label":"Mezwed"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4631020",
+      "label":"21st-century classical music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4400125",
+      "label":"runo song"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q1344",
+      "label":"opera"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q15957030",
+      "label":"Electro"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16844015",
+      "label":"Boi"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16986699",
+      "label":"Cha-cha-cha"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q17055317",
+      "label":"Hori"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16011708",
+      "label":"Swamp pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16148439",
+      "label":"Gaelic music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16821210",
+      "label":"Japanese jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16894831",
+      "label":"Pols"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q17045843",
+      "label":"Seminole music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q17128277",
+      "label":"Indoribbean Pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16208174",
+      "label":"Alkayida"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16246074",
+      "label":"Banda Sinf\u00f3nica"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16837290",
+      "label":"Balearic trance"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16844947",
+      "label":"Bosnian rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16845069",
+      "label":"Bothy band"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16977816",
+      "label":"Moroccan pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q17049926",
+      "label":"Q'axilu"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q17053693",
+      "label":"Merong"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q17065399",
+      "label":"Wong shadow"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q17080629",
+      "label":"beguine"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16733731",
+      "label":"Kpanlogo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q17037735",
+      "label":"Sadra"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16323732",
+      "label":"Shaabi"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16820420",
+      "label":"American march music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16844736",
+      "label":"Hopak-Kolom"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16855754",
+      "label":"Blackgaze"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16873176",
+      "label":"New Orleans soul"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16909209",
+      "label":"Ovi (music)"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16960459",
+      "label":"Dhaanto"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16965849",
+      "label":"Sawani"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16993565",
+      "label":"Afro-Peruvian music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q17004167",
+      "label":"Haitian rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16024685",
+      "label":"Afro-soul"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16029081",
+      "label":"Deuda song"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16056349",
+      "label":"Indian rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16875726",
+      "label":"Ikinimba"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16883428",
+      "label":"Music in Astrakhan Oblast"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q17053024",
+      "label":"Folkhop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16250593",
+      "label":"pub rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q16096634",
+      "label":"kawaii metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q18074899",
+      "label":"guitar music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q3071",
+      "label":"punk rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q6010",
+      "label":"rapping"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q7749",
+      "label":"rock and roll"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q612024",
+      "label":"contemporary classical music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q606393",
+      "label":"Hi-NRG"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q606089",
+      "label":"skiffle"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q608862",
+      "label":"anison"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q613408",
+      "label":"country rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q8341",
+      "label":"jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q8361",
+      "label":"Baroque music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q9730",
+      "label":"classical music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q9759",
+      "label":"blues"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q9794",
+      "label":"reggae"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q9778",
+      "label":"electronic music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4940448",
+      "label":"Bomba"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4690039",
+      "label":"African reggae"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4942839",
+      "label":"Boogie"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4846346",
+      "label":"Bassline"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4848674",
+      "label":"Baisha xiyue"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4848738",
+      "label":"Baithak Gana"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4851096",
+      "label":"Balkan jazz"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4854353",
+      "label":"Bandana thrash"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4854619",
+      "label":"Bandish"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4857249",
+      "label":"Bantowbol"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4873394",
+      "label":"Bat\u00e1-rumba"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4901492",
+      "label":"Bhavageete"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4937089",
+      "label":"Boedra"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4949812",
+      "label":"Bounce music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4965901",
+      "label":"Brick City club"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4975996",
+      "label":"Brown-eyed soul"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5033725",
+      "label":"Cantes a palo seco"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5072880",
+      "label":"Chap hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5073926",
+      "label":"Charanga-vallenata"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4897056",
+      "label":"Beste"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4841596",
+      "label":"Baggy"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4670712",
+      "label":"Abwe"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4699758",
+      "label":"Ajisari"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4736555",
+      "label":"Alternative reggaeton"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5116137",
+      "label":"Chumak"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4875789",
+      "label":"Beach music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4939163",
+      "label":"Bolel"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5015165",
+      "label":"Ca din tulnic"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5054785",
+      "label":"Cavalier song"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5063233",
+      "label":"Ceol Meadhonach"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5068130",
+      "label":"Chaiti"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4852979",
+      "label":"Baltimore club"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4863051",
+      "label":"Baroque music of the British Isles"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4936212",
+      "label":"Bocet"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4972949",
+      "label":"Broder singer"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5047036",
+      "label":"Cartageneras"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5071702",
+      "label":"Changa"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5072584",
+      "label":"Chanson pour boire"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5099460",
+      "label":"Chimurenga music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5105648",
+      "label":"Chrieng Brunh"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5113733",
+      "label":"Chromatic fantasia"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4891362",
+      "label":"Bereznianka"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q4950495",
+      "label":"Bouyon soca"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q5070237",
+      "label":"Chamrieng Samai"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q10922",
+      "label":"hardcore punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q11365",
+      "label":"grunge"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q11363",
+      "label":"screamo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q10926",
+      "label":"emo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q11366",
+      "label":"alternative rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q11399",
+      "label":"rock music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q11401",
+      "label":"hip hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q11403",
+      "label":"samba"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q13323",
+      "label":"rondo"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q20378",
+      "label":"alternative metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q20474",
+      "label":"dubstep"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q20502",
+      "label":"house music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q25116",
+      "label":"Argentine tango"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q20903",
+      "label":"Brostep"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q26473",
+      "label":"Gregorian chant"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q21092",
+      "label":"moombahton"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q27190",
+      "label":"protopunk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q37073",
+      "label":"pop music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q38656",
+      "label":"jazz-funk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q38848",
+      "label":"heavy metal music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q41343",
+      "label":"post-metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q40461",
+      "label":"bachata"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q42201",
+      "label":"independent music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q43343",
+      "label":"contemporary folk music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q45981",
+      "label":"rhythm and blues"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q48445",
+      "label":"mashup"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q49451",
+      "label":"progressive rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q46046",
+      "label":"baroque pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q53831",
+      "label":"canon"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q54365",
+      "label":"Ska"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q57143",
+      "label":"power metal"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q58339",
+      "label":"disco"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q56580",
+      "label":"digital hardcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q18358825",
+      "label":"Verso"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q18358879",
+      "label":"Outsider house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q18533602",
+      "label":"black contemporary"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q19678100",
+      "label":"nerd music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q18204859",
+      "label":"Igbo rap"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q18217098",
+      "label":"New Mexico music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q18378609",
+      "label":"Jersey club"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q18702741",
+      "label":"Bogino duu"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q18205595",
+      "label":"BMG movement"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q18393891",
+      "label":"Reggaestep"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q19672555",
+      "label":"nerd-folk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q18342587",
+      "label":"tropical house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q63885",
+      "label":"Christian punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q19678115",
+      "label":"Time Lord rock"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q19860267",
+      "label":"KZ-Pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q19904046",
+      "label":"Techdombe"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q19815286",
+      "label":"Japanese hardcore"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q19754215",
+      "label":"Cante Alentejano"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q19938910",
+      "label":"synthWave"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q20021059",
+      "label":"Future house"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q20987668",
+      "label":"Armenian Folk Music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q23637018",
+      "label":"Hornpipe"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q25204173",
+      "label":"Revolution Summer"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q23019151",
+      "label":"reggada"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q21327441",
+      "label":"bluegrass gospel"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q19832746",
+      "label":"nerd punk"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q22589194",
+      "label":"glitch hop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q23925185",
+      "label":"Pil\u00f3n"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q22991878",
+      "label":"chamber pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q23022165",
+      "label":"Boxes Summer 2016 tour"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q25205732",
+      "label":"The Normals"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q24669168",
+      "label":"forro"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q24887126",
+      "label":"Post-progressive"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q25095077",
+      "label":"Tyler Bryant & The Shakedown"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q25099472",
+      "label":"Indigenous Nigerian music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q25099691",
+      "label":"Neon pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q25099840",
+      "label":"Afro pop music"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q25105231",
+      "label":"Machine-pop"
+   },
+   {
+      "value":"http:\/\/www.wikidata.org\/entity\/Q25094849",
+      "label":"art pop"
+   }
+]
