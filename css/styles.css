@@ -233,15 +233,15 @@ ul{
 
 #song-time-visualization .amplitude-song-time-visualization-status{
   background-color: #1A8AC7;
-  height: 5px;
+  height:           5px;
 }
 
 #song-time-visualization-large{
   background-color: #bebebe;
-  display: inline-block;
-  height: 5px;
-  vertical-align: middle;
-  width: 280px;
+  display:          inline-block;
+  height:           5px;
+  vertical-align:   middle;
+  width:            82%;
 }
 
 #song-time-visualization-large .amplitude-song-time-visualization-status{
@@ -253,17 +253,13 @@ ul{
     Now Playing Information
 */
 .now-playing-title{
-
   display:       inline-block;
-
   font-weight:   300;
   font-size:     12px;
   line-height:   14px;
   margin-left:   1em;
   overflow:      hidden;
-  text-overflow: ellipsis;
   white-space:   nowrap;
-
 }
 
 .song-author{

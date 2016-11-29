@@ -115,7 +115,6 @@ $(document).ready(function() {
   });
 
   genreTagging();
-
 });
 
 
@@ -130,7 +129,11 @@ function setChannel(index, holdPlay) {
   var selected = $('.station-select[data-index="' + index + '"]');
   selected.addClass('active');
   activeChannel = index;
-  log('set active channel to [' + index + '] - ' + channels[activeChannel].name);
+
+  sequence = Math.floor(Math.random() * channels[activeChannel].totalResults);
+
+  log('set active channel to [' + index + '] - ' + channels[activeChannel].name + ', random start set to ' + sequence);
+
   if(holdPlay){
     return;
   }
@@ -206,7 +209,7 @@ function applyMarquee(){
 
   if(w1 + w2 > w3){
     $('.now-playing-title').addClass('marquee')
-    $('.now-playing-title').css('width', ((w3 - w2) - 17) + 'px');
+    $('.now-playing-title').css('width', ((w3 - w2) - 24) + 'px');
   }
 }
 
