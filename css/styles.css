@@ -17,7 +17,8 @@ ul{
 }
 
 .main-section{
-  display: inline-block;
+  display:  inline-block;
+  position: relative;
 }
 
 #top-header{
@@ -329,25 +330,47 @@ span.time-duration{
   width:            370px;
 }
 
-.europeana-branding img{
-  bottom:   -4em;
-  height:   5em;
+.europeana-branding{
   position: absolute;
-  right:    -1em;
+  bottom:   1.5em;
+  position: absolute;
+  right:    -1.5em;
+}
+
+.europeana-branding img{
+  height:   5em;
   width:    10em;
 }
 
+.channel-type-switch{
+  background-color: #fefefe;
+  color:            #4d4d4d;
+  padding-top:      0.5em;
+  border-bottom:    1px solid #bebebe;
+}
 
-.station-select{
-  font-size:       1em;
-  padding:         0.25em 0.5em 0.25em 2em;
-  text-align:      left;
-  text-decoration: none;
+.channel-type-switch .tab{
+  border:        1px solid #bebebe;
+  border-bottom: 0;
+  border-radius: 0.5em 0.5em 0 0;
+  bottom:        -1px;
+  cursor:        pointer;
+  display:       inline-block;
+  padding:       0.25em 0.5em 0.25em 0.5em;
+  position:      relative;
+}
+
+.channel-type-switch .tab.active{
+  border-bottom: 1px solid #fff;
 }
 
 .station-select{
-  display: block;
-  position: relative;
+  display:         block;
+  font-size:       1em;
+  padding:         0.25em 0.5em 0.25em 2em;
+  position:        relative;
+  text-align:      left;
+  text-decoration: none;
 }
 
 .station-select:before{
@@ -370,6 +393,9 @@ span.time-duration{
   filter:  invert(100%);
 }
 
+.radio-selector{
+  margin-top: 0.25em;
+}
 .radio-selector :hover,
 .radio-selector .active{
   background-color: #095F90;
@@ -409,7 +435,7 @@ span.time-duration{
   }
 
 }
-@media all and (min-width: 578px){
+@media all and (min-width: 740px){
 
   .radio-container{
     width: 740px;
@@ -496,3 +522,23 @@ span.time-duration{
   from  { text-indent:  100% }
   to    { text-indent: -100% }
 }
+
+
+.tag{
+  background-color: #1676aa;
+  color: #ffffff;
+  border-bottom-right-radius: 10em;
+  border-top-right-radius: 10em;
+  display: inline-block;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  margin: 0 0.2em 0.5em 0;
+  padding: 0.35em 1em 0.35em 0.5em;
+  position: relative;
+  text-transform: uppercase;
+}
+.tag:hover,
+.tag.is-active{
+  background-color: #0a3750;
+}
+
