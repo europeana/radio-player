@@ -1,41 +1,31 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Europeana Radio</title>
+  <head>
+    <title>Europeana Radio</title>
 
-		<script type="text/javascript" src="js/amplitude.js"></script>
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-        <script src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/amplitude.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
 
-		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
-		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
-
-	</head>
-	<body>
-    <!-- Start Radio Container -->
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+  </head>
+  <body>
     <div class="radio-container">
-      <!-- Start Main Section -->
       <div class="main-section">
-        <!-- Start Top Header -->
         <div id="top-header">
-              <div class="error"></div>
+          <div class="error"></div>
           <div class="now-playing-title"><a target="_blank" class="song-author" amplitude-song-info="name"></a></div>
-          <div class="album-information"><span amplitude-song-info="artist"></span></div>
           <div class="rights" amplitude-song-info="copyright"><span>-</span></div>
+          <div class="album-information"><span amplitude-song-info="artist"></span></div>
         </div>
-        <!-- End Top Header -->
 
-        <!-- Start Large Album Art -->
         <div id="top-large-album">
-              <div class="play-radio"></div>
-          <img id="large-album-art" amplitude-song-info="cover"/>
+          <img id="large-album-art" amplitude-song-info="cover" src="images/cover.png"/>
+          <div class="play-radio"></div>
         </div>
-        <!-- End Large Album Art -->
 
-        <!-- Begin Small Player -->
         <div id="small-player">
-
-          <!-- Begin Small Player Full Bottom -->
           <div id="small-player-full-bottom">
             <div class="controls">
               <div class="amplitude-play-pause amplitude-paused controls-1" amplitude-song-index="0"></div>
@@ -53,41 +43,31 @@
               </span>
             </div>
           </div>
-          <!-- End Small Player Full Bottom -->
         </div>
-        <!-- End Small Player -->
-      </div>
-      <!-- End Main Section -->
-      <!-- Begin Right Column -->
-      <div class="right-col">
-        <div class="radio-selector">
-          <div class="radio-0" id="radio-0">
-            <img class="play-icon" src="images/icon-play.svg">
-            Classical Music
-          </div>
-          <div class="radio-1" id="radio-1">
-            <img class="music-icon" src="images/icon-music.svg">
-            Traditional & Folk Music</div>
-        </div>
-        <div class="right-col-filler"></div>
-        <div class="genre-selector">
-            <div class="genre-selection">
-              <h2>Refine the music genre</h2>
-                <p>Help us refine our music genre classification:</p>
-                <div class="ui-widget">
-                    <input id="genres" placeholder="Start typing here..">
-                </div>
-            </div>
-            <div class="genre-selection-made"></div>
-        </div>
-        <a href="https://www.europeana.eu/portal" target="_blank">
-          <div class="europeana-branding"></div>
-        </a>
-      </div>
-      <!-- End Right Column -->
-    </div>
-    <!-- End Radio Container -->
-	</body>
+      </div><div class="right-col">
+        <ul class="radio-selector">
+          <li class="station-select">
+            <a>Classical Music</a>
+          </li>
+          <li class="station-select">
+            <a>Traditional & Folk Music</a>
+          </li>
+        </ul>
 
-	<script type="text/javascript" src="js/radio.js"></script>
+        <div class="genre-selector">
+          <div class="genre-selection">
+            <h2>Refine the music genre</h2>
+            <p>Help us refine our music genre classification:</p>
+            <div class="ui-widget">
+              <input id="genres" placeholder="Start typing here..">
+            </div>
+          </div>
+          <div class="genre-selection-made"></div>
+        </div>
+      </div>
+      <a class="europeana-branding" href="https://www.europeana.eu/portal" target="_blank"><img src="images/eu_powered_logo.svg"></a>
+
+    </div>
+  </body>
+  <script type="text/javascript" src="js/radio.js"></script>
 </html>
