@@ -19,7 +19,11 @@ var urlGenres       = dataHost + '/stations/genres.json'
 var urlStations     = dataHost + '/stations.json'
 
 var activeChannel   = 0;
-var channels        = [];
+
+//var channels        = [];
+var channels        = {"institutions":[], "genres":[]};
+var channelType     = 'institutions';
+
 var sequence        = 0;
 var playCount       = 0;
 var jingleInterval  = 5;
@@ -58,6 +62,7 @@ $(document).ready(function() {
   if(paramGenre){
 
     log('preset genre set: ' + paramGenre);
+    setChannelType('genres');
 
     if(paramGenre == 'classical'){
       paramGenre = 'Classical Music'
@@ -69,21 +74,23 @@ $(document).ready(function() {
       paramGenre = 'Popular Music'
     }
 
-    loadChannels(urlGenres, function(){
+    loadChannels(urlGenres, channelType, function(){
       setChannel(getIndex(paramGenre), true);
     });
   }
   else if(paramInstitution){
 
     log('preset institution set: ' + paramInstitution);
+    setChannelType('institutions');
 
-    loadChannels(urlInstitutions, function(){
+    loadChannels(urlInstitutions, channelType, function(){
       setChannel(getIndex(paramInstitution), true);
     });
   }
   else if(paramStation){
 
     log('preset station set: ' + paramStation);
+    setChannelType('genres');
 
     if(paramStation == 'classical'){
       paramStation = 'Classical Music'
@@ -94,12 +101,13 @@ $(document).ready(function() {
     else if(paramStation == 'popular'){
       paramStation = 'Popular Music'
     }
-    loadChannels(urlStations, function(){
+    loadChannels(urlStations, channelType, function(){
       setChannel(getIndex(paramStation), true);
     });
   }
   else{
-    loadChannels(urlStations, function(){
+    setChannelType('genres');
+    loadChannels(urlStations, channelType, function(){
       setChannel(null, true);
     });
   }
@@ -117,22 +125,34 @@ $(document).ready(function() {
   genreTagging();
 });
 
+function setChannelType(type){
+
+  channelType = type;
+
+  $('.channel-type-switch .tab').removeClass('active');
+  $('.channel-type-switch .tab[data-type="' + channelType + '"]').addClass('active');
+
+  $('.radio-selector').hide();
+  $('.radio-selector.' + channelType).show();
+
+  log('channelType set to ' + channelType);
+}
 
 /* sets the active channel and begins playback */
 function setChannel(index, holdPlay) {
 
   if(index == null){
     log('pick random station...')
-    index = Math.floor(Math.random() * channels.length);
+    index = Math.floor(Math.random() * channels[channelType].length);
   }
 
   var selected = $('.station-select[data-index="' + index + '"]');
   selected.addClass('active');
   activeChannel = index;
 
-  sequence = Math.floor(Math.random() * channels[activeChannel].totalResults);
+  sequence = Math.floor(Math.random() * channels[channelType][activeChannel].totalResults);
 
-  log('set active channel to [' + index + '] - ' + channels[activeChannel].name + ', random start set to ' + sequence);
+  log('set active channel to [' + index + '] - ' + channels[channelType][activeChannel].name + ', random start set to ' + sequence);
 
   if(holdPlay){
     return;
@@ -140,19 +160,19 @@ function setChannel(index, holdPlay) {
   shuffleTrack();
 }
 
-function addMenuItem(title, index){
+function addMenuItem(title, type, index){
   var count = $('.radio-selector li').length;
-  $('.radio-selector').append('<li class="station-select" data-name="' + title + '" data-index="' + index + '">' + title + '</li>');
+  $('.radio-selector' + '.' + type).append('<li class="station-select" data-name="' + title + '" data-index="' + index + '">' + title + '</li>');
 }
 
-function loadChannels(url, callback) {
+function loadChannels(url, type, callback) {
   $.get(url, function(data){
 
-    $('.radio-selector').empty();
+    $('.radio-selector.' + type).empty();
 
     $.each(data.stations, function(i, station) {
-      channels.push(station);
-      addMenuItem(station.name, i);
+      channels[type].push(station);
+      addMenuItem(station.name, type, i);
       log('Added channel '  + station.name + ' (' + station.totalResults + ' tunes)');
     });
 
@@ -168,12 +188,36 @@ $('.radio-selector div').on('mouseover', function () {
   $('img', this).addClass('radio-icon-invert');
 });
 
-$('div.play-radio').on('click', function() {
+$('.play-radio').on('click', function() {
   if(!active){
     shuffleTrack();
   }
 });
 
+$('.channel-type-switch').on('click', function(e){
+  var selType = $(e.target).data('type');
+
+  setChannelType(selType)
+
+  log('list length = ' + $('.radio-selector.' + channelType).length + '  (selector = ' + ('.radio-selector.' + channelType) + ')'  )
+
+
+  if($('.radio-selector.' + channelType + ' li').length == 0){
+
+    log('EMPTY: ' + '.radio-selector.' + channelType + ' li')
+
+    loadChannels(channelType == 'genres' ? urlGenres : urlInstitutions, channelType, function(){
+      //setChannel(getIndex(paramGenre), true);
+      log('loaded... what now?')
+    });
+
+  }
+
+ //   var $el = $('.station-select[data-name="' + decodeURIComponent(name) + '"]');
+
+  log('show channel ' + channelType);
+
+})
 
 $('.amplitude-next').on('click', function() {
   shuffleTrack();
@@ -194,7 +238,7 @@ $('.radio-selector div').on('click', function() {
 
   activeChannel = selectedStation.slice(-1);
 
-  log('Switching to station: ' + channels[activeChannel].name);
+  log('Switching to station: ' + channels[channelType][activeChannel].name);
   shuffleTrack();
 });
 
@@ -215,6 +259,9 @@ function applyMarquee(){
 
 // Get a new track
 function shuffleTrack() {
+
+  $('.error').empty();
+
   if (!active) {
     log('Initialising radio');
     initPlayer();
@@ -222,7 +269,7 @@ function shuffleTrack() {
   }
 
   sequence ++;
-  sequence = sequence > channels[activeChannel].totalResults ? 0 : sequence;
+  sequence = sequence > channels[channelType][activeChannel].totalResults ? 0 : sequence;
 
   // Hide some elements..
   $('.rights').hide();
@@ -235,17 +282,18 @@ function shuffleTrack() {
     if(playCount == 0){
       jingleUrl = '/audio/welcome.mp3';
     }
-    else if(channels[activeChannel].name == 'Folk and Traditional Music'){
+    else if(channels[channelType][activeChannel].name == 'Folk and Traditional Music'){
       jingleUrl = '/audio/folk.mp3';
     }
-    else if(channels[activeChannel].name == 'Classical Music'){
+    else if(channels[channelType][activeChannel].name == 'Classical Music'){
       jingleUrl = '/audio/classical.mp3';
     }
     else{
+      log('try new jingle.....');
       jingleUrl = '/audio/generic.mp3';
     }
 
-    var name = playCount == 0 ? 'Welcome to Europeana Radio!' : ('Europeana\'s ' + channels[activeChannel].name + ' Station!');
+    var name = playCount == 0 ? 'Welcome to Europeana Radio!' : ('Europeana\'s ' + channels[channelType][activeChannel].name + ' Station!');
 
     // play jingle
     var song = {
@@ -263,7 +311,7 @@ function shuffleTrack() {
     playCount++;
   }
   else{
-    $.get(channels[activeChannel].link + '?rows=1&start=' + sequence, function (data) {
+    $.get(channels[channelType][activeChannel].link + '?rows=1&start=' + sequence, function (data) {
 
       var track = data.station.playlist[0];
       var song = {

@@ -23,6 +23,7 @@
         <div id="top-large-album">
           <img id="large-album-art" amplitude-song-info="cover" src="images/cover.png"/>
           <div class="play-radio"></div>
+          <a class="europeana-branding" href="https://www.europeana.eu/portal" target="_blank"><img src="images/eu_powered_logo.svg"></a>
         </div>
 
         <div id="small-player">
@@ -45,19 +46,18 @@
           </div>
         </div>
       </div><div class="right-col">
-        <ul class="radio-selector">
-          <li class="station-select">
-            <a>Classical Music</a>
-          </li>
-          <li class="station-select">
-            <a>Traditional & Folk Music</a>
-          </li>
-        </ul>
-
+        <div class="channel-type-switch"><span class="tab" data-type="genres">Genres</span><span class="tab" data-type="institutions">Institutions</span>
+        </div>
+        <ul class="radio-selector genres"></ul>
+        <ul class="radio-selector institutions"></ul>
         <div class="genre-selector">
           <div class="genre-selection">
             <h2>Refine the music genre</h2>
             <p>Help us refine our music genre classification:</p>
+            <ul class="tags">
+              <li class="tag">rock</li>
+              <li class="tag">roll</li>
+            </ul>
             <div class="ui-widget">
               <input id="genres" placeholder="Start typing here..">
             </div>
@@ -65,7 +65,6 @@
           <div class="genre-selection-made"></div>
         </div>
       </div>
-      <a class="europeana-branding" href="https://www.europeana.eu/portal" target="_blank"><img src="images/eu_powered_logo.svg"></a>
 
     </div>
   </body>
