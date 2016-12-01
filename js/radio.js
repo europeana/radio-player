@@ -16,7 +16,7 @@ if(getURLParameter('hostname')){
 
 var urlInstitutions = dataHost + '/stations/institutions.json'
 var urlGenres       = dataHost + '/stations/genres.json'
-var urlStations     = dataHost + '/stations.json'
+var urlStations     = dataHost + '/stations/genres.json'
 
 var activeChannel   = 0;
 
@@ -93,13 +93,13 @@ $(document).ready(function() {
     setChannelType('genres');
 
     if(paramStation == 'classical'){
-      paramStation = 'Classical Music'
+      paramStation = 'Classical Music';
     }
     else if(paramStation == 'folk'){
-      paramStation = 'Folk and Traditional Music'
+      paramStation = 'Folk and Traditional Music';
     }
     else if(paramStation == 'popular'){
-      paramStation = 'Popular Music'
+      paramStation = 'Popular Music';
     }
     loadChannels(urlStations, channelType, function(){
       setChannel(getIndex(paramStation), true);
@@ -203,20 +203,11 @@ $('.channel-type-switch').on('click', function(e){
 
 
   if($('.radio-selector.' + channelType + ' li').length == 0){
-
-    log('EMPTY: ' + '.radio-selector.' + channelType + ' li')
-
     loadChannels(channelType == 'genres' ? urlGenres : urlInstitutions, channelType, function(){
-      //setChannel(getIndex(paramGenre), true);
-      log('loaded... what now?')
     });
-
   }
 
- //   var $el = $('.station-select[data-name="' + decodeURIComponent(name) + '"]');
-
   log('show channel ' + channelType);
-
 })
 
 $('.amplitude-next').on('click', function() {
@@ -257,6 +248,22 @@ function applyMarquee(){
   }
 }
 
+
+function doPlay(song, recordId){
+  try {
+    Amplitude.playNow(song);
+    playCount++;
+
+    setTimeout(function(){
+      applyMarquee();
+      $('.now-playing-title a').attr('href', recordId ? (external + '/portal/record' + recordId + '.html') : external);
+    }, 10);
+  }
+  catch (e) {
+    log('Error ' + e);
+  }
+}
+
 // Get a new track
 function shuffleTrack() {
 
@@ -289,7 +296,6 @@ function shuffleTrack() {
       jingleUrl = '/audio/classical.mp3';
     }
     else{
-      log('try new jingle.....');
       jingleUrl = '/audio/generic.mp3';
     }
 
@@ -307,8 +313,7 @@ function shuffleTrack() {
     };
 
     log(JSON.stringify(song));
-    Amplitude.playNow(song);
-    playCount++;
+    doPlay(song);
   }
   else{
     $.get(channels[channelType][activeChannel].link + '?rows=1&start=' + sequence, function (data) {
@@ -329,17 +334,7 @@ function shuffleTrack() {
 
       $('.genre-selector').show();
 
-      try {
-        Amplitude.playNow(song);
-        playCount++;
-
-        setTimeout(function(){
-          applyMarquee();
-        }, 10);
-      }
-      catch (e) {
-        log('Error ' + e);
-      }
+      doPlay(song, track.europeanaId);
     }, 'json')
     .fail(function () {
       showPlayerError('An error has occurred, please try again later.', 'No response from the radio server.');
