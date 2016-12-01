@@ -40,6 +40,15 @@ function getIndex(name){
   return $el.data('index');
 }
 
+
+function before_play(){
+  log('before_play');
+  $('.amplitude-song-slider').val(0);
+  setTimeout(function(){
+    $('.amplitude-song-slider').val(0);
+  }, 10);
+}
+
 $(document).ready(function() {
 
   Amplitude.init({
@@ -48,8 +57,9 @@ $(document).ready(function() {
     "default_album_art": '/images/cover.png',
     "visualization_backup": "album-art",
     "callbacks": {
-      "before_next": "resetCover",       // Smoothen the transition from one cover to the other
-      "after_song_ended": "shuffleTrack" // Play the next track when the current one ends
+      "before_next": "resetCover",        // Smoothen the transition from one cover to the other
+      "after_song_ended": "shuffleTrack", // Play the next track when the current one ends
+      "before_play" : "before_play"
     }
   });
 
@@ -352,6 +362,8 @@ function initPlayer() {
 // Reset cover
 function resetCover() {
   $('#large-album-art').attr('src', 'images/cover.png');
+  $('.amplitude-song-slider').val(0);
+
 }
 
 // Error handling

@@ -226,29 +226,12 @@ ul{
   opacity: 1;
 }
 
-#song-time-visualization{
+.amplitude-song-slider{
   background-color: #bebebe;
   height: 5px;
   width: 260px;
 }
 
-#song-time-visualization .amplitude-song-time-visualization-status{
-  background-color: #1A8AC7;
-  height:           5px;
-}
-
-#song-time-visualization-large{
-  background-color: #bebebe;
-  display:          inline-block;
-  height:           5px;
-  vertical-align:   middle;
-  width:            82%;
-}
-
-#song-time-visualization-large .amplitude-song-time-visualization-status{
-  background-color: #1A8AC7;
-  height: 5px;
-}
 
 /*
     Now Playing Information
