@@ -5,9 +5,11 @@
 
     <script type="text/javascript" src="js/amplitude.js"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/chosen/chosen.jquery.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
+    <link rel="stylesheet" type="text/css" href="js/chosen/style.css"/>
+    <link rel="stylesheet" type="text/css" href="js/chosen/prism.css"/>
+    <link rel="stylesheet" type="text/css" href="js/chosen/chosen.css"/>
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
   </head>
   <body>
@@ -50,17 +52,18 @@
         </div>
         <ul class="radio-selector genres"></ul>
         <ul class="radio-selector institutions"></ul>
+
         <div class="genre-selector">
           <div class="genre-selection">
             <h2>Refine the music genre</h2>
             <p>Help us refine our music genre classification:</p>
-            <ul class="tags">
-              <li class="tag">rock</li>
-              <li class="tag">roll</li>
+            <ul class="exisiting-tags">
+              <li class="tag">country music</li>
+              <li class="tag">oratorio</li>
             </ul>
-            <div class="ui-widget">
-              <input id="genres" placeholder="Start typing here..">
-            </div>
+            <select id="sel_genres" data-placeholder="Type &apos;C&apos; to view" multiple class="chosen-select">
+              <option value=""></option>
+            </select>
           </div>
           <div class="genre-selection-made"></div>
         </div>

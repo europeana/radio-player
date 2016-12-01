@@ -1,10 +1,8 @@
-// Init variables
 var debug        = true;
 var currentTrack = null;
 var songToTag    = null;
 var active       = false;
 var playAttempts = 0;
-
 
 var external = 'https://www.europeana.eu';
 var dataHost = 'https://radio.europeana.eu';
@@ -18,14 +16,13 @@ var urlInstitutions = dataHost + '/stations/institutions.json'
 var urlGenres       = dataHost + '/stations/genres.json'
 var urlStations     = dataHost + '/stations/genres.json'
 
-var activeChannel   = 0;
-
-//var channels        = [];
 var channels        = {"institutions":[], "genres":[]};
 var channelType     = 'institutions';
 
+var activeChannel   = 0;
 var sequence        = 0;
 var playCount       = 0;
+var welcomed        = false;
 var jingleInterval  = 5;
 
 
@@ -42,7 +39,6 @@ function getIndex(name){
 
 
 function before_play(){
-  log('before_play');
   $('.amplitude-song-slider').val(0);
   setTimeout(function(){
     $('.amplitude-song-slider').val(0);
@@ -131,8 +127,6 @@ $(document).ready(function() {
     $tgt.addClass('active');
     setChannel($tgt.data('index'));
   });
-
-  genreTagging();
 });
 
 function setChannelType(type){
@@ -162,11 +156,10 @@ function setChannel(index, holdPlay) {
 
   sequence = Math.floor(Math.random() * channels[channelType][activeChannel].totalResults);
 
-  log('set active channel to [' + index + '] - ' + channels[channelType][activeChannel].name + ', random start set to ' + sequence);
-
   if(holdPlay){
     return;
   }
+  playCount = 0;
   shuffleTrack();
 }
 
@@ -209,37 +202,12 @@ $('.channel-type-switch').on('click', function(e){
 
   setChannelType(selType)
 
-  log('list length = ' + $('.radio-selector.' + channelType).length + '  (selector = ' + ('.radio-selector.' + channelType) + ')'  )
-
-
   if($('.radio-selector.' + channelType + ' li').length == 0){
-    loadChannels(channelType == 'genres' ? urlGenres : urlInstitutions, channelType, function(){
-    });
+    loadChannels(channelType == 'genres' ? urlGenres : urlInstitutions, channelType);
   }
-
-  log('show channel ' + channelType);
-})
-
-$('.amplitude-next').on('click', function() {
-  shuffleTrack();
 });
 
-
-// Switch station
-$('.radio-selector div').on('click', function() {
-  $('.radio-selector div').removeClass('active');
-
-  $(this).addClass('active');
-  $('img', this).attr('src', 'images/icon-play.svg');
-  $('img', this).addClass('radio-icon-invert');
-
-  var selectedStation = $(this).attr('id');
-
-  log('INITIAL SELECTED STATION IS ' + selectedStation + ', activeChannel IS ' + activeChannel);
-
-  activeChannel = selectedStation.slice(-1);
-
-  log('Switching to station: ' + channels[channelType][activeChannel].name);
+$('.amplitude-next').on('click', function() {
   shuffleTrack();
 });
 
@@ -257,7 +225,6 @@ function applyMarquee(){
     $('.now-playing-title').css('width', ((w3 - w2) - 24) + 'px');
   }
 }
-
 
 function doPlay(song, recordId){
   try {
@@ -294,10 +261,12 @@ function shuffleTrack() {
   // Based on play count, see if we need to throw in a jingle..
   if (playCount == 0 || playCount % jingleInterval == 0) {
 
+    $('.genre-selector').hide();
     var jingleUrl = null;
 
-    if(playCount == 0){
+    if(playCount == 0 && !welcomed){
       jingleUrl = '/audio/welcome.mp3';
+      welcomed = true;
     }
     else if(channels[channelType][activeChannel].name == 'Folk and Traditional Music'){
       jingleUrl = '/audio/folk.mp3';
@@ -340,9 +309,28 @@ function shuffleTrack() {
       };
 
       currentTrack = song;
-      log('New track: ' + song.name);
 
       $('.genre-selector').show();
+      genreTagging(
+        playCount % 2 == 0 ?
+        [
+           {
+              "value": "http://www.wikidata.org/entity/Q83440", "label": "country music"
+           },
+           {
+              "value": "http://www.wikidata.org/entity/Q85477", "label": "oratorio"
+           }
+        ]
+        :
+        [
+         {
+             "value": "http://www.wikidata.org/entity/Q131269", "label": "sonata"
+         },
+         {
+             "value": "http://www.wikidata.org/entity/Q647653", "label": "divertimento"
+         }
+         ]
+      );
 
       doPlay(song, track.europeanaId);
     }, 'json')
@@ -387,49 +375,39 @@ function getURLParameter(sParam) {
 }
 
 // Music genre tagging
-function genreTagging() {
+function genreTagging(disabledGenres) {
 
   $.ajax({
     url: "music-genres/genres.json",
     dataType: "json",
     success: function (data) {
-      console.log("Loaded in " + data.length + " music genres for autocompletion");
-      var genre_data = $.map(data, function (item) {
-        return {
-          label: item.label,
-          value: item.value
-        };
-      });
-      $("#genres").autocomplete({
-        source: genre_data,
-        minlength: 2,
-        open: function () {
-          songToTag = currentTrack;
-          console.log("Starting music genre tagging for song " + currentTrack['name']);
-        },
-        select: function (event, ui) {
-          $('div.genre-selection').hide();
-          $('div.genre-selection-made').show();
 
-          console.log("Selected music genre: " + ui.item.value + " aka " + ui.item.label);
+      $('#sel_genres').empty();
 
-          $('div.genre-selection-made').html('<h2>Refine the music genre</h2>' +
-            '<p>Confirm <span class="genre-label">' + ui.item.label + '</span> as genre for <span class="genre-song-label">' + songToTag['name'] + '</span>:</p>' +
-            '<p><a href="javascript:void(null);" onclick="submitGenreTagging(\'' + ui.item.value + '\', \'' + ui.item.label + '\');" class="genre-submit">Submit</a>' +
-            '&nbsp; &nbsp; &nbsp; <a href="javascript:void(null);" onclick="cancelGenreTagging();" class="genre-cancel">Cancel</a></p>'
-          );
-        }
+      $(data).each(function(i, item) {
+        disable = false;
+        $.each(disabledGenres, function(i, disabled){
+          if(item.value == disabled.value){
+            disable = true;
+          }
+        });
+        $('#sel_genres').append($('<option' + (disable ? ' disabled' : '') + '>').attr('value', item.value).text(item.label));
       });
+
+      $('#sel_genres').chosen();
+      $('#sel_genres').trigger("chosen:updated");
     }
   });
 }
+
 
 // Music genre tagging cancellation
 function cancelGenreTagging() {
   $('div.genre-selection-made').html('');
   $('div.genre-selection-made').hide();
-  $('#genres').val('');
+  $('#sel_genres').val('');
   $('div.genre-selection').show();
+  genreTagging();
 }
 
 // Music genre tagging submitting

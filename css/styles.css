@@ -350,6 +350,7 @@ span.time-duration{
 .station-select{
   display:         block;
   font-size:       1em;
+  margin:          0;
   padding:         0.25em 0.5em 0.25em 2em;
   position:        relative;
   text-align:      left;
@@ -432,31 +433,36 @@ span.time-duration{
   }
 }
 
+
 .genre-selector {
-    border-top: 1px solid #DEDEDE;
-    margin-bottom: 1.3em;
-    padding: 10px;
-    line-height: 1.8em;
-    overflow: auto;
-    display: none;
+  border-top:    1px solid #DEDEDE;
+  margin-bottom: 1.3em;
+  padding:       10px;
+  line-height:   1.8em;
+  display:       none;
+
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.chosen-choices span,
+.chosen-drop li{
+  text-transform: capitalize;
 }
 
 
-.genre-selector input {
-  border-radius: 3px;
-  moz-border-radius: 3px;
+/* override to make the drop-down drop-up */
 
-  border:     1px solid #DEDEDE;
-  box-sizing: padding-box;
-  font-size:  16px;
-  height:     25px;
-  margin-top: 7px;
-  padding:    0px 5px;
-  width:      100%;
+.chosen-container .chosen-drop {
+  border-bottom: 0;
+  border-top: 1px solid #aaa;
+  top: auto;
+  bottom: 2.5em;
 }
 
 .genre-selector h2{
-    font-weight: bold;
+  font-weight: bold;
+  margin: 0;
 }
 
 .ui-autocomplete-loading {
@@ -506,19 +512,18 @@ span.time-duration{
   to    { text-indent: -100% }
 }
 
-
 .tag{
-  background-color: #1676aa;
-  color: #ffffff;
+  background-color:           #1676aa;
+  color:                      #ffffff;
   border-bottom-right-radius: 10em;
-  border-top-right-radius: 10em;
-  display: inline-block;
-  font-size: 0.8125rem;
-  font-weight: bold;
-  margin: 0 0.2em 0.5em 0;
-  padding: 0.35em 1em 0.35em 0.5em;
-  position: relative;
-  text-transform: uppercase;
+  border-top-right-radius:    10em;
+  display:                    inline-block;
+  font-size:                  0.75em;
+  font-weight:                bold;
+  margin:                     0 0.2em 0.5em 0;
+  padding:                    0.2em 1em 0.2em 0.5em;
+  position:                   relative;
+  text-transform:             uppercase;
 }
 .tag:hover,
 .tag.is-active{
