@@ -127,6 +127,7 @@ $(document).ready(function() {
     $tgt.addClass('active');
     setChannel($tgt.data('index'));
   });
+
 });
 
 function setChannelType(type){
@@ -187,10 +188,6 @@ function loadChannels(url, type, callback) {
 
 // Event binding
 
-$('.radio-selector div').on('mouseover', function () {
-  $('img', this).addClass('radio-icon-invert');
-});
-
 $('.play-radio').on('click', function() {
   if(!active){
     shuffleTrack();
@@ -210,6 +207,26 @@ $('.channel-type-switch').on('click', function(e){
 $('.amplitude-next').on('click', function() {
   shuffleTrack();
 });
+
+$('.submit-genre').on('click', function(){
+
+  var data = {
+    "genres": $('#sel_genres').val()
+  }
+
+  log('submit:\n\n' +  JSON.stringify(data, null, 8));
+
+  $.ajax({
+    type: 'POST',
+    url: dataHost + '/submit',
+    data: data,
+    success: function(){
+      alert('success = update the song tags...');
+    }
+  });
+
+});
+
 
 function applyMarquee(){
 
@@ -252,8 +269,16 @@ function shuffleTrack() {
     active = true;
   }
 
-  sequence ++;
-  sequence = sequence > channels[channelType][activeChannel].totalResults ? 0 : sequence;
+  if(!channels[channelType][activeChannel]){
+    showPlayerError('Channel unavailable');
+
+    showGenres();
+    return;
+  }
+  else{
+    sequence ++;
+    sequence = sequence > channels[channelType][activeChannel].totalResults ? 0 : sequence;
+  }
 
   // Hide some elements..
   $('.rights').hide();
@@ -310,7 +335,6 @@ function shuffleTrack() {
 
       currentTrack = song;
 
-      $('.genre-selector').show();
       genreTagging(
         playCount % 2 == 0 ?
         [
@@ -329,7 +353,7 @@ function shuffleTrack() {
          {
              "value": "http://www.wikidata.org/entity/Q647653", "label": "divertimento"
          }
-         ]
+        ]
       );
 
       doPlay(song, track.europeanaId);
@@ -351,12 +375,13 @@ function initPlayer() {
 function resetCover() {
   $('#large-album-art').attr('src', 'images/cover.png');
   $('.amplitude-song-slider').val(0);
-
 }
 
 // Error handling
 function showPlayerError(message, internal) {
+
   log('Error: ' + internal);
+
   $('#top-header').show();
   $('.now-playing-title').html('');
   $('.album-information span').html('');
@@ -386,14 +411,19 @@ function genreTagging(disabledGenres) {
 
       $(data).each(function(i, item) {
         disable = false;
-        $.each(disabledGenres, function(i, disabled){
-          if(item.value == disabled.value){
-            disable = true;
-          }
-        });
+
+        if(disabledGenres){
+          $.each(disabledGenres, function(i, disabled){
+            if(item.value == disabled.value){
+              disable = true;
+            }
+          });
+        }
+
         $('#sel_genres').append($('<option' + (disable ? ' disabled' : '') + '>').attr('value', item.value).text(item.label));
       });
 
+      $('.genre-selector').show();
       $('#sel_genres').chosen();
       $('#sel_genres').trigger("chosen:updated");
     }

@@ -315,14 +315,14 @@ span.time-duration{
 
 .europeana-branding{
   position: absolute;
-  bottom:   1.5em;
+  bottom:   2.7em;
   position: absolute;
-  right:    -1.5em;
+  right:    0.2em;
 }
 
 .europeana-branding img{
-  height:   5em;
-  width:    10em;
+  height:   65px;
+  width:    178px;
 }
 
 .channel-type-switch{
@@ -374,7 +374,8 @@ span.time-duration{
 
 .station-select:hover:before,
 .station-select.active:before{
-  filter:  invert(100%);
+  filter:         invert(100%);
+  webkit-filter: invert(100%);
 }
 
 .radio-selector{
@@ -386,7 +387,6 @@ span.time-duration{
   color:            #ffffff;
   cursor:           pointer;
   text-align:       left;
-
 }
 
 .play-icon{
@@ -448,16 +448,6 @@ span.time-duration{
 .chosen-choices span,
 .chosen-drop li{
   text-transform: capitalize;
-}
-
-
-/* override to make the drop-down drop-up */
-
-.chosen-container .chosen-drop {
-  border-bottom: 0;
-  border-top: 1px solid #aaa;
-  top: auto;
-  bottom: 2.5em;
 }
 
 .genre-selector h2{
@@ -530,3 +520,30 @@ span.time-duration{
   background-color: #0a3750;
 }
 
+.submit-genre{
+  background-color: #1676aa;
+  border:           0;
+  color:            #fff;
+  padding:          0.3em;
+
+}
+
+/* Chosen overrides */
+
+/* override to make the drop-down drop-up */
+.chosen-container .chosen-drop {
+  border-bottom: 0;
+  border-top: 1px solid #aaa;
+  top: auto;
+  bottom: 2.5em;
+}
+
+.select,
+.chosen-select,
+.chosen-select-no-single,
+.chosen-select-no-results,
+.chosen-select-deselect,
+.chosen-select-rtl,
+.chosen-select-width {
+  width: 280px;
+}
