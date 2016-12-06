@@ -11,9 +11,10 @@ ul{
 }
 
 .radio-container{
-  display: inline-block;
-  position: relative;
-  width: 370px;
+  background-color: #fff;
+  display:          inline-block;
+  position:         relative;
+  width:            370px;
 }
 
 .main-section{
@@ -280,44 +281,44 @@ ul{
   display:          none;
   float:            right;
   font-size:        0.5em;
-  height:           2.3em;
   padding:          0 0.3em;
   position:         relative;
   right:            4px;
   top:              -4px;
 }
 
-span.current-time{
-  color: #676261;
-  font-size: 10px;
-  font-weight: 300;
-}
-
+span.current-time,
 span.time-duration{
   color:       #676261;
   font-size:   10px;
   font-weight: 300;
 }
 
-/*
-   Right Column
-*/
+/*  Right Column */
 
 .right-col{
-  background-color: #ffffff;
-  border-style:     solid solid solid none;
-  border-width:     1px;
-  border-color:     #DEDEDE;
+  box-sizing:       padding-box;
   display:          inline-block;
+  padding:          0 10px 0.5em 10px;
   vertical-align:   top;
   width:            370px;
 }
 
+.right-col p{
+  margin: 0.2em 0 0.4em 0
+}
+
 .europeana-branding{
   position: absolute;
-  bottom:   2.7em;
-  position: absolute;
-  right:    0.2em;
+  bottom:  18em;
+  left:    0.2em;
+  transition:         bottom 3s ease-in-out, left 3s ease-in-out;
+  -webkit-transition: bottom 3s ease-in-out, left 3s ease-in-out;
+}
+
+.europeana-branding.dropped{
+  bottom: 2.7em;
+  left:   0.3em;
 }
 
 .europeana-branding img{
@@ -381,6 +382,7 @@ span.time-duration{
 .radio-selector{
   margin-top: 0.25em;
 }
+
 .radio-selector :hover,
 .radio-selector .active{
   background-color: #095F90;
@@ -425,6 +427,15 @@ span.time-duration{
     width: 740px;
   }
 
+  .radio-selector{
+    max-height: 20em;
+    overflow-y: auto;
+  }
+
+  .welcomed .radio-selector{
+    max-height: 6.4em;
+  }
+
   .main-section {
     width: 370px;
   }
@@ -433,16 +444,12 @@ span.time-duration{
   }
 }
 
-
 .genre-selector {
-  border-top:    1px solid #DEDEDE;
-  margin-bottom: 1.3em;
-  padding:       10px;
-  line-height:   1.8em;
-  display:       none;
-
-  box-sizing: border-box;
-  width: 100%;
+  border-top:  1px solid #DEDEDE;
+  box-sizing:  border-box;
+  display:     none;
+  line-height: 1.8em;
+  width:       100%;
 }
 
 .chosen-choices span,
@@ -502,6 +509,12 @@ span.time-duration{
   to    { text-indent: -100% }
 }
 
+.existing-tags{
+  margin-bottom: 1em;
+  max-height:    6.77em;
+  overflow-y:    auto;
+}
+
 .tag{
   background-color:           #1676aa;
   color:                      #ffffff;
@@ -518,6 +531,11 @@ span.time-duration{
 .tag:hover,
 .tag.is-active{
   background-color: #0a3750;
+}
+
+.genre-ctrls{
+  position: absolute;
+  bottom:   1em;
 }
 
 .submit-genre{
@@ -545,5 +563,9 @@ span.time-duration{
 .chosen-select-deselect,
 .chosen-select-rtl,
 .chosen-select-width {
-  width: 280px;
+  width: 295px;
+}
+
+.chosen-container.error{
+  border: 1px solid red;
 }
