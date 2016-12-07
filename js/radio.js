@@ -23,8 +23,8 @@ var urlGenres       = dataHost + '/stations/genres.json'
 var urlStations     = dataHost + '/stations/genres.json'
 var urlAnnotations  = null;
 
-var channels        = {'institutions':[], 'genres':[]};
-var channelType     = 'institutions';
+var channels           = {'institutions':[], 'genres':[]};
+var playingChannelType = null;
 
 var availableGenres = null;
 var activeChannel   = 0;
@@ -76,7 +76,7 @@ $(document).ready(function() {
   if(paramGenre){
 
     log('preset genre set: ' + paramGenre);
-    setChannelType('genres');
+    showChannelType('genres');
 
     if(paramGenre == 'classical'){
       paramGenre = 'Classical Music'
@@ -88,23 +88,26 @@ $(document).ready(function() {
       paramGenre = 'Popular Music'
     }
 
-    loadChannels(urlGenres, channelType, function(){
-      setChannel(getIndex(paramGenre), true);
+    loadStations(urlGenres, function(){
+      playingChannelType = 'genres';
+      setStation(getIndex(paramGenre), true);
     });
   }
   else if(paramInstitution){
 
     log('preset institution set: ' + paramInstitution);
-    setChannelType('institutions');
 
-    loadChannels(urlInstitutions, channelType, function(){
-      setChannel(getIndex(paramInstitution), true);
+    showChannelType('institutions');
+
+    loadStations(urlInstitutions, function(){
+      playingChannelType = 'institutions';
+      setStation(getIndex(paramInstitution), true);
     });
   }
   else if(paramStation){
 
     log('preset station set: ' + paramStation);
-    setChannelType('genres');
+    showChannelType('genres');
 
     if(paramStation == 'classical'){
       paramStation = 'Classical Music';
@@ -115,14 +118,16 @@ $(document).ready(function() {
     else if(paramStation == 'popular'){
       paramStation = 'Popular Music';
     }
-    loadChannels(urlStations, channelType, function(){
-      setChannel(getIndex(paramStation), true);
+    loadStations(urlStations, function(){
+      playingChannelType = 'genres';
+      setStation(getIndex(paramStation), true);
     });
   }
   else{
-    setChannelType('genres');
-    loadChannels(urlStations, channelType, function(){
-      setChannel(null, true);
+    showChannelType('genres');
+    loadStations(urlStations, function(){
+      playingChannelType = 'genres';
+      setStation(null, true);
     });
   }
 
@@ -133,30 +138,35 @@ $(document).ready(function() {
     $('.station-select').removeClass('active');
 
     $tgt.addClass('active');
-    setChannel($tgt.data('index'));
+
+    playingChannelType = getChannelType();
   });
 
 });
 
-function setChannelType(type){
-
-  channelType = type;
-
-  $('.channel-type-switch .tab').removeClass('active');
-  $('.channel-type-switch .tab[data-type="' + channelType + '"]').addClass('active');
-
-  $('.radio-selector').hide();
-  $('.radio-selector.' + channelType).show();
-
-  log('channelType set to ' + channelType);
+function getChannelType(){
+  var active = $('.channel-type-switch .active').data('type');
+  return active;
 }
 
-/* sets the active channel and begins playback */
-function setChannel(index, holdPlay) {
+function showChannelType(type){
 
+  $('.channel-type-switch .tab').removeClass('active');
+  $('.channel-type-switch .tab[data-type="' + type + '"]').addClass('active');
+
+  $('.radio-selector').hide();
+  $('.radio-selector.' + type).show();
+
+  log('show channel type ' + type);
+}
+
+/* sets the active station and begins playback */
+function setStation(index, holdPlay) {
+
+  var channel = channels[getChannelType()];
   if(index == null){
     log('pick random station...');
-    index = Math.floor(Math.random() * channels[channelType].length);
+    index = Math.floor(Math.random() * channel.length);
   }
 
   var selected = $('.station-select[data-index="' + index + '"]');
@@ -164,7 +174,7 @@ function setChannel(index, holdPlay) {
   activeChannel = index;
 
   if(randomise){
-    sequence = Math.floor(Math.random() * channels[channelType][activeChannel].totalResults);
+    sequence = Math.floor(Math.random() * channel[activeChannel].totalResults);
   }
 
   if(holdPlay){
@@ -179,7 +189,10 @@ function addMenuItem(title, type, index){
   $('.radio-selector' + '.' + type).append('<li class="station-select" data-name="' + title + '" data-index="' + index + '">' + title + '</li>');
 }
 
-function loadChannels(url, type, callback) {
+function loadStations(url, callback) {
+
+  var type = getChannelType();
+
   $.get(url, function(data){
 
     $('.radio-selector.' + type).empty();
@@ -187,7 +200,6 @@ function loadChannels(url, type, callback) {
     $.each(data.stations, function(i, station) {
       channels[type].push(station);
       addMenuItem(station.name, type, i);
-      log('Added channel '  + station.name + ' (' + station.totalResults + ' tunes)');
     });
 
     if(callback){
@@ -230,19 +242,21 @@ function submitGenres(genres, index){
 // Event binding
 
 $('.play-radio').on('click', function() {
-    if(!active){
-        shuffleTrack();
-    }
+  if(!active){
+    shuffleTrack();
+  }
 });
 
 $('.channel-type-switch').on('click', function(e){
-    var selType = $(e.target).data('type');
 
-    setChannelType(selType)
+  var selType = $(e.target).data('type');
 
-    if($('.radio-selector.' + channelType + ' li').length == 0){
-        loadChannels(channelType == 'genres' ? urlGenres : urlInstitutions, channelType);
-    }
+  showChannelType(selType);
+
+  if($('.radio-selector.' + selType + ' li').length == 0){
+    loadStations(selType == 'genres' ? urlGenres : urlInstitutions);
+  }
+
 });
 
 $('.amplitude-next').on('click', function() {
@@ -252,7 +266,7 @@ $('.amplitude-next').on('click', function() {
 $('.submit-genre').on('click', function(){
   var val = $('#sel_genres').val();
   if(!val){
-      log('ERROR  ' + $('.chosen-container').length  )
+    log('ERROR  ' + $('.chosen-container').length  )
     $('.chosen-container').addClass('error');
     return;
   }
@@ -304,20 +318,25 @@ function shuffleTrack() {
     active = true;
   }
 
-  if(!channels[channelType][activeChannel]){
-    showPlayerError('Channel unavailable');
+  var channel = channels[playingChannelType];
 
+  log('channel = ' + channel + ', playingChannelType = ' + playingChannelType);
+
+  if(!channel[activeChannel]){
+    showPlayerError('Channel unavailable');
     showGenres();
     return;
   }
   else{
     sequence ++;
-    sequence = sequence > channels[channelType][activeChannel].totalResults ? 0 : sequence;
+    sequence = sequence > channel[activeChannel].totalResults ? 0 : sequence;
   }
 
   $('.rights').hide();
 
-  // Based on play count, see if we need to throw in a jingle..
+
+  // Jingle?
+
   if (playCount == 0 || playCount % jingleInterval == 0) {
 
     $('.genre-selection').addClass('hidden');
@@ -328,17 +347,17 @@ function shuffleTrack() {
       welcomed = true;
       $('.radio-container').addClass('welcomed');
     }
-    else if(channels[channelType][activeChannel].name == 'Folk and Traditional Music'){
+    else if(channel[activeChannel].name == 'Folk and Traditional Music'){
       jingleUrl = '/audio/folk.mp3';
     }
-    else if(channels[channelType][activeChannel].name == 'Classical Music'){
+    else if(channel[activeChannel].name == 'Classical Music'){
       jingleUrl = '/audio/classical.mp3';
     }
     else{
       jingleUrl = '/audio/generic.mp3';
     }
 
-    var name = playCount == 0 ? 'Welcome to Europeana Radio!' : ('Europeana\'s ' + channels[channelType][activeChannel].name + ' Station!');
+    var name = playCount == 0 ? 'Welcome to Europeana Radio!' : ('Europeana\'s ' + channel[activeChannel].name + ' Station!');
 
     // play jingle
     var song = {
@@ -355,7 +374,7 @@ function shuffleTrack() {
     doPlay(song);
   }
   else{
-    $.get(channels[channelType][activeChannel].link + '?rows=1&start=' + sequence, function (data) {
+    $.get(channel[activeChannel].link + '?rows=1&start=' + sequence, function (data) {
       var track = data.station.playlist[0];
       var song = {
         "album" : "Europeana",

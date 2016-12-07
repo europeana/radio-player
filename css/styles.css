@@ -489,7 +489,8 @@ ul{
   }
 
   .genre-selector-inner{
-    display:   flex;
+    display: flex;
+    height:  100%;
   }
 
   .genre-selection {
