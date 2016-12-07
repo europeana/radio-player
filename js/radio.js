@@ -320,7 +320,7 @@ function shuffleTrack() {
   // Based on play count, see if we need to throw in a jingle..
   if (playCount == 0 || playCount % jingleInterval == 0) {
 
-    $('.genre-selector').hide();
+    $('.genre-selection').addClass('hidden');
     var jingleUrl = null;
 
     if(playCount == 0 && !welcomed){
@@ -455,6 +455,7 @@ function genreTagging(disabledGenres) {
   function buildGenreElements(){
 
     $('#sel_genres').empty();
+    $('.existing-tags').empty();
 
     var sortedKeys = getSortedKeys(availableGenres);
 
@@ -472,7 +473,7 @@ function genreTagging(disabledGenres) {
       $('#sel_genres').append($('<option' + (disable ? ' disabled' : '') + '>').attr('value', item).text(availableGenres[item]));
     });
 
-    $('.genre-selector').show();
+    $('.genre-selection').removeClass('hidden');
     $('#sel_genres').chosen();
     $('#sel_genres').trigger("chosen:updated");
   }
