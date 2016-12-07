@@ -485,8 +485,11 @@ ul{
   }
 
   .genre-selector{
-    display:   flex;
     flex-grow: 1;
+  }
+
+  .genre-selector-inner{
+    display:   flex;
   }
 
   .genre-selection {
