@@ -2,7 +2,13 @@ var debug        = true;
 var currentTrack = null;
 var songToTag    = null;
 var active       = false;
+var randomise    = true;
 var playAttempts = 0;
+
+if(getURLParameter('random')=='false'){
+  randomise = false;
+  log('overridden randomise');
+}
 
 var external = 'https://www.europeana.eu';
 var dataHost = 'https://radio.europeana.eu';
@@ -149,7 +155,7 @@ function setChannelType(type){
 function setChannel(index, holdPlay) {
 
   if(index == null){
-    log('pick random station...')
+    log('pick random station...');
     index = Math.floor(Math.random() * channels[channelType].length);
   }
 
@@ -157,7 +163,9 @@ function setChannel(index, holdPlay) {
   selected.addClass('active');
   activeChannel = index;
 
-  sequence = Math.floor(Math.random() * channels[channelType][activeChannel].totalResults);
+  if(randomise){
+    sequence = Math.floor(Math.random() * channels[channelType][activeChannel].totalResults);
+  }
 
   if(holdPlay){
     return;
