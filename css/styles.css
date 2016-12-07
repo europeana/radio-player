@@ -280,7 +280,7 @@ ul{
   color:            #777777;
   display:          none;
   float:            right;
-  font-size:        0.5em;
+  font-size:        0.6em;
   padding:          0 0.3em;
   position:         relative;
   right:            4px;
@@ -297,7 +297,7 @@ span.time-duration{
 /*  Right Column */
 
 .right-col{
-  box-sizing:       padding-box;
+  box-sizing:       border-box;
   display:          inline-block;
   padding:          0 10px 0.5em 10px;
   vertical-align:   top;
