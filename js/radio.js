@@ -405,7 +405,7 @@ function shuffleTrack() {
 // Init player
 function initPlayer() {
   $('div.play-radio').hide();
-  $('#top-header').show();
+  $('#top-header').addClass('showing');
   $('.amplitude-play-pause').show();
   $('.europeana-branding').addClass('dropped');
 }

@@ -24,7 +24,7 @@ ul{
 
 #top-header{
   background-color: #F1F1EE;
-  display:          none;
+  opacity:          0;
   height:           40px;
   line-height:      20px;
   margin:           auto;
@@ -34,6 +34,14 @@ ul{
   position:         relative;
   text-align:       left;
   z-index:          1;
+
+
+  transition:         opacity 3s ease-in-out;
+  -webkit-transition: opacity 3s ease-in-out;
+}
+
+#top-header.showing{
+  opacity:            1;
 }
 
 .error{
@@ -328,7 +336,7 @@ ul{
 }
 
 .europeana-branding img{
-  height:   65px;
+  height:   66px;
   width:    178px;
 }
 
