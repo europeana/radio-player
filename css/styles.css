@@ -35,13 +35,12 @@ ul{
   text-align:       left;
   z-index:          1;
 
-
-  transition:         opacity 3s ease-in-out;
-  -webkit-transition: opacity 3s ease-in-out;
+  transition:         opacity 0.5s ease-in;
+  -webkit-transition: opacity 0.5s ease-in;
 }
 
 #top-header.showing{
-  opacity:            1;
+  opacity: 1;
 }
 
 .error{
@@ -326,18 +325,29 @@ ul{
   position: absolute;
   bottom:  18em;
   left:    0.2em;
-  transition:         bottom 3s ease-in-out, left 3s ease-in-out;
-  -webkit-transition: bottom 3s ease-in-out, left 3s ease-in-out;
-}
-
-.europeana-branding.dropped{
-  bottom: 2.7em;
-  left:   0.3em;
 }
 
 .europeana-branding img{
   height:   66px;
   width:    178px;
+}
+
+.europeana-branding-small{
+  bottom:             3em;
+  opacity:            0;
+  position:           absolute;
+  right:              0.6em;
+  transition:         opacity 3s ease-in;
+  -webkit-transition: opacity 3s ease-in;
+}
+
+.europeana-branding-small.showing{
+  opacity: 1;
+}
+
+.europeana-branding-small img{
+  height:   66px;
+  width:    60px;
 }
 
 .channel-type-switch{
@@ -520,40 +530,38 @@ ul{
   width:       100%;
 }
 
+.genre-disable-section{
+  position: relative;
+}
+
+.genre-disable-section.disabled:after{
+
+  background:          rgba(22, 118, 170, 0.4);
+  background-image:    url(../images/spinner.gif);
+  background-repeat:   no-repeat;
+  background-position: center center;
+
+  content:    " ";
+  cursor:     progress;
+  display:    block;
+  position:   absolute;
+
+  bottom:     0;
+  left:       0;
+  right:      0;
+  top:        0;
+
+  z-index:    10;
+}
+
 .chosen-choices span,
 .chosen-drop li{
   text-transform: capitalize;
 }
 
-.ui-autocomplete-loading {
-    background: white url("/images/ui-anim_basic_16x16.gif") right center no-repeat !important;
+.genre-ctrls{
+  margin-top: 1em;
 }
-
-.ui-autocomplete {
-    max-height: 116px !important;
-    overflow-y: auto !important;
-    overflow-x: hidden !important;
-    font-size: 14px !important;
-}
-
-.genre-label {
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.genre-song-label {
-    font-style: italic;
-}
-
-.genre-submit {
-    font-weight: bold;
-    color: #095F90;
-}
-
-.genre-cancel {
-    color: #888;
-}
-
 
 .marquee {
   animation: marquee 12s linear infinite;

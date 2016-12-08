@@ -25,7 +25,8 @@
         <div id="top-large-album">
           <img id="large-album-art" amplitude-song-info="cover" src="images/cover.png"/>
           <div class="play-radio"></div>
-          <a class="europeana-branding" href="https://www.europeana.eu/portal" target="_blank"><img src="images/animated-logo4.gif"></a>
+          <a class="europeana-branding"       href="https://www.europeana.eu/portal" target="_blank"><img src="images/animated-logo4.gif"></a>
+          <a class="europeana-branding-small" href="https://www.europeana.eu/portal" target="_blank"><img src="images/animated-logo4-small.gif"></a>
         </div>
 
         <div id="small-player">
@@ -60,13 +61,15 @@
               <h2>Refine the music genre</h2>
               <p>Help us refine our music genre classification:</p>
 
-              <ul class="existing-tags"></ul>
+              <div class="genre-disable-section">
+                <ul class="existing-tags"></ul>
 
-              <div class="genre-ctrls">
-                <select id="sel_genres" data-placeholder="Type &apos;C&apos; to view" multiple class="chosen-select">
-                  <option value=""></option>
-                </select>
-                <button class="submit-genre">Add</button>
+                <div class="genre-ctrls">
+                  <select id="sel_genres" data-placeholder="Type a tag name" multiple class="chosen-select">
+                    <option value=""></option>
+                  </select>
+                  <button class="submit-genre">Add</button>
+                </div>
               </div>
 
             </div>

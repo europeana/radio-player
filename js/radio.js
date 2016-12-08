@@ -138,8 +138,11 @@ $(document).ready(function() {
     $('.station-select').removeClass('active');
 
     $tgt.addClass('active');
-
     playingChannelType = getChannelType();
+
+    activeChannel = $('.station-select').data('index');
+    log('activeChannel ' + activeChannel)
+    shuffleTrack();
   });
 
 });
@@ -210,6 +213,8 @@ function loadStations(url, callback) {
 
 function submitGenres(genres, index){
 
+  $('.genre-disable-section').addClass('disabled');
+
   var data = '{"motivation": "tagging", "body": "' + genres[index] + '"}';
 
   $.ajax({
@@ -223,6 +228,7 @@ function submitGenres(genres, index){
       $('.existing-tags').append('<li class="tag is-active">' + availableGenres[genres[index]] + '</li>');
 
       // Find item to disable manually - jQuery selector not working: $('#sel_genres option[value="' + genres[index] + ']"');
+
       $('#sel_genres option').each(function(){
         if($(this).attr('value') == genres[index]){
           $(this).attr('disabled','disabled');
@@ -234,7 +240,12 @@ function submitGenres(genres, index){
       }
       else{
         $('#sel_genres').val('').trigger("chosen:updated");
+        $('.genre-disable-section').removeClass('disabled');
       }
+    },
+    fail: function(e){
+      log('Error tagging: ' + e);
+      $('.genre-disable-section').removeClass('disabled');
     }
   });
 }
@@ -320,7 +331,7 @@ function shuffleTrack() {
 
   var channel = channels[playingChannelType];
 
-  log('channel = ' + channel + ', playingChannelType = ' + playingChannelType);
+  log('channel = ' + channel + ', playingChannelType = ' + playingChannelType + ', activeChannel = ' + activeChannel);
 
   if(!channel[activeChannel]){
     showPlayerError('Channel unavailable');
@@ -407,7 +418,8 @@ function initPlayer() {
   $('div.play-radio').hide();
   $('#top-header').addClass('showing');
   $('.amplitude-play-pause').show();
-  $('.europeana-branding').addClass('dropped');
+  $('.europeana-branding').hide();
+  $('.europeana-branding-small').addClass('showing');
 }
 
 // Reset cover
