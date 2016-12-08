@@ -140,8 +140,8 @@ $(document).ready(function() {
     $tgt.addClass('active');
     playingChannelType = getChannelType();
 
-    activeChannel = $('.station-select').data('index');
-    log('activeChannel ' + activeChannel)
+    activeChannel = $tgt.data('index');
+    playCount = 0;
     shuffleTrack();
   });
 
@@ -331,8 +331,6 @@ function shuffleTrack() {
 
   var channel = channels[playingChannelType];
 
-  log('channel = ' + channel + ', playingChannelType = ' + playingChannelType + ', activeChannel = ' + activeChannel);
-
   if(!channel[activeChannel]){
     showPlayerError('Channel unavailable');
     showGenres();
@@ -381,7 +379,6 @@ function shuffleTrack() {
       "song_id" : external + '/portal/'
     };
 
-    log(JSON.stringify(song));
     doPlay(song);
   }
   else{
