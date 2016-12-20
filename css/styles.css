@@ -11,9 +11,10 @@ ul{
 }
 
 .radio-container{
-  display: inline-block;
-  position: relative;
-  width: 370px;
+  background-color: #fff;
+  display:          inline-block;
+  position:         relative;
+  width:            100%;
 }
 
 .main-section{
@@ -23,7 +24,7 @@ ul{
 
 #top-header{
   background-color: #F1F1EE;
-  display:          none;
+  opacity:          0;
   height:           40px;
   line-height:      20px;
   margin:           auto;
@@ -33,6 +34,13 @@ ul{
   position:         relative;
   text-align:       left;
   z-index:          1;
+
+  transition:         opacity 0.5s ease-in;
+  -webkit-transition: opacity 0.5s ease-in;
+}
+
+#top-header.showing{
+  opacity: 1;
 }
 
 .error{
@@ -229,7 +237,12 @@ ul{
 .amplitude-song-slider{
   background-color: #bebebe;
   height: 5px;
-  width: 260px;
+
+  display: block;
+  margin: auto;
+  position: relative;
+
+  width:  80%;
 }
 
 
@@ -279,50 +292,62 @@ ul{
   color:            #777777;
   display:          none;
   float:            right;
-  font-size:        0.5em;
-  height:           2.3em;
+  font-size:        0.6em;
   padding:          0 0.3em;
   position:         relative;
   right:            4px;
   top:              -4px;
 }
 
-span.current-time{
-  color: #676261;
-  font-size: 10px;
-  font-weight: 300;
-}
-
-span.time-duration{
+.current-time,
+.time-duration{
   color:       #676261;
+  display:     none;
   font-size:   10px;
   font-weight: 300;
 }
 
-/*
-   Right Column
-*/
+/*  Right Column */
 
 .right-col{
-  background-color: #ffffff;
-  border-style:     solid solid solid none;
-  border-width:     1px;
-  border-color:     #DEDEDE;
+  box-sizing:       border-box;
   display:          inline-block;
+  padding:          0 10px 0.5em 10px;
   vertical-align:   top;
   width:            370px;
 }
 
+.right-col p{
+  margin: 0.2em 0 0.4em 0
+}
+
 .europeana-branding{
   position: absolute;
-  bottom:   2.7em;
-  position: absolute;
-  right:    0.2em;
+  bottom:  18em;
+  left:    0.2em;
 }
 
 .europeana-branding img{
-  height:   65px;
-  width:    178px;
+  height:   68px;
+  width:   165px;
+}
+
+.europeana-branding-small{
+  bottom:             3em;
+  opacity:            0;
+  position:           absolute;
+  right:              0.6em;
+  transition:         opacity 3s ease-in;
+  -webkit-transition: opacity 3s ease-in;
+}
+
+.europeana-branding-small.showing{
+  opacity: 1;
+}
+
+.europeana-branding-small img{
+  height:   68px;
+  width:    61px;
 }
 
 .channel-type-switch{
@@ -381,6 +406,7 @@ span.time-duration{
 .radio-selector{
   margin-top: 0.25em;
 }
+
 .radio-selector :hover,
 .radio-selector .active{
   background-color: #095F90;
@@ -397,6 +423,18 @@ span.time-duration{
   width: 0.85em;
 }
 
+.genre-selection{
+  padding-top: 10px;
+}
+
+.genre-selection h2{
+  font-weight: bold;
+  margin:      0;
+}
+
+.genre-selection.hidden {
+  display:  none;
+}
 
 @media all and (max-width: 578px){
 
@@ -422,27 +460,98 @@ span.time-duration{
 @media all and (min-width: 740px){
 
   .radio-container{
-    width: 740px;
+    width:  740px;
+    height: 385px;
   }
 
   .main-section {
     width: 370px;
   }
+
+  #small-player-full-bottom-info{
+    text-align: justify;
+    width:      100%;
+  }
+
+  .current-time,
+  .time-duration{
+    display: inline;
+  }
+
+  .amplitude-song-slider{
+    display: inline;
+    margin:  0;
+  }
+
   .right-col{
+    display: flex;
+
+    flex-direction: column;
+    float: right;
+
+    justify-content: space-between;
+
+    min-height: 100%;
+    max-height: 100%;
+
     width: 369px;
   }
+
+  .radio-selector{
+    flex: 0 1 auto;
+    overflow-y: auto;
+  }
+
+  .genre-selector{
+    flex-grow: 1;
+  }
+
+  .genre-selector-inner{
+    display: flex;
+    height:  100%;
+  }
+
+  .genre-selection {
+    align-self:  flex-end;
+    padding-top: 0;
+  }
+
+  .existing-tags{
+    max-height:    8em;
+    overflow-y:    auto;
+  }
+
 }
 
-
 .genre-selector {
-  border-top:    1px solid #DEDEDE;
-  margin-bottom: 1.3em;
-  padding:       10px;
-  line-height:   1.8em;
-  display:       none;
+  border-top:  1px solid #DEDEDE;
+  box-sizing:  border-box;
+  line-height: 1.8em;
+  width:       100%;
+}
 
-  box-sizing: border-box;
-  width: 100%;
+.genre-disable-section{
+  position: relative;
+}
+
+.genre-disable-section.disabled:after{
+
+  background:          rgba(22, 118, 170, 0.4);
+  background-image:    url(../images/spinner.gif);
+  background-repeat:   no-repeat;
+  background-position: center center;
+
+  content:    " ";
+  cursor:     progress;
+  display:    block;
+  position:   absolute;
+
+  bottom:     0;
+  left:       0;
+  right:      0;
+  top:        0;
+
+  z-index:    10;
 }
 
 .chosen-choices span,
@@ -450,40 +559,9 @@ span.time-duration{
   text-transform: capitalize;
 }
 
-.genre-selector h2{
-  font-weight: bold;
-  margin: 0;
+.genre-ctrls{
+  margin-top: 1em;
 }
-
-.ui-autocomplete-loading {
-    background: white url("/images/ui-anim_basic_16x16.gif") right center no-repeat !important;
-}
-
-.ui-autocomplete {
-    max-height: 116px !important;
-    overflow-y: auto !important;
-    overflow-x: hidden !important;
-    font-size: 14px !important;
-}
-
-.genre-label {
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.genre-song-label {
-    font-style: italic;
-}
-
-.genre-submit {
-    font-weight: bold;
-    color: #095F90;
-}
-
-.genre-cancel {
-    color: #888;
-}
-
 
 .marquee {
   animation: marquee 12s linear infinite;
@@ -520,12 +598,19 @@ span.time-duration{
   background-color: #0a3750;
 }
 
+/*
+.genre-ctrls{
+  position: absolute;
+  bottom:   1em;
+}
+*/
+
 .submit-genre{
   background-color: #1676aa;
   border:           0;
   color:            #fff;
+  cursor:           pointer;
   padding:          0.3em;
-
 }
 
 /* Chosen overrides */
@@ -545,5 +630,9 @@ span.time-duration{
 .chosen-select-deselect,
 .chosen-select-rtl,
 .chosen-select-width {
-  width: 280px;
+  width: 295px;
+}
+
+.chosen-container.error{
+  border: 1px solid red;
 }
