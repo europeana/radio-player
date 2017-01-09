@@ -6,7 +6,7 @@ Usage
 ------
 Can be embedded via an iframe:
 ~~~~
-<iframe class="iframe" src="https://radio-player.europeana.eu/" border="0" frameborder="0" width="635" height="390"></iframe>
+<iframe src="https://radio-player.europeana.eu/" border="0" frameborder="0" width="635" height="390"></iframe>
 ~~~~
 
 If you embed the player in this iframe, ensure to also include the following lines of CSS in your stylesheet to make the iframe adapt to a mobile viewport:
@@ -21,4 +21,55 @@ If you embed the player in this iframe, ensure to also include the following lin
 </style>
 ~~~~
 
-The player also accepts a "station" URL parameter to pre-set the player to a specific station (either classical or folk).
+Optional URL parameters
+-----------------------
+
+When embedding the radio player, a number of optional URL parameters are
+available to customise the player's behaviour:
+
+### genre
+
+Set `genre` to the identifier of a genre station to pre-select that station,
+otherwise the player will select one at random.
+
+Example:
+~~~~
+<iframe src="https://radio-player.europeana.eu/?genre=classical"></iframe>
+~~~~
+
+### hostname
+
+Set `hostname` to the base URL of your radio station installation, otherwise
+this will default to "https://radio.europeana.eu".
+
+Example:
+~~~~
+<iframe src="https://radio-player.europeana.eu/?hostname=http://myradio.example.com"></iframe>
+~~~~
+
+### institution
+
+Set `institution` to the identifier of an institution station to pre-select that
+station, otherwise the player will select a genre station at random.
+
+Example:
+~~~~
+<iframe src="https://radio-player.europeana.eu/?institution=internet-archive"></iframe>
+~~~~
+
+### random
+
+Set `random` to "false" and the player will begin at the start of the current
+playlist for the active station. Otherwise it will choose a random position
+in the playlist to start from.
+
+Example:
+~~~~
+<iframe src="https://radio-player.europeana.eu/?random=false"></iframe>
+~~~~
+
+### station
+
+**Deprecated**
+
+`station` has been replaced by `genre` and `institution`.
