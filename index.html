@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Europeana Radio</title>
+  <head>
+    <title>Europeana Radio</title>
 
-		<script type="text/javascript" src="js/amplitude.js"></script>
-		<script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/amplitude.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/chosen/chosen.jquery.js"></script>
 
-		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
-	</head>
-	<body>
-    <!-- Start Radio Container -->
+    <link rel="stylesheet" type="text/css" href="js/chosen/style.css"/>
+    <link rel="stylesheet" type="text/css" href="js/chosen/prism.css"/>
+    <link rel="stylesheet" type="text/css" href="js/chosen/chosen.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+  </head>
+  <body>
     <div class="radio-container">
-      <!-- Start Main Section -->
       <div class="main-section">
-        <!-- Start Top Header -->
         <div id="top-header">
-              <div class="error"></div>
+          <div class="error"></div>
           <div class="now-playing-title"><a target="_blank" class="song-author" amplitude-song-info="name"></a></div>
-          <div class="album-information"><span amplitude-song-info="artist"></span></div>
           <div class="rights" amplitude-song-info="copyright"><span>-</span></div>
+          <div class="album-information"><span amplitude-song-info="artist"></span></div>
         </div>
-        <!-- End Top Header -->
 
-        <!-- Start Large Album Art -->
         <div id="top-large-album">
-              <div class="play-radio"></div>
-          <img id="large-album-art" amplitude-song-info="cover"/>
+          <img id="large-album-art" amplitude-song-info="cover" src="images/cover.png"/>
+          <div class="play-radio"></div>
+          <a class="europeana-branding"       href="https://www.europeana.eu/portal" target="_blank"><img src="images/europeana_logo.png"></a>
+          <a class="europeana-branding-small" href="https://www.europeana.eu/portal" target="_blank"><img src="images/logo_small.png"></a>
         </div>
-        <!-- End Large Album Art -->
 
-        <!-- Begin Small Player -->
         <div id="small-player">
-
-          <!-- Begin Small Player Full Bottom -->
           <div id="small-player-full-bottom">
             <div class="controls">
               <div class="amplitude-play-pause amplitude-paused controls-1" amplitude-song-index="0"></div>
@@ -40,40 +37,47 @@
             </div>
             <div id="small-player-full-bottom-info">
               <span class="current-time">
-                <span class="amplitude-current-minutes" amplitude-song-index="0">0</span>:<span class="amplitude-current-seconds" amplitude-song-index="0">00</span>
+                <span class="amplitude-current-minutes" amplitude-single-current-minutes="true" amplitude-song-index="0">0</span>:<span class="amplitude-current-seconds" amplitude-single-current-seconds="true" amplitude-song-index="0">00</span>
               </span>
 
-              <div class="amplitude-song-time-visualization" amplitude-song-index="0" id="song-time-visualization-large"></div>
+              <input type="range" class="amplitude-song-slider" amplitude-singular-song-slider="true" value="0"/>
 
               <span class="time-duration">
-                <span class="amplitude-duration-minutes" amplitude-song-index="0">0</span>:<span class="amplitude-duration-seconds" amplitude-song-index="0">00</span>
+                <span class="amplitude-duration-minutes" amplitude-single-duration-minutes="true" amplitude-song-index="0">0</span>:<span class="amplitude-duration-seconds" amplitude-single-duration-seconds="true" amplitude-song-index="0">00</span>
               </span>
             </div>
           </div>
-          <!-- End Small Player Full Bottom -->
         </div>
-        <!-- End Small Player -->
-      </div>
-      <!-- End Main Section -->
-      <!-- Begin Right Column -->
-      <div class="right-col">
-        <div class="radio-selector">
-          <div class="radio-0" id="radio-0">
-            <img class="play-icon" src="images/icon-play.svg">
-            Classical Music
-          </div>
-          <div class="radio-1" id="radio-1">
-            <img class="music-icon" src="images/icon-music.svg">
-            Traditional & Folk Music</div>
+      </div><div class="right-col">
+        <div class="channel-type-switch"><span class="tab" data-type="genres">Genres</span><span class="tab" data-type="institutions">Institutions</span>
         </div>
-        <a href="https://www.europeana.eu/portal" target="_blank">
-          <div class="europeana-branding"></div>
-        </a>
-      </div>
-      <!-- End Right Column -->
-    </div>
-    <!-- End Radio Container -->
-	</body>
+        <ul class="radio-selector genres"></ul>
+        <ul class="radio-selector institutions"></ul>
 
-	<script type="text/javascript" src="js/radio.js"></script>
+        <div class="genre-selector">
+          <div class="genre-selector-inner">
+            <div class="genre-selection hidden">
+
+              <h2>Refine the music genre</h2>
+              <p>Help us refine our music genre classification:</p>
+
+              <div class="genre-disable-section">
+                <ul class="existing-tags"></ul>
+
+                <div class="genre-ctrls">
+                  <select id="sel_genres" data-placeholder="Type a tag name" multiple class="chosen-select">
+                    <option value=""></option>
+                  </select>
+                  <button class="submit-genre">Add</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+  <script type="text/javascript" src="js/radio.js"></script>
 </html>
