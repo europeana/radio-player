@@ -29,7 +29,7 @@ available to customise the player's behaviour:
 
 ### genre
 
-Set `genre` to the identifier of a genre station to pre-select that station,
+Set `genre` to the _identifier_ of a genre station ("classical", "folk to pre-select that station,
 otherwise the player will select one at random.
 
 Example:
@@ -49,12 +49,12 @@ Example:
 
 ### institution
 
-Set `institution` to the identifier of an institution station to pre-select that
+Set `institution` to the _name_ of an institution station to pre-select that
 station, otherwise the player will select a genre station at random.
 
 Example:
 ~~~~
-<iframe src="https://radio-player.europeana.eu/?institution=internet-archive"></iframe>
+<iframe src="https://radio-player.europeana.eu/?institution=Internet Archive"></iframe>
 ~~~~
 
 ### random
