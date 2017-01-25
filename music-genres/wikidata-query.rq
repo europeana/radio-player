@@ -1,0 +1,7 @@
+PREFIX wp: <http://www.wikidata.org/prop/direct/>
+PREFIX we: <http://www.wikidata.org/entity/>
+SELECT DISTINCT ?genre ?label  WHERE {
+  { ?genre wp:P31 | wp:P279+ we:Q862597 } UNION { ?genre wp:P31 | wp:P279+ we:Q188451 } .
+  OPTIONAL { ?genre rdfs:label ?label . FILTER (lang(?label) = 'en') }
+}
+ORDER BY ?label ?genre
